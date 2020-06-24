@@ -1,0 +1,213 @@
+<?php 
+    $restaurants=$this->restaurants;
+    //$usuarios=$this->user; 
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Compubrother</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Computadoras y accesorios en tijuana" />
+    <link href="<?=URL?>public/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="<?=URL?>public/css/styles.css">
+    <link rel="shortcut icon" href="<?=URL?>public/img/favicon.png"/>
+    <link href="<?=URL?>public/resources/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+
+<!-- <body style="background-image: url('img/imgbg.jpg');background-repeat: repeat-x, repeat, repeat;background-position: 0px 30px, 0px 0px, 0px 0px;"> -->
+<body  style="background-color: #f8f9fa;">
+    
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container">
+        <!-- <a class="navbar-brand" href="index.html">CompuBrother</a> -->
+        <img src="<?=URL?>public/img/logo.png" alt="" style="max-width: 25%;height: auto;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
+            <ul class="navbar-nav m-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="<?=URL?>">Inicio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Preguntas frecuentes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+                <div class="input-group input-group-sm">
+                    <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Buscar...">
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-secondary btn-number">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</nav>
+<section class="jumbotron text-center">
+    <div class="container">
+        <h1 class="jumbotron-heading">Ve nuestras selección de productos</h1>
+        <p class="lead text-muted mb-0">Encuentra con nosotros las soluciones que estás buscando.</p>
+        <p>Garantía en soporte técnico en todos nuestros productos.</p>
+    </div>
+</section>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-3">
+            <div class="mb-3">
+                <div class="text-black text-uppercase text-center" style="font-size: 1.5em;"> Categorías</div>
+                <ul class="category_block">
+                    <li class="" style="display: block;padding:.5em;"><a class="text-muted" href="categories.html">Laptops</a></li>
+                    <li class="" style="display: block;padding:.5em;"><a class="text-muted" href="categories.html">Teclados</a></li>
+                    <li class="" style="display: block;padding:.5em;"><a class="text-muted" href="categories.html">Computadoras</a></li>
+                    <li class="" style="display: block;padding:.5em;"><a class="text-muted" href="categories.html">Mouses</a></li>
+                    <li class="" style="display: block;padding:.5em;"><a class="text-muted" href="categories.html">Monitores</a></li>
+                    <li class="" style="display: block;padding:.5em;"><a class="text-muted" href="categories.html">Gaming</a></li>
+                    <li class="" style="display: block;padding:.5em;"><a class="text-muted" href="categories.html">Cargadores de Laptops</a></li>
+                    <li class="" style="display: block;padding:.5em;"><a class="text-muted" href="categories.html">Cables</a></li>
+                    <li class="" style="display: block;padding:.5em;"><a class="text-muted" href="categories.html">Remates</a></li>
+                    <li class="" style="display: block;padding:.5em;"><a class="text-muted" href="categories.html">Promociones</a></li>
+                    <li class="" style="display: block;padding:.5em;"><a class="text-muted" href="categories.html">CPUs</a></li>
+                    <li class="" style="display: block;padding:.5em;"><a class="text-muted" href="categories.html">Tablets</a></li>
+                    <li class="" style="display: block;padding:.5em;"><a class="text-muted" href="categories.html">Televisiones</a></li>
+                    <li class="" style="display: block;padding:.5em;"><a class="text-muted" href="categories.html">Camaras Digitales</a></li>
+                    <li class="" style="display: block;padding:.5em;"><a class="text-muted" href="categories.html">Proyectores</a></li>
+                    <li class="" style="display: block;padding:.5em;"><a class="text-muted" href="categories.html">Accesorios</a></li>
+                    <li class="" style="display: block;padding:.5em;"><a class="text-muted" href="categories.html">Linea Blanca</a></li>
+                    <li class="" style="display: block;padding:.5em;"><a class="text-muted" href="categories.html">Todo en uno</a></li>
+                    <li class="" style="display: block;padding:.5em;"><a class="text-muted" href="categories.html">Audio</a></li>
+                    <li class="" style="display: block;padding:.5em;"><a class="text-muted" href="categories.html">Apple</a></li>
+                    <li class="" style="display: block;padding:.5em;"><a class="text-muted" href="categories.html">Herramientas</a></li>
+                    <li class="" style="display: block;padding:.5em;"><a class="text-muted" href="categories.html">Copiadoras</a></li>
+                    <li class="" style="display: block;padding:.5em;"><a class="text-muted" href="categories.html">Audio</a></li>
+                    <li class="" style="display: block;padding:.5em;"><a class="text-muted" href="categories.html">Telefonos</a></li>
+                    <li class="" style="display: block;padding:.5em;"><a class="text-muted" href="categories.html">Equipos DELL</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="col">
+            <div class="row">
+
+
+            	<?php
+        		for ($i=0; $i < count($products); $i++) {
+                         
+                ?>    
+                 <div class="col-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card">
+                        <a href="<?=URL.'restaurante/detalles/'.$products[$i]['id'].'/'.str_replace(" ", '-', html_entity_decode($products[$i]['name']))?>"><img class="card-img-top" src="<?=URL?>public/img/images/<?=html_entity_decode($products[$i]['image1'])?>" alt="Card image cap"></a>
+                        <div class="card-body">
+                            <h4 class="card-title"><a style="color: black;text-decoration: none;font-weight: 100;" href="#" title="View Product"><?=html_entity_decode($products[$i]['name'])?></a></h4>
+                             
+                        </div>
+                    </div>
+                </div>
+
+                <?php
+		        }
+
+		        ?>
+
+
+                
+ 
+                <!-- <div class="col-12">
+                    <nav aria-label="...">
+                        <ul class="pagination">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1">Previo</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item active">
+                                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Siguiente</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div> -->
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="text-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-lg-4 col-xl-3">
+                <h5>About</h5>
+                <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                <p class="mb-0">
+                    Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.
+                </p>
+            </div>
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
+                <h5>Informations</h5>
+                <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                <ul class="list-unstyled">
+                    <li><a href="">Link 1</a></li>
+                    <li><a href="">Link 2</a></li>
+                    <li><a href="">Link 3</a></li>
+                    <li><a href="">Link 4</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
+                <h5>Others links</h5>
+                <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                <ul class="list-unstyled">
+                    <li><a href="">Link 1</a></li>
+                    <li><a href="">Link 2</a></li>
+                    <li><a href="">Link 3</a></li>
+                    <li><a href="">Link 4</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3">
+                <h5>Contact</h5>
+                <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-home mr-2"></i> My company</li>
+                    <li><i class="fa fa-envelope mr-2"></i> email@example.com</li>
+                    <li><i class="fa fa-phone mr-2"></i> + 33 12 14 15 16</li>
+                    <li><i class="fa fa-print mr-2"></i> + 33 12 14 15 16</li>
+                </ul>
+            </div>
+            <div class="col-12 copyright mt-3">
+                <p class="float-left">
+                    <a href="#">Back to top</a>
+                </p>
+                <p class="text-right text-muted">created with <i class="fa fa-heart"></i> by GixCode 2018</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="<?=URL?>public/js/bootstrap.min.js"></script>
+<script src="<?=URL?>public/js/jquery-3.2.1.min.js"></script>
+
+<script src="<?=URL?>public/js/users.js"></script>
+<script>
+        var variables={
+            controller: "<?=URL?>user/",
+            view: "userFormRegister"
+        };
+    </script>
+</body>
+</html>
