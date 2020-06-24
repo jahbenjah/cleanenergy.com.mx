@@ -19,6 +19,16 @@ $user=$this->userData[0];
 
     <!-- Custom styles for this template -->
     <link href="<?=URL?>public/css/dashboard.css" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170731497-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-170731497-1');
+</script>
+
   </head>
 
   <body>

@@ -4,16 +4,27 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>Clean Energy </title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clean Energy </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content="alfareria michoacan" />
-    <link href="<?=URL?>public/css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <meta name="keywords" content="" />
+    <link href="<?=URL?>public/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
     <link href="<?=URL?>public/css/style.css" rel='stylesheet' type='text/css' />
     <link href="<?=URL?>public/css/fontawesome-all.css" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
     <link rel="icon" href="<?=URL?>public/img/favicon.png">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170731497-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-170731497-1');
+</script>
+
 </head>
 <body>
     <div class="d-flex flex-column flex-md-row align-items-center px-md-4  border-bottom shadow-sm top_bg fixed-top sticky-top">

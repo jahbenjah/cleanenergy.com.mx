@@ -6,9 +6,9 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>CleanEnergy</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CleanEnergy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="lamparas solares" />
     <link href="<?=URL?>public/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -16,6 +16,15 @@
     <link rel="stylesheet" href="<?=URL?>public/css/smoothproducts.css">
     <link rel="shortcut icon" href="<?=URL?>public/img/favicon.png"/>
     <link href="<?=URL?>public/resources/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170731497-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-170731497-1');
+</script>
 
 </head>
 
