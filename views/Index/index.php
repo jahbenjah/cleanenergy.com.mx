@@ -7,7 +7,6 @@
     <meta charset="utf-8">
     <title>Clean Energy </title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="" />
     <link href="<?=URL?>public/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
     <link href="<?=URL?>public/css/style.css" rel='stylesheet' type='text/css' />
@@ -27,7 +26,7 @@
 </head>
 <body>
     <div class="d-flex flex-column flex-md-row align-items-center px-md-4  border-bottom shadow-sm top_bg fixed-top sticky-top">
-      <p class="my-0  font-weight-normal bg-orange  pl-5 pr-5"><a href="tel:6611042808"><small class="text-white"><i class="fa fa-phone"></i>  (661) 104 2808 </a></small></p>
+      <p class="my-0  font-weight-normal bg-orange  pl-5 pr-5"><a href="tel:6611042808"><small class="text-white"><i class="fa fa-phone"></i>  (661) 104 2808 </small></a></p>
       <span class="text-white ml-5 "><i class="fa fa-envelope"></i> contacto@cleanenergy.com.mx</span>
       <a href="<?=URL?>en" class="ml-md-auto"><img src="<?=URL?>public/img/us.png" alt="clean energy us"></a>
       <?php
@@ -307,7 +306,6 @@
     <script src="<?=URL?>public/resources/bootstrap-4.0/js/bootstrap.min.js"></script>
     <script src="<?=URL?>public/js/popper.min.js"></script>
     <script src="<?=URL?>public/js/jquery.validate-1.11.1.js"></script>
-  </body>
 <!-- <script src="<?=URL?>public/js/bootstrap.min.js"></script> -->
  <script> 
       $(document).ready(function() {
