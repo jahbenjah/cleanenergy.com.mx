@@ -7,23 +7,20 @@
     <meta charset="utf-8">
     <title>Clean Energy </title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   
     <meta name="keywords" content="" />
     <link href="<?=URL?>public/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
     <link href="<?=URL?>public/css/style.css" rel='stylesheet' type='text/css' />
     <link href="<?=URL?>public/css/fontawesome-all.css" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
     <link rel="icon" href="<?=URL?>public/img/favicon.png">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170731497-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-170731497-1');
-</script>
-
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170731497-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-170731497-1');
+    </script>
 </head>
 <body>
     <div class="d-flex flex-column flex-md-row align-items-center px-md-4  border-bottom shadow-sm top_bg fixed-top sticky-top">
@@ -171,8 +168,6 @@
     <script src="<?=URL?>public/resources/jquery/jquery-2.1.4.min.js"></script>
     <script src="<?=URL?>public/resources/bootstrap-4.0/js/bootstrap.min.js"></script>
     <script src="<?=URL?>public/js/popper.min.js"></script>
-  </body>
-<!-- <script src="<?=URL?>public/js/bootstrap.min.js"></script> -->
-
+    <!-- <script src="<?=URL?>public/js/bootstrap.min.js"></script> -->
 </body>
 </html>

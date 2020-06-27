@@ -7,7 +7,6 @@
     <meta charset="utf-8">
     <title>Clean Energy </title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   
     <meta name="keywords" content="" />
     <link href="<?=URL?>public/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
     <link href="<?=URL?>public/css/style.css" rel='stylesheet' type='text/css' />
@@ -240,8 +239,6 @@
     <script src="<?=URL?>public/resources/jquery/jquery-2.1.4.min.js"></script>
     <script src="<?=URL?>public/resources/bootstrap-4.0/js/bootstrap.min.js"></script>
     <script src="<?=URL?>public/js/popper.min.js"></script>
-  </body>
-<!-- <script src="<?=URL?>public/js/bootstrap.min.js"></script> -->
-
+    <!-- <script src="<?=URL?>public/js/bootstrap.min.js"></script> -->
 </body>
 </html>

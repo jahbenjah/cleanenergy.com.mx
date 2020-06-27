@@ -162,8 +162,6 @@
     <script src="<?=URL?>public/resources/jquery/jquery-2.1.4.min.js"></script>
     <script src="<?=URL?>public/resources/bootstrap-4.0/js/bootstrap.min.js"></script>
     <script src="<?=URL?>public/js/popper.min.js"></script>
-  </body>
-<!-- <script src="<?=URL?>public/js/bootstrap.min.js"></script> -->
-
+    <!-- <script src="<?=URL?>public/js/bootstrap.min.js"></script> -->
 </body>
 </html>

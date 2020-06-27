@@ -163,9 +163,7 @@
     <script src="<?=URL?>public/resources/bootstrap-4.0/js/bootstrap.min.js"></script>
     <script src="<?=URL?>public/js/popper.min.js"></script>
     <script src="<?=URL?>public/js/jquery.validate-1.11.1.js"></script>
-  </body>
-<!-- <script src="<?=URL?>public/js/bootstrap.min.js"></script> -->
-
+    <!-- <script src="<?=URL?>public/js/bootstrap.min.js"></script> -->
 </body>
 <script> 
       $(document).ready(function() {
