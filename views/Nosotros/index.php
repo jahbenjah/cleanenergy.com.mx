@@ -35,7 +35,6 @@
           <?php
         }
       ?>
-      
     </div>
     <div class="container-fluid">
        <div class="row">
@@ -76,6 +75,7 @@
               
             </div>
        </div>
+       
        <div class="container">
            <img src="<?=URL?>public/img/cleanenergy-video.png" alt="clean energy video" class="img-fluid">
             <!--<div class="embed-responsive embed-responsive-16by9">
@@ -86,6 +86,7 @@
        <div class="pt-3 " style="padding-left: 0px;padding-right: 0px;">
  
        </div>
+       
        <div class="container pt-5 pb-5">
           <div class="pt-2">
               <h2 class="font-weight-normal text-center"><span style="border-bottom: 5px solid #f47825 !important;">¿Quiénes somos?</span></h2>
@@ -103,9 +104,9 @@
                    <p class="text-justify">OFRECEMOS LA MÁS AMPLIA VARIEDAD DE SISTEMAS FOTOVOLTAICOS Y TÉRMICOS, LAS MEJORES MARCAS, LA OPORTUNIDAD A NUESTROS CLIENTES DE QUE PUEDAN ENCONTRAR TODO EN UN MISMO LUGAR, ASÍ COMO HERRAMIENTAS PARA HACER CRECER SU NEGOCIO.</p>
                  </div>
              </div>            
-
           </div>
       </div>
+
       <div class="container">
         <div class="row pt-5 pb-5">
           <div class="col-12 col-md-6">
@@ -153,11 +154,10 @@
                 <h5 class="text-white font-weight-normal text-energy"><small  class="text-energy"><i class="fa  fa-envelope"></i> Correo:</small></h5>
                 <p  class="font-weight-normal mb-0">contacto@cleanenergy.com.mx</p>
               </div>
-          </div>
-          
+          </div>        
         </div>
-        
     </section>
+
     <footer class="pt-4 pb-2 pt-md-5 bg-dark-blue">
       <div class=" ">
         <div class="col-12 col-md"> 
