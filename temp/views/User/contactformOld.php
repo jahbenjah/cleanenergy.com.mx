@@ -21,6 +21,6 @@ $email_body = "Mensaje de contacto de PALAFOXNOTICIAS.COM .\n\n"."Aqui estan los
 $headers = "From: noreply@palafoxnoticias.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";	
 mail($to,$email_subject,$email_body,$headers);
-echo 'Pronto nos pondremos en contacto contigo!'
+echo 'Pronto nos pondremos en contacto contigo!';
 return true;			
 ?>
