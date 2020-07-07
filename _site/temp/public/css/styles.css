@@ -1,0 +1,115 @@
+/*
+** Style Simple Ecommerce Theme for Bootstrap 4
+** Created by T-PHP https://t-php.fr/43-theme-ecommerce-bootstrap-4.html
+*/
+.btn-clean {
+    color: #ffffff;
+    background-color: #f47825;
+    border-color: #f47825;
+}
+.bloc_left_price {
+    color: #c01508;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+}
+.category_block li:hover {
+    background-color: #f47825;
+    color: white;
+}
+.category_block li:hover a {
+    color: #ffffff!important;
+}
+.category_block li a {
+    color: #343a40;
+}
+.add_to_cart_block .price {
+    color: #c01508;
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    margin-bottom: 0;
+}
+.add_to_cart_block .price_discounted {
+    color: #343a40;
+    text-align: center;
+    text-decoration: line-through;
+    font-size: 140%;
+}
+.product_rassurance {
+    padding: 10px;
+    margin-top: 15px;
+    background: #ffffff;
+    border: 1px solid #6c757d;
+    color: #6c757d;
+}
+.product_rassurance .list-inline {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+.product_rassurance .list-inline li:hover {
+    color: #343a40;
+}
+.reviews_product .fa-star {
+    color: gold;
+}
+.pagination {
+    margin-top: 20px;
+}
+footer {
+    background: white;
+    padding: 40px;
+}
+footer a {
+    color: #f47825!important
+}
+.card{
+    /*border: .5px solid rgba(0,0,0,.125)*/
+}
+.card-title{
+    text-align: center;
+}
+.card-main{
+    padding:1.5em;
+}
+@media (min-width: 576px){
+.jumbotron {
+    padding: 2rem 1rem;
+}
+.img-products{
+    padding: 1em;
+}
+.text-tight{
+    font-weight: 100;
+}
+.btn-pb{
+    color: #212529;
+    background-color: #fff000;
+    border-color: #cfc40f;
+}
+.heart {
+  color: #f47825;
+  animation: heathing 1s ease infinite;
+}
+
+@keyframes heathing {
+  0% {
+    transform: scale(0.75);
+  }
+  20% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(0.75);
+  }
+  60% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(0.75);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}
