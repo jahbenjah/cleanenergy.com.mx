@@ -1,173 +1,253 @@
-<?php 
+<?php
 
 ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="utf-8">
-    <title>Clean Energy </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="" />
-    <link href="<?=URL?>public/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
-    <link href="<?=URL?>public/css/style.css" rel='stylesheet' type='text/css' />
-    <link href="<?=URL?>public/css/fontawesome-all.css" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-    <link rel="icon" href="<?=URL?>public/img/favicon.png">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170731497-1"></script>
-    <script>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Nosotros - Clean Energy</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link href="<?= URL ?>public/assets/img/favicon.png" rel="icon">
+  <link href="<?= URL ?>assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/css/style.css" rel="stylesheet">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170731497-1"></script>
+  <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
     gtag('config', 'UA-170731497-1');
-    </script>
+  </script>
 </head>
+
 <body>
-    <div class="d-flex flex-column flex-md-row align-items-center px-md-4  border-bottom shadow-sm top_bg fixed-top sticky-top">
-      <p class="my-0  font-weight-normal bg-orange  pl-5 pr-5"><a href="tel:6611042808"><small class="text-white"><i class="fa fa-phone"></i>  (661) 104 2808 </a></small></p>
-      <span class="text-white ml-5 "><i class="fa fa-envelope"></i> contacto@cleanenergy.com.mx</span>
-      <a href="<?=URL?>en/about" class="ml-md-auto"><img src="<?=URL?>public/img/us.png" alt="clean energy us"></a>
-      <?php
-        if (isset($_SESSION['name'])) {
-          ?>
-          <span class="pr-3 pl-3 text-white"><?=$_SESSION['name']?></span>
-          <a href="<?=URL?>index/destroySession" class="text-light pl-md-5 ">Salir</span></a>
-          <?php
-        }
-      ?>
-    </div>
-    <div class="container-fluid">
-       <div class="row">
-            <div class="col-7 col-md-4 pt-2">
-              <div class="float-left">
-                <a href="<?=URL?>"><img src="<?=URL?>public/img/logo.png" alt="clean Energy logo" class="img-fluid" style="width: 60%;"></a>
-              </div>
-            </div>
-            <div class="col-4 col-md-7">
-              <nav class="navbar navbar-expand-lg navbar-light bg-light pt-3 float-right">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa fa-bars"></i>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                      <ul class="nav float-right">
-                        <li class="nav-item">
-                          <a class="nav-link " href="<?=URL?>">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link active" href="<?=URL?>nosotros">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                              <a class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                               Productos
-                              </a>
-                              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="<?=URL?>interconexion">Interconexión</a>
-                                <a class="dropdown-item" href="<?=URL?>autonomos">Autonomos</a>
-                                <a class="dropdown-item" href="<?=URL?>luminarias">Luminarias</a>
-                              </div>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="<?=URL?>contacto">Contacto</a>
-                        </li>
-                     </ul>
-                </div>
-              </nav>
-              
-            </div>
-       </div>
-       
-       <div class="container">
-           <img src="<?=URL?>public/img/cleanenergy-video.png" alt="clean energy video" class="img-fluid">
-            <!--<div class="embed-responsive embed-responsive-16by9">
 
-               <iframe class="embed-responsive-item" src="https://www.solar-center.mx/images/SC-Video-SPM-HDweb.mp4" allowfullscreen></iframe> 
-            </div>-->
-       </div>
-       <div class="pt-3 " style="padding-left: 0px;padding-right: 0px;">
- 
-       </div>
-       
-       <div class="container pt-5 pb-5">
-          <div class="pt-2">
-              <h2 class="font-weight-normal text-center"><span style="border-bottom: 5px solid #f47825 !important;">¿Quiénes somos?</span></h2>
-           </div>
-          <div class="row pt-5 pb-5">
-             <div class="col-md-6">
-                 <div class="pt-5 p-3 bg-white">
-                   <h4>SOMOS EL CENTRO DE DISTRIBUCIÓN SOLAR <span class="text-energy"> MÁS COMPLETO DE MÉXICO</span>.</h4>
-                   <p class="pt-3 pb-4">TRANSFORMANDO A MÉXICO A TRAVÉS DE LA ENERGÍA SOLAR, 28 AÑOS DE EXPERIENCIA RESPALDAN TODO LO QUE HACEMOS.</p>
-                 </div>
-             </div>
-             <div class="col-md-6">
-                 <div class="pt-5 p-3 bg-white">
-                   <h4 class="text-center pb-2">¿QUE HACEMOS?</h4>
-                   <p class="text-justify">OFRECEMOS LA MÁS AMPLIA VARIEDAD DE SISTEMAS FOTOVOLTAICOS Y TÉRMICOS, LAS MEJORES MARCAS, LA OPORTUNIDAD A NUESTROS CLIENTES DE QUE PUEDAN ENCONTRAR TODO EN UN MISMO LUGAR, ASÍ COMO HERRAMIENTAS PARA HACER CRECER SU NEGOCIO.</p>
-                 </div>
-             </div>            
-          </div>
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-none d-lg-block">
+    <div class="container d-flex">
+      <div class="contact-info mr-auto">
+        <i class="icofont-envelope"></i><a href="contacto@cleanenergy.com.mx">contacto@cleanenergy.com.mx</a>
+        <i class="icofont-phone"></i> (661) 104 2828
+      </div>
+      <div class="social-links">
+        <a href="https://www.facebook.com/CleanEnergyRosarito/" class="facebook"><i class="icofont-facebook"></i></a>
+        <a href="https://www.instagram.com/cleanenergymx/" class="instagram"><i class="icofont-instagram"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container d-flex">
+
+      <div class="logo mr-auto">
+        <h1 class="text-light"><a href="index.html">Clean Energy</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="<?= URL ?>public/assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li><a href="<?= URL ?>">Inicio</a></li>
+          <li class="active"><a href="<?= URL ?>nosotros">Nosotros</a></li>
+          <li class="drop-down"><a href="">Productos</a>
+            <ul>
+              <li><a href="<?= URL ?>interconexion">Interconexión</a></li>
+              <li><a href="<?= URL ?>autonomos">Autonomos</a></li>
+              <li><a href="<?= URL ?>luminarias">Luminarias</a></li>
+            </ul>
+          </li>
+          <li><a href="<?= URL ?>contacto">Contacto</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
-        <div class="row pt-5 pb-5">
-          <div class="col-12 col-md-6">
-             <div>
-                <img src="<?=URL?>public/img/cleanenergy-nosotros.jpg" alt="clean energy nosotros" class="img-fluid">
-             </div>
-          </div>
-          <div class="col-12 col-md-6 pt-3">
-             <div>
-                <h2 class="text-energy text-center">VALORES</h2>
-                <ul>
-                  <li>Servicio</li>
-                  <li>Sustentabilidad</li>
-                  <li>Confiabilidad</li>
-                  <li>Pasión</li>
-                  <li>Perseverancia</li>
-                  <li>Creatividad</li>
-                </ul>
-             </div>
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Nosotros</h2>
+          <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li>Nosotros</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about-us" class="about-us">
+      <div class="container">
+
+        <div class="row no-gutters">
+          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right"></div>
+          <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
+            <div class="content d-flex flex-column justify-content-center">
+              <h3 data-aos="fade-up"> ¿Quiénes somos?</h3>
+              <p data-aos="fade-up">
+                SOMOS EL CENTRO DE DISTRIBUCIÓN SOLAR MÁS COMPLETO DE MÉXICO.
+                CON UN GRANCOMPROMISO PARA EL MEDIO AMBIENTE, ESTAMOS TRANSFORMANDO A MÉXICO A TRAVÉS DE LA ENERGÍA SOLAR. CON 28 AÑOS DE EXPERIENCIA PODEMOS AFIRMAR QUE NUESTRO SERVICIO ES EL MEJOR PARA TI. </p>
+
+              <h3 data-aos="fade-up"> ¿QUE HACEMOS?</h3>
+              <p>
+                OFRECEMOS LA MÁS AMPLIA VARIEDAD DE SISTEMAS FOTOVOLTAICOS Y TÉRMICOS. CON LAS MEJORES MARCAS, LA OPORTUNIDAD A NUESTROS CLIENTES DE QUE PUEDAN ENCONTRAR TODO EN UN MISMO LUGAR, ASÍ COMO HERRAMIENTAS PARA TRANSFORMAR A SU NEGOCIO. DAMOS LA OPORTUNIDAD DE CAMBIARSE A UN LADO MÁS AMIGABLE CON EL MEDIO AMBIENTE.
+              </p>
+
+              <div class="row">
+                <div class="col-md-4 icon-box" data-aos="fade-up">
+                  <i class="bx bx-receipt"></i>
+                  <h4>Servicio</h4>
+                  <p></p>
+                </div>
+                <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="100">
+                  <i class="bx bx-cube-alt"></i>
+                  <h4>Sustentabilidad</h4>
+                  <p></p>
+                </div>
+                <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="200">
+                  <i class="bx bx-images"></i>
+                  <h4>Confiabilidad</h4>
+                  <p></p>
+                </div>
+                <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="300">
+                  <i class="bx bx-shield"></i>
+                  <h4>Pasión</h4>
+                  <p></p>
+                </div>
+                <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="600">
+                  <i class="bx bx-shield"></i>
+                  <h4>Perseverancia</h4>
+                  <p></p>
+                </div>
+                <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="700">
+                  <i class="bx bx-shield"></i>
+                  <h4>Creatividad</h4>
+                  <p></p>
+                </div>
+                <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="800">
+                  <i class="bx bx-shield"></i>
+                  <h4>Ecología</h4>
+                  <p></p>
+                </div>
+                <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="800">
+                  <i class="bx bx-shield"></i>
+                  <h4>Eficacia</h4>
+                  <p></p>
+                </div>
+                <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="800">
+                  <i class="bx bx-shield"></i>
+                  <h4>Seguridad</h4>
+                  <p></p>
+                </div>
+              </div>
+            </div><!-- End .content-->
           </div>
         </div>
-      </div>
 
+      </div>
+    </section><!-- End About Us Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Clean Energy</h3>
+            <p>
+              Blvd. Popotla 3125 L1 , Col. Cuenca Diaz <br>
+              Rosarito, B.C. 22710<br>
+              México <br><br>
+              <strong>Teléfono:</strong> (661) 104 2828<br>
+              <strong>Teléfono:</strong> (661) 640 4105<br>
+              <strong>Correo:</strong> contacto@cleanenergy.com.mx<br>
+            </p>
+          </div>
+
+          <!-- <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div> -->
+
+        </div>
+      </div>
     </div>
 
-    <section class="pt-5 pb-5 top_bg">
-        <div class="container">
-          <div class="row">
-              <div class="col-6 col-md-4 m-auto pl-5">
-                <img src="<?=URL?>public/img/logo-white.png" alt="clean energy logo" class="img-fluid">
-              </div>
-              <div class="col-6 col-md-4 text-center  ">
-                 <p><a href="<?=URL?>" class="text-white">Inicio</a></p>
-                 <p><a href="<?=URL?>nosotros" class="text-white">Nosotros</a></p>
-                 <p><a href="<?=URL?>" class="text-white">Productos</a></p>
-                 <p><a href="<?=URL?>contacto" class="text-white">Contacto</a></p>
-              </div>
-              <div class="col-12 col-md-4 text-white"> 
-                <h5 class="text-white font-weight-normal "><small class="text-energy"><i class="fa  fa-map"></i>  Dirección:</small></h5>
-                <p class="font-weight-normal mb-0">Blvd. Popotla 3125 L1 , Col. Cuenca Diaz</p>
-                <p  class="font-weight-normal">Rosarito, B.c. 22710</p>
-                <h5 class="text-white font-weight-normal text-energy"><small  class="text-energy"><i class="fa  fa-phone"></i>  Teléfonos:</small></h5>
-                <p  class="font-weight-normal mb-0">(661) 104 2828</p>
-                <p  class="font-weight-normal">(661) 640 4105</p>
-                <h5 class="text-white font-weight-normal text-energy"><small  class="text-energy"><i class="fa  fa-envelope"></i> Correo:</small></h5>
-                <p  class="font-weight-normal mb-0">contacto@cleanenergy.com.mx</p>
-              </div>
-          </div>        
-        </div>
-    </section>
+    <div class="container d-md-flex py-4">
 
-    <footer class="pt-4 pb-2 pt-md-5 bg-dark-blue">
-      <div class=" ">
-        <div class="col-12 col-md"> 
-          <small class="d-block  text-light text-center">&copy; 2019 Clean Energy</small>
+      <div class="mr-md-auto text-center text-md-left">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Clean Energy</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed by <a href="rosaritocentro.com">rosaritocentro</a>
         </div>
       </div>
-    </footer>
-    <script src="<?=URL?>public/resources/jquery/jquery-2.1.4.min.js"></script>
-    <script src="<?=URL?>public/resources/bootstrap-4.0/js/bootstrap.min.js"></script>
-    <script src="<?=URL?>public/js/popper.min.js"></script>
-    <!-- <script src="<?=URL?>public/js/bootstrap.min.js"></script> -->
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="https://www.facebook.com/CleanEnergyRosarito/" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/cleanenergymx/" class="instagram"><i class="bx bxl-instagram"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <script src="<?= URL ?>public/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/php-email-form/validate.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/venobox/venobox.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/aos/aos.js"></script>
+  <script src="<?= URL ?>public/assets/js/main.js"></script>
 </body>
 </html>
