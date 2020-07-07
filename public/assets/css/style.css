@@ -972,7 +972,7 @@ section {
   display: block;
   font-size: 13px;
   font-weight: 400;
-  color: #b4aca8;
+  color: #044d7f;
 }
 
 .team .member .member-info p {
@@ -1847,7 +1847,7 @@ section {
 }
 
 .blog .blog-pagination li a {
-  color: #b4aca8;
+  color: #044d7f;
   padding: 7px 16px;
   display: inline-block;
 }
@@ -2021,9 +2021,9 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: #b4aca8;
+  color: #044d7f;
   font-size: 14px;
-  background: #14100f;
+  background: #1e2639;
 }
 
 #footer .footer-top {
@@ -2051,7 +2051,7 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
-  color: #b4aca8;
+  color: #044d7f;
 }
 
 #footer .footer-top h4 {
@@ -2090,7 +2090,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #b4aca8;
+  color: #044d7f;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -2151,7 +2151,7 @@ section {
 #footer .credits {
   padding-top: 5px;
   font-size: 13px;
-  color: #b4aca8;
+  color: #044d7f;
 }
 
 #footer .social-links a {
