@@ -64,7 +64,7 @@
     <div class="container d-flex">
 
       <div class="logo mr-auto">
-        <h1 class="text-light"><a href="index.html"><a href="index.html"><img src="<?= URL ?>/public/img/Logo Clean Energy.png" alt="" class="img-fluid"></a></h1>
+        <h1 class="text-light"><a href="index.html"><a href="index.html"><img src="<?= URL ?>/public/img/logocleanenergy.jpeg" alt="" class="img-fluid"></a></h1>
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
