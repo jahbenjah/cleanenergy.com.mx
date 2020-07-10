@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 ?>
 <!DOCTYPE html>
@@ -6,49 +6,40 @@
 
 <head>
   <meta charset="utf-8">
-<meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>Clean Energy Rosarito</title>
-<meta content="Restaurant-Bar with great atmosphere and quality food, at great prices. Breakfast from $2.99 d’lish seafood, oysters, appetizers and craft beers." name="description">
-<meta content="" name="keywords">
-<meta property="og:title" content="Clean Energy Rosarito" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://cleanenergy.com.mx/" />
-<meta property="og:description" content="Distribución Solar más completo de México" />
-<meta property="og:image" content="" />
-<meta property="og:image:width" content="" />
-<meta property="og:image:height" content="" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Clean Energy Rosarito</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <meta property="og:title" content="Clean Energy Rosarito" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://cleanenergy.com.mx/" />
+  <meta property="og:description" content="Distribución Solar más completo de México" />
+  <meta property="og:image" content="" />
+  <meta property="og:image:width" content="" />
+  <meta property="og:image:height" content="" />
 
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
+  <link href="<?= URL ?>public/assets/img/favicon.png" rel="icon">
+  <link href="<?= URL ?>assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/css/style.css" rel="stylesheet">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170731497-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Muli:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-170731497-1');
+  </script>
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Flattern - v2.1.0
-  * Template URL: https://bootstrapmade.com/flattern-multipurpose-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-</head>
 
 <body>
 
@@ -357,72 +348,72 @@
 
           <div class="container-fluid pt-5 bg-white">
             <div class="p-5">
-              <img src="<?=URL?>public/img/marcas/Marcas_Distribuidas_Solar_Energy_BC.png" alt="clean energy marcas" class="img-fluid">
-              </div>
-              <div class="col-6 col-md-2">
-                 <img src="<?=URL?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Ctrl_Sun.png" alt="clean energy marcas" class="img-fluid">
-              </div>
-              <div class="col-6 col-md-2">
-                 <img src="<?=URL?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_DAH.png" alt="clean energy marcas" class="img-fluid">
-              </div>
-              <div class="col-6 col-md-2">
-                 <img src="<?=URL?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Enphase.png" alt="clean energy marcas" class="img-fluid">
-              </div>
-              <div class="col-6 col-md-2">
-                 <img src="<?=URL?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Fangpusun.png" alt="clean energy marcas" class="img-fluid">
-              </div>
-              <div class="col-6 col-md-2">
-                 <img src="<?=URL?>public/img//marcas/Marcas_Distribuidas_Por_Solar_Center_Fronius.png" alt="clean energy marcas" class="img-fluid">
-              </div>
-              <div class="col-6 col-md-2">
-                 <img src="<?=URL?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Go_Solar.png" alt="clean energy marcas" class="img-fluid">
-              </div>
-              <div class="col-6 col-md-2">
-                 <img src="<?=URL?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Growatt.png" alt="clean energy marcas" class="img-fluid">
-              </div>
-              <div class="col-6 col-md-2">
-                 <img src="<?=URL?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Hoymiles.png" alt="clean energy marcas" class="img-fluid">
-              </div>
-              <div class="col-6 col-md-2">
-                 <img src="<?=URL?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Jntech.png" alt="clean energy marcas" class="img-fluid">
-              </div>
-              <div class="col-6 col-md-2">
-                 <img src="<?=URL?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Marzo_2019_GCL.png" alt="clean energy marcas" class="img-fluid">
-              </div>
-              <div class="col-6 col-md-2">
-                 <img src="<?=URL?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_NEP.png" alt="clean energy marcas" class="img-fluid">
-              </div>
-              <div class="col-6 col-md-2">
-                 <img src="<?=URL?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Part_Master.png" alt="clean energy marcas" class="img-fluid">
-              </div>
-              <div class="col-6 col-md-2">
-                 <img src="<?=URL?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_QXPV.png" alt="clean energy marcas" class="img-fluid">
-              </div>
-              <div class="col-6 col-md-2">
-                 <img src="<?=URL?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Samlex.png" alt="clean energy marcas" class="img-fluid">
-              </div>
-              <div class="col-6 col-md-2">
-                 <img src="<?=URL?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Seraphim.png" alt="clean energy marcas" class="img-fluid">
-              </div>
-              <div class="col-6 col-md-2">
-                 <img src="<?=URL?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_SHURflo.png" alt="clean energy marcas" class="img-fluid">
-              </div>
-              <div class="col-6 col-md-2">
-                 <img src="<?=URL?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Solis.png" alt="clean energy marcas" class="img-fluid">
-              </div>
-              <div class="col-6 col-md-2">
-                 <img src="<?=URL?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_SRNE.png" alt="clean energy marcas" class="img-fluid">
-              </div>
-              <div class="col-6 col-md-2">
-                 <img src="<?=URL?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Unirac.png" alt="clean energy marcas" class="img-fluid">
-              </div>
+              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Solar_Energy_BC.png" alt="clean energy marcas" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2">
+              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Ctrl_Sun.png" alt="clean energy marcas" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2">
+              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_DAH.png" alt="clean energy marcas" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2">
+              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Enphase.png" alt="clean energy marcas" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2">
+              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Fangpusun.png" alt="clean energy marcas" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2">
+              <img src="<?= URL ?>public/img//marcas/Marcas_Distribuidas_Por_Solar_Center_Fronius.png" alt="clean energy marcas" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2">
+              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Go_Solar.png" alt="clean energy marcas" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2">
+              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Growatt.png" alt="clean energy marcas" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2">
+              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Hoymiles.png" alt="clean energy marcas" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2">
+              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Jntech.png" alt="clean energy marcas" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2">
+              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Marzo_2019_GCL.png" alt="clean energy marcas" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2">
+              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_NEP.png" alt="clean energy marcas" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2">
+              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Part_Master.png" alt="clean energy marcas" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2">
+              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_QXPV.png" alt="clean energy marcas" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2">
+              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Samlex.png" alt="clean energy marcas" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2">
+              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Seraphim.png" alt="clean energy marcas" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2">
+              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_SHURflo.png" alt="clean energy marcas" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2">
+              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Solis.png" alt="clean energy marcas" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2">
+              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_SRNE.png" alt="clean energy marcas" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2">
+              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Unirac.png" alt="clean energy marcas" class="img-fluid">
+            </div>
 
-              <div class="col-6 col-md-2">
-                 <img src="<?=URL?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Yassion.png" alt="clean energy marcas" class="img-fluid">
-              </div>
-              <div class="col-6 col-md-2">
-                 <img src="<?=URL?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_ZJ_Beny.png" alt="clean energy marcas" class="img-fluid">
-              </div>
+            <div class="col-6 col-md-2">
+              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Yassion.png" alt="clean energy marcas" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2">
+              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_ZJ_Beny.png" alt="clean energy marcas" class="img-fluid">
+            </div>
           </div>
 
         </div>
@@ -442,11 +433,11 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Clean Energy</h3>
             <p>
-              Blvd. Popotla 3125 L1 <br>Col. Cuenca Diaz <br>
+              Blvd. Popotla 3125 L1 , Col. Cuenca Diaz <br>
               Rosarito, B.C. 22710<br>
               México <br><br>
-              <strong>Teléfono:</strong> +52 661 104 2828<br>
-              <strong>Teléfono:</strong> +52 661 640 4105<br>
+              <strong>Teléfono:</strong> (661) 104 2828<br>
+              <strong>Teléfono:</strong> (661) 640 4105<br>
               <strong>Correo:</strong> contacto@cleanenergy.com.mx<br>
             </p>
           </div>
@@ -456,15 +447,15 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>interconexion">Interconexión</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>autonomos">Autonomos</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>luminarias">Luminarias</a></li>              
-              </ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>luminarias">Luminarias</a></li>
+            </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Nuestros Productos</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a>Paneles Solares</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a>Paneles Autónomos</a></li>              
+              <li><i class="bx bx-chevron-right"></i> <a>Paneles Autónomos</a></li>
               <li><i class="bx bx-chevron-right"></i> <a>Luminaria Solar</a></li>
             </ul>
           </div>
@@ -476,41 +467,36 @@
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
           </div>
-    
-    <div class="container d-md-flex py-6">
 
-      <div class="mr-md-auto text-center text-md-center">
-        <div class="copyright">
-          &copy; Copyright <strong><span>Clean Energy</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-          Designed by <a href="rosaritocentro.com">rosaritocentro</a>
-        </div>
-      </div>
-      <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <a href="https://www.facebook.com/CleanEnergyRosarito/" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="https://www.instagram.com/cleanenergymx/" class="instagram"><i class="bx bxl-instagram"></i></a>
-      </div>
-    </div>
+          <div class="container d-md-flex py-6">
+
+            <div class="mr-md-auto text-center text-md-center">
+              <div class="copyright">
+                &copy; Copyright <strong><span>Clean Energy</span></strong>. All Rights Reserved
+              </div>
+              <div class="credits">
+                Designed by <a href="rosaritocentro.com">rosaritocentro</a>
+              </div>
+            </div>
+            <div class="social-links text-center text-md-right pt-3 pt-md-0">
+              <a href="https://www.facebook.com/CleanEnergyRosarito/" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/cleanenergymx/" class="instagram"><i class="bx bxl-instagram"></i></a>
+            </div>
+          </div>
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+  <script src="<?= URL ?>public/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/php-email-form/validate.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/venobox/venobox.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/aos/aos.js"></script>
+  <script src="<?= URL ?>public/assets/js/main.js"></script>
 </body>
 
 </html>
