@@ -54,9 +54,7 @@
     <div class="container d-flex">
 
       <div class="logo mr-auto">
-        <h1 class="text-light"><a href="index.html">Clean Energy</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="<?= URL ?>public/assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <a href="index.html"><img src="<?= URL ?>/public/img/logo.png" alt="" class="img-fluid"></a>        
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
