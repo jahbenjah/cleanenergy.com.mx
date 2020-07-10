@@ -14,7 +14,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://cleanenergy.com.mx/" />
   <meta property="og:description" content="Somos El Centro de Distribución Solar más completo de México" />
-  <meta property="og:image" content="http://cleanenergy.com.mx/public/img/logo512x512.png">
+  <meta property="og:image" content="http://cleanenergy.com.mx/public/img/logo512x512.png" />
   <meta property="og:image:width" content="512" />
   <meta property="og:image:height" content="512" />
 
@@ -44,7 +44,7 @@
 <body>
 
   <!-- ======= Top Bar ======= -->
-  <section id="topbar" class="d-none d-lg-block">
+  <!--section id="topbar" class="d-none d-lg-block">
     <div class="container d-flex">
       <div class="contact-info mr-auto">
         <i class="icofont-envelope"></i><a href="contacto@cleanenergy.com.mx">contacto@cleanenergy.com.mx</a>
@@ -55,7 +55,7 @@
         <a href="https://www.instagram.com/cleanenergymx/" class="instagram"><i class="icofont-instagram"></i></a>
       </div>
     </div>
-  </section>
+  </section-->
 
   <!-- ======= Header ======= -->
 
@@ -64,7 +64,7 @@
     <div class="container d-flex">
 
       <div class="logo mr-auto">
-        <h1 class="text-light"><a href="index.html"><a href="index.html"><img src="<?= URL ?>/public/img/logo.png" alt="" class="img-fluid"></a></h1>
+      <h1 class="text-light"><a href="index.html"><a href="index.html"><img src="<?= URL ?>public/assets/img/logocleanenergy.jpeg" alt="" class="img-fluid"></a></h1>
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
