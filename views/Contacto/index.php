@@ -7,7 +7,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Contacto - Clean Energy</title>
+  <title>Contacto - Clean Energy </title>
   <meta content="" name="description">
   <meta content="" name="keywords">
   <link href="<?= URL ?>public/assets/img/favicon.png" rel="icon">
@@ -40,7 +40,7 @@
     <div class="container d-flex">
       <div class="contact-info mr-auto">
         <i class="icofont-envelope"></i><a href="contacto@cleanenergy.com.mx">contacto@cleanenergy.com.mx</a>
-        <i class="icofont-phone"></i> (661) 104 2828
+        <i class="icofont-phone"></i> +52 661 104 2828
       </div>
       <div class="social-links">
         <a href="https://www.facebook.com/CleanEnergyRosarito/" class="facebook"><i class="icofont-facebook"></i></a>
@@ -79,28 +79,24 @@
 
   <main id="main">
 
-    <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs">
-      <div class="container">
-
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>Contacto</h2>
-          <ol>
-            <li><a href="<?= URL ?>">Inicio</a></li>
-            <li>Contacto</li>
-          </ol>
-        </div>
-
-      </div>
-    </section><!-- End Breadcrumbs -->
-
+   
     <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+         <div class="row">
+           <div class="p-5">
+               <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">Contáctanos</span> </h2>
+               <p class="text-center">Conoce los beneficios de generar tu propia energía renovable sin contaminantes, reduciendo las tarifas de tus servicios. Llámanos, un Técnico Certificado te atenderá. </p>
+           </div>
+                 
+	<div class="container">
     <div class="map-section">
       <iframe style="border:0; width: 100%; height: 350px;" title="Mapa Clean Energy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3091.88907568844!2d-117.05005113900367!3d32.319135082633366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d92f8d48ece72d%3A0x59c0e18969690ad5!2sCLEAN%20ENERGY!5e0!3m2!1sen!2smx!4v1594094211399!5m2!1sen!2smx" allowfullscreen></iframe>
     </div>
-
-    <section id="contact" class="contact">
-      <div class="container">
+   </div>
+  </div>
+</div>
+    <div class="container">
 
         <div class="row justify-content-center" data-aos="fade-up">
           <div class="col-lg-10">
@@ -109,7 +105,8 @@
                 <div class="col-lg-4 info">
                   <i class="icofont-google-map"></i>
                   <h4>Ubicación:</h4>
-                  <p>Blvd. Popotla 3125 L1 , Col. Cuenca Diaz <br>Rosarito, B.C. 22710</p>
+                  <p>Km29 Carrt. Tijuana Ensenada 3125<br>Hermenegildo Cuenca Diaz<br>
+              22710 Rosarito, B.C.</p>  
                 </div>
                 <div class="col-lg-4 info mt-4 mt-lg-0">
                   <i class="icofont-envelope"></i>
@@ -119,7 +116,7 @@
                 <div class="col-lg-4 info mt-4 mt-lg-0">
                   <i class="icofont-phone"></i>
                   <h4>Teléfonos:</h4>
-                  <p>(661) 104 2828<br>+(661) 640 4105</p>
+                  <p>+52 661 104 2828<br>+52 661 640 4105</p>
                 </div>
               </div>
             </div>
@@ -127,10 +124,16 @@
           </div>
 
         </div>
-
+        <div class="container">
+         <div class="row">
+           <div class="p-5">
+              <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">Solicita una llamada</span></h2>
+              <p class="text-center">Asesorarte con uno de nuestros Técnicos Certificados. Llena este formulario y en breve nos pondremos en contacto contigo.</p>               
+           </div>                      
+          </div>    
         <div class="row mt-5 justify-content-center" data-aos="fade-up">
           <div class="col-lg-10">
-            <form id="contactForm" method="post" role="form" class="php-email-form">
+            <form action="https://formspree.io/xayppzlk"" method="post" role="form" class="php-email-form">
               <div class="form-row">
                 <div class="col-md-6 form-group">
                   <input type="text" id="inputname" name="inputname" class="form-control" placeholder="Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -173,44 +176,39 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Clean Energy</h3>
             <p>
-              Blvd. Popotla 3125 L1 , Col. Cuenca Diaz <br>
-              Rosarito, B.C. 22710<br>
-              México <br><br>
-              <strong>Teléfono:</strong> (661) 104 2828<br>
-              <strong>Teléfono:</strong> (661) 640 4105<br>
+              Km29 Carrt. Tijuana Ensenada 3125<br>Hermenegildo Cuenca Diaz<br>
+              22710 Rosarito, B.C.<br>  
+              <strong>Teléfono:</strong> +52 661 104 2828<br>
+              <strong>Teléfono:</strong> +52 661 640 4105<br>
               <strong>Correo:</strong> contacto@cleanenergy.com.mx<br>
             </p>
           </div>
 
-          <!-- <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Categorías</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>interconexion">Interconexión</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>autonomos">Autonomos</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>luminarias">Luminarias</a></li>              
+              </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+            <h4>Nuestros Productos</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a>Paneles Solares</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a>Paneles Autónomos</a></li>              
+              <li><i class="bx bx-chevron-right"></i> <a>Luminaria Solar</a></li>
             </ul>
           </div>
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <h4>Regístrate</h4>
+            <p>Nuestros catálogos coporativos han sido actualizados tanto en español como en inglés.</p>
             <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
+              <input type="email" name="email"><input type="submit" value="Subscríbete">
             </form>
-          </div> -->
+          </div>
 
         </div>
       </div>
