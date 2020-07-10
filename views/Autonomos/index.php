@@ -182,11 +182,10 @@ $autonomos = $this->autonomos;
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Clean Energy</h3>
             <p>
-              Blvd. Popotla 3125 L1 , Col. Cuenca Diaz <br>
-              Rosarito, B.C. 22710<br>
-              México <br><br>
-              <strong>Teléfono:</strong> (661) 104 2828<br>
-              <strong>Teléfono:</strong> (661) 640 4105<br>
+              Km29 Carrt. Tijuana Ensenada 3125<br>Hermenegildo Cuenca Diaz<br>
+              22710 Rosarito, B.C.<br>              
+              <strong>Teléfono:</strong> +52 661 104 2828<br>
+              <strong>Teléfono:</strong> +52 661 640 4105<br>
               <strong>Correo:</strong> contacto@cleanenergy.com.mx<br>
             </p>
           </div>
@@ -212,8 +211,9 @@ $autonomos = $this->autonomos;
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Regístrate</h4>
             <p>Nuestros catálogos coporativos han sido actualizados tanto en español como en inglés.</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
+            <form action="https://cleanenergy.us10.list-manage.com/subscribe/post?u=39ba0c8b4ede43bedc1ae898f&amp;id=81663c505f" method="post">
+              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Correo electrónico aquí " required>
+              <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscríbete" class="button"></div>
             </form>
           </div>
 
