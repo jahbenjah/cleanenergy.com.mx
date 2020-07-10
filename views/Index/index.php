@@ -14,7 +14,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://cleanenergy.com.mx/" />
   <meta property="og:description" content="Somos El Centro de Distribución Solar más completo de México" />
-  <meta property="og:image" content="http://cleanenergy.com.mx/public/img/android-chrome-512x512.png">
+  <meta property="og:image" content="http://cleanenergy.com.mx/public/img/logo512x512.png">
   <meta property="og:image:width" content="512" />
   <meta property="og:image:height" content="512" />
 
