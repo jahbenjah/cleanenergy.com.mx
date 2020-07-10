@@ -126,7 +126,7 @@
          <div class="row">
            <div class="p-5">
               <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">Solicita una llamada</span></h2>
-              <p class="text-center">Asesorarte con uno de nuestros Técnicos Certificados. <br>Llena este formulario y en breve nos pondremos en contacto contigo.</p>               
+              <p class="text-center">Asesorarte con uno de nuestros Técnicos Certificados. Llena este formulario y en breve nos pondremos en contacto contigo.</p>               
            </div>                      
           </div>    
         <div class="row mt-5 justify-content-center" data-aos="fade-up">
