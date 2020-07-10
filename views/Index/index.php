@@ -217,7 +217,9 @@
         </div>
 
       </div-->
-    </section><!-- End Services Section -->
+    <!-- </section> -->
+    
+    <!-- End Services Section -->
 
     <!-- ======= Portfolio Section ======= -->
     <!--section id="portfolio" class="portfolio">
@@ -454,9 +456,9 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Nuestros Productos</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a>Paneles Solares</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a>Paneles Autónomos</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a>Luminaria Solar</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>interconexion/categoria/Paneles%20Solares">Paneles Solares</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>autonomos/categoria/Controladores">Controladores</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>autonomos/categoria/Luminaria%20Solar">Luminaria Solar</a></li>
             </ul>
           </div>
 
