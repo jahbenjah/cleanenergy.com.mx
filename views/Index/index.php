@@ -150,16 +150,13 @@
 
         <div class="row no-gutters clients-wrap clearfix" data-aos="fade-up">
 
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
+            <div class="col-lg-3 col-md-4 col-xs-6">              
                 <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Solar_Energy_BC.png" alt="clean energy marcas" class="img-fluid">
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
+            <div class="col-lg-3 col-md-4 col-xs-6">              
                 <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Ctrl_Sun.png" alt="clean energy marcas" class="img-fluid">
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
+            <div class="col-lg-3 col-md-4 col-xs-6">              
                 <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_DAH.png" alt="clean energy marcas" class="img-fluid">
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6">
