@@ -84,7 +84,7 @@
          <div class="row">
            <div class="p-5">
                <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">Contáctanos</span> </h2>
-               <p class="text-center">Conoce los beneficios de generar tu propia energía renovable sin contaminantes, reduciendo las tarifas de tus servicios. Llámanos, un Técnico Certificado te atenderá. </p>
+               <p class="text-center">Conoce los beneficios de generar tu propia energía renovable sin contaminantes, reduciendo las tarifas de tus servicios. <br>Llámanos, un Técnico Certificado te atenderá. </p>
            </div>
                  
 	<div class="container">

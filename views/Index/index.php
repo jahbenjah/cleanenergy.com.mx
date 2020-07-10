@@ -7,8 +7,8 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Clean Energy Rosarito</title>
-  <meta content="" name="description">
+  <title>Clean Energy Rosarito, Somos El Centro de Distribución Solar más completo de México</title>
+  <meta content="" name="Ofrecemos la más amplia variedad de sistemas Fotovoltaicos y térmicos. Con las mejores marcas damos la oportunidad a nuestros clientes de que puedan encontrar todo en un mismo lugar. ">
   <meta content="" name="keywords">
   <meta property="og:title" content="Clean Energy Rosarito" />
   <meta property="og:type" content="website" />
@@ -97,7 +97,7 @@
             <div class="carousel-content animate__animated animate__fadeInUp">
               <h2 class="text-center"><span>Somos El Centro de Distribución Solar más completo de México</span></h2>
               <p class="text-center"></p>
-              <div class="text-center"><a href="" class="btn-get-started">Cotiza Ahora!</a></div>
+              <div class="text-center"><a href="<?= URL ?>contacto" class="btn-get-started">Cotiza Ahora!</a></div>
             </div>
           </div>
         </div>
@@ -131,7 +131,7 @@
             <p> En CLEAN ENERGY sólo distribuimos productos de la más alta calidad, contamos con las mejores marcas del mercado a un precio accesible. Podrás encontrar todo tipo de productos solares, desde Paneles y Calentadores hasta Inversores y Controladores para plantas solares.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Cotiza Ahora</a>
+            <a class="cta-btn align-middle" href="<?= URL ?>contacto">Cotiza Ahora</a>
           </div>
         </div>
 
@@ -144,7 +144,8 @@
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2><strong>Marcas</strong></h2>
+        <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">Nuestras Marcas</span> </h2>
+
           <p></p>
         </div>
 
