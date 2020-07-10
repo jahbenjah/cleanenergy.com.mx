@@ -13,10 +13,10 @@
   <meta property="og:title" content="Clean Energy Rosarito" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://cleanenergy.com.mx/" />
-  <meta property="og:description" content="Distribución Solar más completo de México" />
-  <meta property="og:image" content="" />
-  <meta property="og:image:width" content="" />
-  <meta property="og:image:height" content="" />
+  <meta property="og:description" content="Somos El Centro de Distribución Solar más completo de México" />
+  <meta property="og:image" content="http://cleanenergy.com.mx/public/img/logo.png">
+  <meta property="og:image:width" content="512" />
+  <meta property="og:image:height" content="512" />
 
   <link href="<?= URL ?>public/assets/img/favicon.png" rel="icon">
   <link href="<?= URL ?>assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -49,7 +49,7 @@
     <div class="container d-flex">
 
       <div class="logo mr-auto">
-        <h1 class="text-light"><a href="index.html"><a href="index.html"><img src="<?= URL ?>public/assets/img/logocleanenergy.jpeg" alt="" class="img-fluid"></a></h1>
+        <h1 class="text-light"><a href="index.html"><a href="index.html"><img src="<?= URL ?>/public/img/logo.png" alt="" class="img-fluid"></a></h1>
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
@@ -77,7 +77,7 @@
       <div class="carousel-inner" role="listbox">
 
         <!-- Slide 1 -->
-        <div class="carousel-item active" style="background-image: url(/assets/img/banner3.jpg);">
+        <div class="carousel-item active" style="background-image: url(/public/img/banner3.jpg);">
           <div class="carousel-container">
             <div class="carousel-content animate__animated animate__fadeInUp">
               <h2 class="text-center"><span>Somos El Centro de Distribución Solar más completo de México</span></h2>
