@@ -1,0 +1,14 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/u251065/public_html/cleanenergy.com.mx
+    - /bin/cp config.php $DEPLOYPATH
+    - /bin/cp error_log $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp -R controllers $DEPLOYPATH
+    - /bin/cp -R libs $DEPLOYPATH
+    - /bin/cp -R models $DEPLOYPATH
+    - /bin/cp -R public $DEPLOYPATH
+    - /bin/cp -R temp $DEPLOYPATH
+    - /bin/cp -R test $DEPLOYPATH
+    - /bin/cp -R views $DEPLOYPATH
