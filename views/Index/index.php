@@ -14,7 +14,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://cleanenergy.com.mx/" />
   <meta property="og:description" content="Somos El Centro de Distribución Solar más completo de México" />
-  <meta property="og:image" content="http://cleanenergy.com.mx/public/img/logo.png">
+  <meta property="og:image" content="http://cleanenergy.com.mx/public/img/android-chrome-512x512.png">
   <meta property="og:image:width" content="512" />
   <meta property="og:image:height" content="512" />
 
@@ -58,7 +58,7 @@
   </section>
 
   <!-- ======= Header ======= -->
-  
+
   <!-- ======= Header ======= -->
   <header id="header">
     <div class="container d-flex">
@@ -150,20 +150,22 @@
 
         <div class="row no-gutters clients-wrap clearfix" data-aos="fade-up">
 
-          <div class="container-fluid pt-5 bg-white">
-            <div class="p-5">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Solar_Energy_BC.png" alt="clean energy marcas" class="img-fluid">
+            <div class="col-lg-3 col-md-4 col-xs-6">
+              <div class="client-logo">
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Solar_Energy_BC.png" alt="clean energy marcas" class="img-fluid">
             </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Ctrl_Sun.png" alt="clean energy marcas" class="img-fluid">
+            <div class="col-lg-3 col-md-4 col-xs-6">
+              <div class="client-logo">
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Ctrl_Sun.png" alt="clean energy marcas" class="img-fluid">
             </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_DAH.png" alt="clean energy marcas" class="img-fluid">
+            <div class="col-lg-3 col-md-4 col-xs-6">
+              <div class="client-logo">
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_DAH.png" alt="clean energy marcas" class="img-fluid">
             </div>
-            <div class="col-6 col-md-2">
+            <div class="col-lg-3 col-md-4 col-xs-6">
               <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Enphase.png" alt="clean energy marcas" class="img-fluid">
             </div>
-            <div class="col-6 col-md-2">
+            <div class="col-lg-3 col-md-4 col-xs-6">
               <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Fangpusun.png" alt="clean energy marcas" class="img-fluid">
             </div>
             <div class="col-6 col-md-2">
@@ -237,11 +239,10 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Clean Energy</h3>
             <p>
-              Blvd. Popotla 3125 L1 , Col. Cuenca Diaz <br>
-              Rosarito, B.C. 22710<br>
-              México <br><br>
-              <strong>Teléfono:</strong> (661) 104 2828<br>
-              <strong>Teléfono:</strong> (661) 640 4105<br>
+              Km29 Carrt. Tijuana Ensenada 3125<br>Hermenegildo Cuenca Diaz<br>
+              22710 Rosarito, B.C.<br>              
+              <strong>Teléfono:</strong> +52 661 104 2828<br>
+              <strong>Teléfono:</strong> +52 661 640 4105<br>
               <strong>Correo:</strong> contacto@cleanenergy.com.mx<br>
             </p>
           </div>
