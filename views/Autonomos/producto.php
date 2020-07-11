@@ -105,7 +105,7 @@ $productDetails = $this->productDetails[0];
     <!-- ======= Portfolio Details Section ======= -->
     <section id="portfolio-details" class="portfolio-details">
       <div class="container">
-        <h2 class="portfolio-title">This is an example of portfolio detail</h2>
+        <h2 class="portfolio-title"><?= $productDetails['nombre'] ?> <?= html_entity_decode($productDetails['fabricante']) ?> </h2>
         <div class="row">
 
           <div class="col-lg-7" data-aos="fade-right">
@@ -119,14 +119,13 @@ $productDetails = $this->productDetails[0];
             <ul>
               <li><strong>Fabricante</strong>: <?= html_entity_decode($productDetails['fabricante']) ?></li>
               <li><strong>Categoria</strong>: <?= html_entity_decode($productDetails['categoria']) ?></li>
-              <li><strong>Ficha técnica</strong>: <a href="<?= URL ?>public/img/<?= $productDetails['urlfichatecnica'] ?>" target="_blank">www.example.com</a></li>
+              <li><strong>Ficha técnica</strong>: <a href="<?= URL ?>public/img/<?= $productDetails['urlfichatecnica'] ?>" target="_blank">Ver archivo</a></li>
             </ul>
 
             <p>
               <?= html_entity_decode($productDetails['caracteristicas']) ?>
             </p>
           </div>
-          ha
         </div>
 
       </div>
