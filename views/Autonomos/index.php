@@ -111,11 +111,11 @@ $autonomos = $this->autonomos;
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">Todos</li>
-              <li data-filter=".filter-app">Paneles Solares</li>
-              <li data-filter=".filter-card">Inversores de Cadena</li>
-              <li data-filter=".filter-web">Microinversores</li>
-              <li data-filter=".filter-web">Sistemas de Montaje</li>
-              <li data-filter=".filter-web">Accesorios</li>
+              <li data-filter=".filter-panel">Paneles Solares</li>
+              <li data-filter=".filter-inversor">Inversores de Cadena</li>
+              <li data-filter=".filter-microinversor">Microinversores</li>
+              <li data-filter=".filter-montaje">Sistemas de Montaje</li>
+              <li data-filter=".filter-accesorios">Accesorios</li>
             </ul>
           </div>
         </div>
