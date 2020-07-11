@@ -93,9 +93,9 @@ $autonomos = $this->autonomos;
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Productos</h2>
+          <h2>Autonomos</h2>
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Inicio</a></li>
             <li>Autonomos</li>
           </ol>
         </div>
@@ -129,7 +129,7 @@ $autonomos = $this->autonomos;
               <div class="portfolio-info">
                 <h4><?= html_entity_decode($autonomos[$i]['nombre']) ?></h4>
                 <p><?= html_entity_decode($autonomos[$i]['fabricante']) ?></p>
-                <a href="<?= URL ?>public/img/<?= html_entity_decode($autonomos[$i]['image']) ?>" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="<?= URL ?>public/img/<?= html_entity_decode($autonomos[$i]['image']) ?>" data-gall="portfolioGallery" class="venobox preview-link" title="<?= html_entity_decode($autonomos[$i]['nombre']) ?>"><i class="bx bx-plus"></i></a>
                 <a href="<?= URL . 'autonomos/producto/' . $autonomos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($autonomos[$i]['nombre'])) ?>" class="details-link" title="Ver Producto"><i class="bx bx-link"></i></a>
               </div>
             </div>
