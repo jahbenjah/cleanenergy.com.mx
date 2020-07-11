@@ -1,5 +1,5 @@
-<?php 
-  $interconexion=$this->interconexion;
+<?php
+$interconexion = $this->interconexion;
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -125,7 +125,7 @@
           for ($i = 0; $i < count($interconexion); $i++) {
           ?>
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="<?= URL ?>public/img/<?= html_entity_decode($interconexion[$i]['image']) ?>" class="img-fluid" alt="">
+              <img src="<?= URL ?>public/img/<?= html_entity_decode($interconexion[$i]['image']) ?>" class="img-fluid" alt="<?= html_entity_decode($interconexion[$i]['nombre']) ?>">
               <div class="portfolio-info">
                 <h4><?= html_entity_decode($interconexion[$i]['nombre']) ?></h4>
                 <p><?= html_entity_decode($interconexion[$i]['fabricante']) ?></p>
@@ -183,7 +183,7 @@
             <h3>Clean Energy</h3>
             <p>
               Km29 Carrt. Tijuana Ensenada 3125<br>Hermenegildo Cuenca Diaz<br>
-              22710 Rosarito, B.C.<br>              
+              22710 Rosarito, B.C.<br>
               <strong>Teléfono:</strong> +52 661 104 2828<br>
               <strong>Teléfono:</strong> +52 661 640 4105<br>
               <strong>Correo:</strong> contacto@cleanenergy.com.mx<br>
@@ -247,3 +247,5 @@
   <script src="<?= URL ?>public/assets/vendor/aos/aos.js"></script>
   <script src="<?= URL ?>public/assets/js/main.js"></script>
 </body>
+
+</html>
