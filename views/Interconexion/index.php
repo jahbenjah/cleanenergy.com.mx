@@ -60,12 +60,12 @@ $interconexion = $this->interconexion;
     ?>
 
   </div>
-  <!-- ======= Header ======= -->
-  <header id="header">
+<!-- ======= Header ======= -->
+<header id="header">
     <div class="container d-flex">
 
       <div class="logo mr-auto">
-        <h1 class="text-light"><a href="index.html"><a href="index.html"><img src="<?= URL ?>public/assets/img/logocleanenergy.jpeg" alt="" class="img-fluid"></a></h1>
+      <h1 class="text-light"><a href="index.html"><a href="index.html"><img src="<?= URL ?>/public/img/logo.png" alt="" class="img-fluid"></a></h1>
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
@@ -74,8 +74,8 @@ $interconexion = $this->interconexion;
           <li><a href="<?= URL ?>nosotros">Nosotros</a></li>
           <li class="drop-down"><a href="">Productos</a>
             <ul>
-              <li><a href="<?= URL ?>interconexion">Interconexión</a></li>
-              <li class="active"><a href="<?= URL ?>autonomos">Autonomos</a></li>
+              <li class="active"><a href="<?= URL ?>interconexion">Interconexión</a></li>
+              <li><a href="<?= URL ?>autonomos">Autonomos</a></li>
               <li><a href="<?= URL ?>luminarias">Luminarias</a></li>
             </ul>
           </li>
@@ -144,34 +144,6 @@ $interconexion = $this->interconexion;
 
   </main><!-- End #main -->
 
-
-  <section class="pt-5 pb-5 top_bg">
-    <div class="container">
-      <div class="row">
-        <div class="col-6 col-md-4 m-auto pl-5">
-          <img src="<?= URL ?>public/img/logo-white.png" alt="clean energy logo" class="img-fluid">
-        </div>
-        <div class="col-6 col-md-4 text-center  ">
-          <p><a href="<?= URL ?>" class="text-white">Inicio</a></p>
-          <p><a href="<?= URL ?>nosotros" class="text-white">Nosotros</a></p>
-          <p><a href="<?= URL ?>" class="text-white">Productos</a></p>
-          <p><a href="<?= URL ?>contacto" class="text-white">Contacto</a></p>
-        </div>
-        <div class="col-12 col-md-4 text-white">
-          <h5 class="text-white font-weight-normal "><small class="text-energy"><i class="fa  fa-map"></i> Dirección:</small></h5>
-          <p class="font-weight-normal mb-0">Blvd. Popotla 3125 L1 , Col. Cuenca Diaz</p>
-          <p class="font-weight-normal">Rosarito, B.c. 22710</p>
-          <h5 class="text-white font-weight-normal text-energy"><small class="text-energy"><i class="fa  fa-phone"></i> Teléfonos:</small></h5>
-          <p class="font-weight-normal mb-0">(661) 104 2828</p>
-          <p class="font-weight-normal">(661) 640 4105</p>
-          <h5 class="text-white font-weight-normal text-energy"><small class="text-energy"><i class="fa  fa-envelope"></i> Correo:</small></h5>
-          <p class="font-weight-normal mb-0">contacto@cleanenergy.com.mx</p>
-        </div>
-      </div>
-
-    </div>
-
-  </section>
   <!-- ======= Footer ======= -->
   <footer id="footer">
 

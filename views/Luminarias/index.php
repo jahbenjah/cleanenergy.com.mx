@@ -65,7 +65,7 @@ $luminarias = $this->luminarias;
     <div class="container d-flex">
 
       <div class="logo mr-auto">
-        <h1 class="text-light"><a href="index.html"><a href="index.html"><img src="<?= URL ?>public/assets/img/logocleanenergy.jpeg" alt="" class="img-fluid"></a></h1>
+      <h1 class="text-light"><a href="index.html"><a href="index.html"><img src="<?= URL ?>/public/img/logo.png" alt="" class="img-fluid"></a></h1>
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
@@ -93,10 +93,10 @@ $luminarias = $this->luminarias;
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Productos</h2>
+          <h2>Luminarias</h2>
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Autonomos</li>
+            <li><a href="index.html">Inicio</a></li>
+            <li>Luminarias</li>
           </ol>
         </div>
 
@@ -129,7 +129,7 @@ $luminarias = $this->luminarias;
               <div class="portfolio-info">
                 <h4><?= html_entity_decode($luminarias[$i]['nombre']) ?></h4>
                 <p><?= html_entity_decode($luminarias[$i]['fabricante']) ?></p>
-                <a href="<?= URL ?>public/img/<?= html_entity_decode($luminarias[$i]['image']) ?>" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="<?= URL ?>public/img/<?= html_entity_decode($luminarias[$i]['image']) ?>" data-gall="portfolioGallery" class="venobox preview-link" title="<?= html_entity_decode($luminarias[$i]['nombre']) ?>"><i class="bx bx-plus"></i></a>
                 <a href="<?= URL . 'autonomos/producto/' . $luminarias[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($luminarias[$i]['nombre'])) ?>" class="details-link" title="Ver Producto"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -144,34 +144,6 @@ $luminarias = $this->luminarias;
 
   </main><!-- End #main -->
 
-
-  <section class="pt-5 pb-5 top_bg">
-    <div class="container">
-      <div class="row">
-        <div class="col-6 col-md-4 m-auto pl-5">
-          <img src="<?= URL ?>public/img/logo-white.png" alt="clean energy logo" class="img-fluid">
-        </div>
-        <div class="col-6 col-md-4 text-center  ">
-          <p><a href="<?= URL ?>" class="text-white">Inicio</a></p>
-          <p><a href="<?= URL ?>nosotros" class="text-white">Nosotros</a></p>
-          <p><a href="<?= URL ?>" class="text-white">Productos</a></p>
-          <p><a href="<?= URL ?>contacto" class="text-white">Contacto</a></p>
-        </div>
-        <div class="col-12 col-md-4 text-white">
-          <h5 class="text-white font-weight-normal "><small class="text-energy"><i class="fa  fa-map"></i> Dirección:</small></h5>
-          <p class="font-weight-normal mb-0">Blvd. Popotla 3125 L1 , Col. Cuenca Diaz</p>
-          <p class="font-weight-normal">Rosarito, B.c. 22710</p>
-          <h5 class="text-white font-weight-normal text-energy"><small class="text-energy"><i class="fa  fa-phone"></i> Teléfonos:</small></h5>
-          <p class="font-weight-normal mb-0">(661) 104 2828</p>
-          <p class="font-weight-normal">(661) 640 4105</p>
-          <h5 class="text-white font-weight-normal text-energy"><small class="text-energy"><i class="fa  fa-envelope"></i> Correo:</small></h5>
-          <p class="font-weight-normal mb-0">contacto@cleanenergy.com.mx</p>
-        </div>
-      </div>
-
-    </div>
-
-  </section>
   <!-- ======= Footer ======= -->
   <footer id="footer">
 
