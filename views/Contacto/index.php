@@ -7,12 +7,26 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Contacto - Clean Energy </title>
-  <meta content="" name="description">
+  <title>Clean Energy</title>
+  <meta content="" name="Somos El Centro de Distribución Solar más completo de México. Nuestro compromiso con el medio ambiente. Reduce tu gasto de electricidad en un 95%. Ofrecemos la más amplia variedad de sistemas Fotovoltaicos y térmicos. Con las mejores marcas damos la oportunidad a nuestros clientes de que puedan encontrar todo en un mismo lugar." name="description">
   <meta content="" name="keywords">
-  <link href="<?= URL ?>public/assets/img/favicon.png" rel="icon">
-  <link href="<?= URL ?>assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <meta property="og:title" content="Clean Energy Rosarito" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://cleanenergy.com.mx/" />
+  <meta property="og:description" content="Somos El Centro de Distribución Solar más completo de México. Nuestro compromiso con el medio ambiente. Reduce tu gasto de electricidad en un 95%. Ofrecemos la más amplia variedad de sistemas Fotovoltaicos y térmicos. Con las mejores marcas damos la oportunidad a nuestros clientes de que puedan encontrar todo en un mismo lugar." />
+  <meta property="og:image" content="https://cleanenergy.com.mx/public/assets/img/og.png" />
+  <meta property="og:image:width" content="512" />
+  <meta property="og:image:height" content="512" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">  
+  <meta name="theme-color" content="#ffffff">
+  
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  
   <link href="<?= URL ?>public/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="<?= URL ?>public/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
   <link href="<?= URL ?>public/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
@@ -20,13 +34,14 @@
   <link href="<?= URL ?>public/assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="<?= URL ?>public/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="<?= URL ?>public/assets/vendor/aos/aos.css" rel="stylesheet">
+  
   <link href="<?= URL ?>public/assets/css/style.css" rel="stylesheet">
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170731497-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
 
     function gtag() {
-      dataLayer.push(arguments);
+    dataLayer.push(arguments);
     }
     gtag('js', new Date());
     gtag('config', 'UA-170731497-1');
