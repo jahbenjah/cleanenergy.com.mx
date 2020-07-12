@@ -80,7 +80,7 @@
             </div>
        </div>
        <div class="container">
-           <img src="<?=URL?>public/img/cleanenergy-video.png" alt="clean energy video" class="img-fluid">
+           <img src="<?=URL?>public/img/consejos.jpeg" alt="clean energy video" class="img-fluid">
             <!--<div class="embed-responsive embed-responsive-16by9">
 
                <iframe class="embed-responsive-item" src="https://www.solar-center.mx/images/SC-Video-SPM-HDweb.mp4" allowfullscreen></iframe> 
