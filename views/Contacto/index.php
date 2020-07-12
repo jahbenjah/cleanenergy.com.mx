@@ -81,20 +81,18 @@
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
-         <div class="row">
-           <div class="p-5">
-               <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">Contáctanos</span> </h2>
-               <p class="text-center">Conoce los beneficios de generar tu propia energía renovable sin contaminantes, reduciendo las tarifas de tus servicios. <br>Llámanos, un Técnico Certificado te atenderá. </p>
+         
+               <h2 class="text-center font-weight-normal" data-aos="fade-up"><span style="border-bottom: 5px solid #f47825 !important;">Contáctanos</span> </h2>
+               <p class="text-center" data-aos="fade-up">Conoce los beneficios de generar tu propia energía renovable sin contaminantes, reduciendo las tarifas de tus servicios. <br>Llámanos, un Técnico Certificado te atenderá. </p>
            </div>
                  
 	<div class="container">
     <div class="map-section">
-      <iframe style="border:0; width: 100%; height: 350px;" title="Mapa Clean Energy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3091.88907568844!2d-117.05005113900367!3d32.319135082633366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d92f8d48ece72d%3A0x59c0e18969690ad5!2sCLEAN%20ENERGY!5e0!3m2!1sen!2smx!4v1594094211399!5m2!1sen!2smx" allowfullscreen></iframe>
+      <iframe style="border:0; width: 100%; height: 450px;" title="Mapa Clean Energy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3091.88907568844!2d-117.05005113900367!3d32.319135082633366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d92f8d48ece72d%3A0x59c0e18969690ad5!2sCLEAN%20ENERGY!5e0!3m2!1sen!2smx!4v1594094211399!5m2!1sen!2smx" allowfullscreen></iframe>
     </div>
-   </div>
-  </div>
-</div>
-    <div class="container">
+    
+    <section id="contact" class="contact">
+      <div class="container">
 
         <div class="row justify-content-center" data-aos="fade-up">
           <div class="col-lg-10">
@@ -122,13 +120,15 @@
           </div>
 
         </div>
-        <div class="container">
-         <div class="row">
-           <div class="p-5">
-              <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">Solicita una llamada</span></h2>
-              <p class="text-center">Asesorarte con uno de nuestros Técnicos Certificados. Llena este formulario y en breve nos pondremos en contacto contigo.</p>               
-           </div>                      
-          </div>    
+        </div>
+        
+        <section id="formulario" class="formulario">
+          <div class="container">
+         
+           <h2 class="text-center font-weight-normal" data-aos="fade-up"><span style="border-bottom: 5px solid #f47825 !important;">Solicita una llamada</span></h2>
+            <p class="text-center" data-aos="fade-up">Asesorarte con uno de nuestros Técnicos Certificados. Llena este formulario y en breve nos pondremos en contacto contigo.</p>               
+             </div>                      
+              
         <div class="row mt-5 justify-content-center" data-aos="fade-up">
           <div class="col-lg-10">
             <form action="https://formspree.io/xayppzlk"" method="post" role="form" class="php-email-form">
