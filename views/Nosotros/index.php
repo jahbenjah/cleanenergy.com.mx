@@ -198,7 +198,7 @@ Con 28 años de experiencia podemos afirmar que nuestro servicio es el mejor par
               </div>
               <div class="member-info">
                 <h4>Amanda Jepson</h4>
-                <span>Tecnico</span>
+                <span>Técnico</span>
               </div>
             </div>
           </div>
