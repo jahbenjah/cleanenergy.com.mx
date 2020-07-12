@@ -230,18 +230,18 @@ Con 28 años de experiencia podemos afirmar que nuestro servicio es el mejor par
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Categorías</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>interconexion">Interconexión</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>autonomos">Autonomos</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>luminarias">Luminarias</a></li>              
-              </ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>inicio">Inicio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>nosotros">Nosotros</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>contacto">Contacto</a></li>
+            </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Nuestros Productos</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a>Paneles Solares</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a>Paneles Autónomos</a></li>              
-              <li><i class="bx bx-chevron-right"></i> <a>Luminaria Solar</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>interconexion">Interconexión</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>autonomos">Autonomos</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>luminarias">Luminarias</a></li>
             </ul>
           </div>
 
