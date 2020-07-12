@@ -110,6 +110,11 @@
                   <i class="bx bx-images"></i>
                   <h4>Confiabilidad</h4>
                   <p>Tienes la certeza de que somos un equipo profesional que te dará las mejores opciones y orientación a tus necesidades.</p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                  <i class="bx bx-shield"></i>
+                  <h4></h4>
+                  <p></p>
                 </div>                
               </div>
             </div><!-- End .content-->

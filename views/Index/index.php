@@ -96,7 +96,7 @@
           <div class="carousel-container">
             <div class="carousel-content animate__animated animate__fadeInUp">
               <h2 class="text-center"><span>Somos El Centro de Distribución Solar más completo de México</span></h2>
-              <p class="text-center">Nuestro compromiso con el medio ambiente. <br>reduce tu gasto de electricidad en un 95%.</p>
+              <p class="text-center">Nuestro compromiso con el medio ambiente. <br>Reduce tu gasto de electricidad en un 95%.</p>
               <div class="text-center"><a href="<?= URL ?>contacto" class="btn-get-started">Cotiza Ahora!</a></div>
             </div>
           </div>
