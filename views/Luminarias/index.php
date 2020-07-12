@@ -1,254 +1,223 @@
-<?php 
-  $luminarias=$this->luminarias;
+<?php
+$luminarias = $this->luminarias;
 ?>
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="utf-8">
-    <title>Clean Energy </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   
-    <meta name="keywords" content="" />
-    <link href="<?=URL?>public/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
-    <link href="<?=URL?>public/css/style.css" rel='stylesheet' type='text/css' />
-    <link href="<?=URL?>public/css/fontawesome-all.css" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-    <link rel="icon" href="<?=URL?>public/img/favicon.png">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170731497-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-170731497-1');
-</script>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Clean Energy Rosarito</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <meta property="og:title" content="Clean Energy Rosarito" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://cleanenergy.com.mx/" />
+  <meta property="og:description" content="Distribución Solar más completo de México" />
+  <meta property="og:image" content="" />
+  <meta property="og:image:width" content="" />
+  <meta property="og:image:height" content="" />
+
+  <link href="<?= URL ?>public/assets/img/favicon.png" rel="icon">
+  <link href="<?= URL ?>assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/css/style.css" rel="stylesheet">
+  <link rel="icon" href="<?= URL ?>public/img/favicon.png">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170731497-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-170731497-1');
+  </script>
 
 </head>
+
 <body>
-    <div class="d-flex flex-column flex-md-row align-items-center px-md-4  border-bottom shadow-sm top_bg fixed-top sticky-top">
-      <p class="my-0  font-weight-normal bg-orange  pl-5 pr-5"><a href="tel:6611042808"><small class="text-white"><i class="fa fa-phone"></i>  (661) 104 2808 </a></small></p>
-      <span class="text-white ml-5 "><i class="fa fa-envelope"></i> contacto@cleanenergy.com.mx</span>
-      <a href="#" class="ml-md-auto"><img src="<?=URL?>public/img/us.png" alt="clean energy us"></a>
-      <?php
-        if (isset($_SESSION['name'])) {
-          ?>
-          <span class="pr-3 pl-3 text-white"><?=$_SESSION['name']?></span>
-          <a href="<?=URL?>index/destroySession" class="text-light pl-md-5 ">Salir</span></a>
-          <?php
-        }
-      ?>
-      
-    </div>
-    <div class="container-fluid">
-       <div class="row">
-            <div class="col-7 col-md-4 pt-2">
-              <div class="float-left">
-                <img src="<?=URL?>public/img/logo.png" alt="clean Energy logo" class="img-fluid" style="width: 60%;">
-              </div>
-            </div>
-            <div class="col-4 col-md-7">
-              <nav class="navbar navbar-expand-lg navbar-light bg-light pt-3 float-right">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa fa-bars"></i>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                      <ul class="nav float-right">
-                        <li class="nav-item">
-                          <a class="nav-link " href="<?=URL?>">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="<?=URL?>nosotros">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                              <a class="nav-link active dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                               Productos
-                              </a>
-                              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="<?=URL?>interconexion">Interconexión</a>
-                                <a class="dropdown-item" href="<?=URL?>autonomos">Autonomos</a>
-                                <a class="dropdown-item" href="<?=URL?>luminarias">Luminarias</a>
-                              </div>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link " href="<?=URL?>contacto">Contacto</a>
-                        </li>
-                     </ul>
-                </div>
-              </nav>
-              
-            </div>
-       </div>
-    </div>
-    
-    <main class="container-fluid pt-4 bg-white">
-        <h2 class="text-uppercase text-center font-weight-normal ">la más amplia variedad en un sólo lugar</h2>
-        <div class="row bg-white">
-          <div class="col-md-3">
-             <div class="p-2">
-                <h4 class="text-dark font-weight-normal text-uppercase text-center"><span style="border-bottom: 5px solid #f47825 !important;">Categorías</span></h4>
-                <div id="accordion">
-                  <div class=" ">
-                    <div class=" " id="headingOne">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link text-clean" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                           Productos Fotovoltaicos para Interconexión 
-                        </button>
-                      </h5>
-                    </div>
+  <div class="d-flex flex-column flex-md-row align-items-center px-md-4  border-bottom shadow-sm top_bg fixed-top sticky-top">
+    <p class="my-0  font-weight-normal bg-orange  pl-5 pr-5"><a href="tel:6611042808"><small class="text-white"><i class="fa fa-phone"></i> (661) 104 2808 </a></small></p>
+    <span class="text-white ml-5 "><i class="fa fa-envelope"></i> contacto@cleanenergy.com.mx</span>
+    <a href="#" class="ml-md-auto"><img src="<?= URL ?>public/img/us.png" alt="clean energy us"></a>
+    <?php
+    if (isset($_SESSION['name'])) {
+    ?>
+      <span class="pr-3 pl-3 text-white"><?= $_SESSION['name'] ?></span>
+      <a href="<?= URL ?>index/destroySession" class="text-light pl-md-5 ">Salir</span></a>
+    <?php
+    }
+    ?>
 
-                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                      <div class="">
-                        <ul class="nav flex-column pl-4">
-                          <li class="nav-item ">
-                            <a class="nav-link-category font-weight-normal" href="<?=URL?>interconexion/categoria/Paneles Solares" > <i class="fa  fa-chevron-circle-right"></i> Paneles Solares</a>
-                          </li>
-                          <li class="nav-item ">
-                            <a class="nav-link-category font-weight-normal" href="<?=URL?>interconexion/categoria/Inversores de Cadena" > <i class="fa  fa-chevron-circle-right"></i> Inversores de Cadena</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link-category font-weight-normal" href="<?=URL?>interconexion/categoria/Microinversores" ><i class="fa  fa-chevron-circle-right"></i> Microinversores</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link-category font-weight-normal" href="<?=URL?>interconexion/categoria/Sistemas de Montaje" ><i class="fa  fa-chevron-circle-right"></i> Sistemas de Montaje</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link-category font-weight-normal" href="<?=URL?>interconexion/categoria/Accesorios" > <i class="fa  fa-chevron-circle-right"></i> Accesorios</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class=" ">
-                    <div class=" " id="headingTwo">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link  text-clean collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          Productos Fotovoltaicos Autónomos
-                        </button>
-                      </h5>
-                    </div>
-                    <div id="collapseTwo" class="collapse " aria-labelledby="headingTwo" data-parent="#accordion">
-                      <div class="">
-                        <ul class="nav flex-column pl-4">
-                          <li class="nav-item ">
-                            <a class="nav-link-category font-weight-normal" href="<?=URL?>autonomos" ><i class="fa  fa-chevron-circle-right"></i> Paneles Autónomos</a>
-                          </li>
-                          <li class="nav-item ">
-                            <a class="nav-link-category font-weight-normal" href="<?=URL?>autonomos/categoria/Inversores de Plantas Solares" ><i class="fa  fa-chevron-circle-right"></i> Inversores de Plantas Solares</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link-category font-weight-normal" href="<?=URL?>autonomos/categoria/Controladores" ><i class="fa  fa-chevron-circle-right"></i> Controladores</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link-category font-weight-normal" href="<?=URL?>autonomos/categoria/Baterias" ><i class="fa  fa-chevron-circle-right"></i> Baterías</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link-category font-weight-normal" href="<?=URL?>autonomos/categoria/Bombas" ><i class="fa  fa-chevron-circle-right"></i> Bombas</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link-category font-weight-normal" href="<?=URL?>autonomos/categoria/Luminaria Solar" ><i class="fa  fa-chevron-circle-right"></i> Luminaria Solar</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link-category font-weight-normal" href="<?=URL?>autonomos/categoria/Refrigeradores" ><i class="fa  fa-chevron-circle-right"></i> Refrigeradores</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class=" ">
-                    <div class=" " id="headingThree">
-                      <h5 class="mb-0">
-                        <button class="btn btn-link  text-clean collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          Luminarias
-                        </button>
-                      </h5>
-                    </div>
-                    <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion">
-                      <div class="">
-                        <ul class="nav flex-column pl-4">
-                          <li class="nav-item ">
-                            <a class="nav-link-category font-weight-normal" href="<?=URL?>luminarias"><i class="fa  fa-chevron-circle-right"></i> Luminarias</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+  </div>
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container d-flex">
 
-             </div>
-          </div>
-          <div class="col-md-8">
-            <div class="p-2 bg-white">
-                <nav aria-label="breadcrumb">
-                  <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="<?=URL?>luminarias" class="text-clean">Luminarias</a></li>
-                    <li class="breadcrumb-item active" aria-current="page"><?=$luminarias[0]['categoria'] ?></li>
-                  </ol>
-                </nav>
-                <div class="row">
-                   <?php
-                    for ($i=0; $i < count($luminarias); $i++) {
-                                     
-                            ?>    
-                             <div class="col-6 col-md-6 col-lg-4 mb-1">
-                                <div class="card">
-                                    <a href="<?=URL.'luminarias/producto/'.$luminarias[$i]['id'].'/'.str_replace(" ", '-', html_entity_decode($luminarias[$i]['nombre']))?>"><img class="card-img-top" src="<?=URL?>public/img/<?=html_entity_decode($luminarias[$i]['image'])?>" alt="Card image cap"></a>
-                                    <div class="card-body">
-                                        <h5 class="card-title"><a style="color: black;text-decoration: none;font-weight: 100;" href="<?=URL.'luminarias/producto/'.$luminarias[$i]['id'].'/'.str_replace(" ", '-', html_entity_decode($luminarias[$i]['nombre']))?>" title="Ver Producto"><?=html_entity_decode($luminarias[$i]['nombre'])?></a></h5>
-                                        <p class="mb-0 pb-0 text-muted">Fabricante: <span class="text-energy"><?=html_entity_decode($luminarias[$i]['fabricante'])?></p></span>
-                                        <p class="mb-0 pb-0 text-muted">Categoría: <span class="text-clean"><?=html_entity_decode($luminarias[$i]['categoria'])?></span></p>
-                                         
-                                    </div>
-                                </div>
-                            </div>
-
-                            <?php
-                    }
-
-                    ?>
-                 
-               </div>
-            </div>
-          </div>
-        </div>
-    </main>
-    <section class="pt-5 pb-5 top_bg">
-        <div class="container">
-          <div class="row">
-              <div class="col-6 col-md-4 m-auto pl-5">
-                <img src="<?=URL?>public/img/logo-white.png" alt="clean energy logo" class="img-fluid">
-              </div>
-              <div class="col-6 col-md-4 text-center  ">
-                 <p><a href="<?=URL?>" class="text-white">Inicio</a></p>
-                 <p><a href="<?=URL?>nosotros" class="text-white">Nosotros</a></p>
-                 <p><a href="<?=URL?>" class="text-white">Productos</a></p>
-                 <p><a href="<?=URL?>contacto" class="text-white">Contacto</a></p>
-              </div>
-              <div class="col-12 col-md-4 text-white"> 
-                <h5 class="text-white font-weight-normal "><small class="text-energy"><i class="fa  fa-map"></i>  Dirección:</small></h5>
-                <p class="font-weight-normal mb-0">Blvd. Popotla 3125 L1 , Col. Cuenca Diaz</p>
-                <p  class="font-weight-normal">Rosarito, B.c. 22710</p>
-                <h5 class="text-white font-weight-normal text-energy"><small  class="text-energy"><i class="fa  fa-phone"></i>  Teléfonos:</small></h5>
-                <p  class="font-weight-normal mb-0">(661) 104 2828</p>
-                <p  class="font-weight-normal">(661) 640 4105</p>
-                <h5 class="text-white font-weight-normal text-energy"><small  class="text-energy"><i class="fa  fa-envelope"></i> Correo:</small></h5>
-                <p  class="font-weight-normal mb-0">contacto@cleanenergy.com.mx</p>
-              </div>
-          </div>
-          
-        </div>
-        
-    </section>
-    <footer class="pt-4 pb-2 pt-md-5 bg-dark-blue">
-      <div class=" ">
-        <div class="col-12 col-md"> 
-          <small class="d-block  text-light text-center">&copy; 2019 Clean Energy</small>
-        </div>
+      <div class="logo mr-auto">
+      <h1 class="text-light"><a href="index.html"><a href="index.html"><img src="<?= URL ?>/public/img/logo.png" alt="" class="img-fluid"></a></h1>
       </div>
-    </footer>
-    <script src="<?=URL?>public/resources/jquery/jquery-2.1.4.min.js"></script>
-    <script src="<?=URL?>public/resources/bootstrap-4.0/js/bootstrap.min.js"></script>
-    <script src="<?=URL?>public/js/popper.min.js"></script>
-    <!-- <script src="<?=URL?>public/js/bootstrap.min.js"></script> -->
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li><a href="<?= URL ?>inicio">Inicio</a></li>
+          <li><a href="<?= URL ?>nosotros">Nosotros</a></li>
+          <li class="drop-down"><a href="">Productos</a>
+            <ul>
+              <li><a href="<?= URL ?>interconexion">Interconexión</a></li>
+              <li class="active"><a href="<?= URL ?>autonomos">Autonomos</a></li>
+              <li><a href="<?= URL ?>luminarias">Luminarias</a></li>
+            </ul>
+          </li>
+          <li><a href="<?= URL ?>contacto">Contacto</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Luminarias</h2>
+          <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li>Luminarias</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">Todos</li>
+              <li data-filter=".filter-panel">Paneles Solares</li>
+              <li data-filter=".filter-inversor">Inversores de Cadena</li>
+              <li data-filter=".filter-microinversor">Microinversores</li>
+              <li data-filter=".filter-montaje">Sistemas de Montaje</li>
+              <li data-filter=".filter-accesorios">Accesorios</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up">
+          <?php
+          for ($i = 0; $i < count($luminarias); $i++) {
+          ?>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <img src="<?= URL ?>public/img/<?= html_entity_decode($luminarias[$i]['image']) ?>" class="img-fluid" alt="<?= html_entity_decode($luminarias[$i]['nombre']) ?>">
+              <div class="portfolio-info">
+                <h4><?= html_entity_decode($luminarias[$i]['nombre']) ?></h4>
+                <p><?= html_entity_decode($luminarias[$i]['fabricante']) ?></p>
+                <a href="<?= URL ?>public/img/<?= html_entity_decode($luminarias[$i]['image']) ?>" data-gall="portfolioGallery" class="venobox preview-link" title="<?= html_entity_decode($luminarias[$i]['nombre']) ?>"><i class="bx bx-plus"></i></a>
+                <a href="<?= URL . 'autonomos/producto/' . $luminarias[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($luminarias[$i]['nombre'])) ?>" class="details-link" title="Ver Producto"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          <?php
+          }
+          ?>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Clean Energy</h3>
+            <p>
+              Km29 Carrt. Tijuana Ensenada 3125<br>Hermenegildo Cuenca Diaz<br>
+              22710 Rosarito, B.C.<br>
+              <strong>Teléfono:</strong> +52 661 104 2828<br>
+              <strong>Teléfono:</strong> +52 661 640 4105<br>
+              <strong>Correo:</strong> contacto@cleanenergy.com.mx<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Categorías</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>interconexion">Interconexión</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>autonomos">Autonomos</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>luminarias">Luminarias</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Nuestros Productos</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>interconexion/categoria/Paneles%20Solares">Paneles Solares</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>autonomos/categoria/Controladores">Controladores</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>autonomos/categoria/Luminaria%20Solar">Luminaria Solar</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Regístrate</h4>
+            <p>Nuestros catálogos coporativos han sido actualizados tanto en español como en inglés.</p>
+            <form action="https://cleanenergy.us10.list-manage.com/subscribe/post?u=39ba0c8b4ede43bedc1ae898f&amp;id=81663c505f" method="post">
+              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Correo electrónico aquí " required>
+              <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscríbete" class="button"></div>
+            </form>
+          </div>
+
+          <div class="container d-md-flex py-6">
+
+            <div class="mr-md-auto text-center text-md-center">
+              <div class="copyright">
+                &copy; Copyright <strong><span>Clean Energy</span></strong>. All Rights Reserved
+              </div>
+              <div class="credits">
+                Designed by <a href="rosaritocentro.com">rosaritocentro</a>
+              </div>
+            </div>
+            <div class="social-links text-center text-md-right pt-3 pt-md-0">
+              <a href="https://www.facebook.com/CleanEnergyRosarito/" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/cleanenergymx/" class="instagram"><i class="bx bxl-instagram"></i></a>
+            </div>
+          </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <script src="<?= URL ?>public/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/php-email-form/validate.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/venobox/venobox.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/aos/aos.js"></script>
+  <script src="<?= URL ?>public/assets/js/main.js"></script>
 </body>
+
 </html>
