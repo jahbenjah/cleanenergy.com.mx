@@ -142,14 +142,14 @@ Con 28 años de experiencia podemos afirmar que nuestro servicio es el mejor par
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <img src="/public/assets/img/team/team-1.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href="https://www.facebook.com/CleanEnergyRosarito/"><i class="icofont-facebook"></i></a>
                   <a href="https://www.instagram.com/cleanenergymx/"><i class="icofont-instagram"></i></a>
                   </div>
               </div>
               <div class="member-info">
-                <h4>Ernesto Marin</h4>
+                <h4>Ing. rnesto Marin</h4>
                 <span>Consultor</span>
               </div>
             </div>
@@ -158,14 +158,14 @@ Con 28 años de experiencia podemos afirmar que nuestro servicio es el mejor par
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                <img src="/public/assets/img/team/team-2.jpg" class="img-fluid" alt="">
                 <div class="social">
                 <a href="https://www.facebook.com/CleanEnergyRosarito/"><i class="icofont-facebook"></i></a>
                 <a href="https://www.instagram.com/cleanenergymx/"><i class="icofont-instagram"></i></a>
                 </div>
               </div>
               <div class="member-info">
-                <h4>Ing.Gabriel Gutietrez</h4>
+                <h4>Ing. Gabriel Gutiérrez</h4>
                 <span>Técnico Certificado</span>
               </div>
             </div>
@@ -174,7 +174,7 @@ Con 28 años de experiencia podemos afirmar que nuestro servicio es el mejor par
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <img src="/public/assets/img/team/team-3.jpg" class="img-fluid" alt="">
                 <div class="social">
                 <a href="https://www.facebook.com/CleanEnergyRosarito/"><i class="icofont-facebook"></i></a>
                 <a href="https://www.instagram.com/cleanenergymx/"><i class="icofont-instagram"></i></a>
@@ -190,7 +190,7 @@ Con 28 años de experiencia podemos afirmar que nuestro servicio es el mejor par
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="member-img">
-                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                <img src="/public/assets/img/team/team-4.jpg" class="img-fluid" alt="">
                 <div class="social">
                 <a href="https://www.facebook.com/CleanEnergyRosarito/"><i class="icofont-facebook"></i></a>
                 <a href="https://www.instagram.com/cleanenergymx/"><i class="icofont-instagram"></i></a>
