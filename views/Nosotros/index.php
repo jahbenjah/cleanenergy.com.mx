@@ -96,17 +96,17 @@
               </p>
 
               <div class="row">
-                <div class="col-md-4 icon-box" data-aos="fade-up">
+                <div class="col-md-6 icon-box" data-aos="fade-up">
                   <i class="bx bx-receipt"></i>
                   <h4>Servicio</h4>
                   <p>Cambia tu estilo de vida a uno más ecológico, te proveemos el mejor servicio para que tu hogar o local utilice energía solar.</p>
                 </div>
-                <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
                   <i class="bx bx-cube-alt"></i>
                   <h4>Ecologia</h4>
                   <p>Tenemos un gran compromiso con el medio ambiente, tomando en cuenta la belleza e importancia de nuestra planeta, nuestro objetivo es cuidar nuestro entorno y tu economía.</p>
                 </div>
-                <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
                   <i class="bx bx-images"></i>
                   <h4>Confiabilidad</h4>
                   <p>Tienes la certeza de que somos un equipo profesional que te dará las mejores opciones y orientación a tus necesidades.</p>
