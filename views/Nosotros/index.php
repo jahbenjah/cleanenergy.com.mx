@@ -103,8 +103,8 @@
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
                   <i class="bx bx-cube-alt"></i>
-                  <h4>Ecologia</h4>
-                  <p>Tenemos un gran compromiso con el medio ambiente, tomando en cuenta la belleza e importancia de nuestra planeta, nuestro objetivo es cuidar nuestro entorno y tu economía.</p>
+                  <h4>Ecología</h4>
+                  <p>Tenemos un gran compromiso con el medio ambiente, tomando en cuenta la belleza e importancia de nuestro planeta, nuestro objetivo es cuidar nuestro entorno y tu economía.</p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
                   <i class="bx bx-images"></i>
@@ -113,8 +113,8 @@
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
                   <i class="bx bx-shield"></i>
-                  <h4></h4>
-                  <p></p>
+                  <h4>Calidad</h4>
+                  <p>Nos aseguramos de contar con las mejores opciones de materiales disponibles en el mercado utilizando equipo de última generación con la mejor calidad para darte un excelente servicio.</p>
                 </div>                
               </div>
             </div><!-- End .content-->
@@ -140,15 +140,13 @@ Con 28 años de experiencia podemos afirmar que nuestro servicio es el mejor par
         <div class="row">
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="member-img">
                 <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
+                  <a href="https://www.facebook.com/CleanEnergyRosarito/"><i class="icofont-facebook"></i></a>
+                  <a href="https://www.instagram.com/cleanenergymx/"><i class="icofont-instagram"></i></a>
+                  </div>
               </div>
               <div class="member-info">
                 <h4>Ernesto Marin</h4>
@@ -158,14 +156,12 @@ Con 28 años de experiencia podemos afirmar que nuestro servicio es el mejor par
           </div>
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="100">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="member-img">
                 <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
+                <a href="https://www.facebook.com/CleanEnergyRosarito/"><i class="icofont-facebook"></i></a>
+                <a href="https://www.instagram.com/cleanenergymx/"><i class="icofont-instagram"></i></a>
                 </div>
               </div>
               <div class="member-info">
@@ -176,14 +172,12 @@ Con 28 años de experiencia podemos afirmar que nuestro servicio es el mejor par
           </div>
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="200">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="member-img">
                 <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
+                <a href="https://www.facebook.com/CleanEnergyRosarito/"><i class="icofont-facebook"></i></a>
+                <a href="https://www.instagram.com/cleanenergymx/"><i class="icofont-instagram"></i></a>
                 </div>
               </div>
               <div class="member-info">
@@ -198,10 +192,8 @@ Con 28 años de experiencia podemos afirmar que nuestro servicio es el mejor par
               <div class="member-img">
                 <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
+                <a href="https://www.facebook.com/CleanEnergyRosarito/"><i class="icofont-facebook"></i></a>
+                <a href="https://www.instagram.com/cleanenergymx/"><i class="icofont-instagram"></i></a>
                 </div>
               </div>
               <div class="member-info">
