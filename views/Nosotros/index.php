@@ -85,7 +85,7 @@
           <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right"></div>
           <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
             <div class="content d-flex flex-column justify-content-center">
-              <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">¿Que hacemos?</span></h2>
+              <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">¿Qué hacemos?</span></h2>
               <p data-aos="fade-up">
                 Ofrecemos la más amplia variedad de sistemas Fotovoltaicos y térmicos. 
                 Con las mejores marcas damos la oportunidad a nuestros clientes de que puedan encontrar todo en un mismo lugar. Así como herramientas para transformar a su negocio. Cámbiate a un lado mas amigable para el medio ambiente.</p>
@@ -99,17 +99,17 @@
                 <div class="col-md-4 icon-box" data-aos="fade-up">
                   <i class="bx bx-receipt"></i>
                   <h4>Servicio</h4>
-                  <p></p>
+                  <p>Cambia tu estilo de vida a uno más ecológico, te proveemos el mejor servicio para que tu hogar o local utilice energía solar.</p>
                 </div>
                 <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="100">
                   <i class="bx bx-cube-alt"></i>
                   <h4>Ecologia</h4>
-                  <p></p>
+                  <p>Tenemos un gran compromiso con el medio ambiente, tomando en cuenta la belleza e importancia de nuestra planeta, nuestro objetivo es cuidar nuestro entorno y tu economía.</p>
                 </div>
                 <div class="col-md-4 icon-box" data-aos="fade-up" data-aos-delay="200">
                   <i class="bx bx-images"></i>
                   <h4>Confiabilidad</h4>
-                  <p></p>
+                  <p>Tienes la certeza de que somos un equipo profesional que te dará las mejores opciones y orientación a tus necesidades.</p>
                 </div>                
               </div>
             </div><!-- End .content-->
