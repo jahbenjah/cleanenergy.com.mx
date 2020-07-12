@@ -149,7 +149,7 @@ Con 28 años de experiencia podemos afirmar que nuestro servicio es el mejor par
                   </div>
               </div>
               <div class="member-info">
-                <h4>Ing. rnesto Marin</h4>
+                <h4>Ing. Ernesto Marin</h4>
                 <span>Consultor</span>
               </div>
             </div>
