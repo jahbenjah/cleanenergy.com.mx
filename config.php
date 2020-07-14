@@ -13,7 +13,7 @@
 	// define('DB_PASS', 'clean2019');
 	// define('DB_NAME', 'jorg3avi_cleane');
 
-	define('URL', 'http://cleanenergy.com.mx/');
+	define('URL', 'https://cleanenergy.com.mx/');
 	define('DB_USER', 'u251065_cleane');
 	define('DB_PASS', 'Clean2019');
 	define('DB_NAME', 'u251065_cleane');
