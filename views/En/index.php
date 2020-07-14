@@ -71,12 +71,12 @@
     <div class="container d-flex">
 
       <div class="logo mr-auto">
-      <h1 class="text-light"><a href="index.html"><a href="index.html"><img src="<?= URL ?>/public/img/logo.png" alt="" class="img-fluid"></a></h1>
+      <h1 class="text-light"><a href="en/index.php"><a href="en/index.php"><img src="<?= URL ?>/public/img/logo.png" alt="" class="img-fluid"></a></h1>
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="<?= URL ?>en/home">Home</a></li>
+          <li class="active"><a href="<?= URL ?>en/index">Home</a></li>
           <li><a href="<?= URL ?>en/about">About Us</a></li>
           <li class="drop-down"><a href="">Products</a>
             <ul>
