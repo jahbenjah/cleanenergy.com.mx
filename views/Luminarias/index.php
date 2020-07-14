@@ -130,7 +130,7 @@ $luminarias = $this->luminarias;
                 <h4><?= html_entity_decode($luminarias[$i]['nombre']) ?></h4>
                 <p><?= html_entity_decode($luminarias[$i]['fabricante']) ?></p>
                 <a href="<?= URL ?>public/img/<?= html_entity_decode($luminarias[$i]['image']) ?>" data-gall="portfolioGallery" class="venobox preview-link" title="<?= html_entity_decode($luminarias[$i]['nombre']) ?>"><i class="bx bx-plus"></i></a>
-                <a href="<?= URL . 'autonomos/producto/' . $luminarias[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($luminarias[$i]['nombre'])) ?>" class="details-link" title="Ver Producto"><i class="bx bx-link"></i></a>
+                <a href="<?= URL . 'luminarias/producto/' . $luminarias[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($luminarias[$i]['nombre'])) ?>" class="details-link" title="Ver Producto"><i class="bx bx-link"></i></a>
               </div>
             </div>
           <?php

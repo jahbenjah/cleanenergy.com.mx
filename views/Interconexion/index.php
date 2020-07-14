@@ -135,7 +135,7 @@ $interconexion = $this->interconexion;
                 <h4><?= html_entity_decode($interconexion[$i]['nombre']) ?></h4>
                 <p><?= html_entity_decode($interconexion[$i]['fabricante']) ?></p>
                 <a href="<?= URL ?>public/img/<?= html_entity_decode($interconexion[$i]['image']) ?>" data-gall="portfolioGallery" class="venobox preview-link" title="<?= html_entity_decode($interconexion[$i]['nombre']) ?>"><i class="bx bx-plus"></i></a>
-                <a href="<?= URL . 'autonomos/producto/' . $interconexion[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($interconexion[$i]['nombre'])) ?>" class="details-link" title="Ver Producto"><i class="bx bx-link"></i></a>
+                <a href="<?= URL . 'interconexion/producto/' . $interconexion[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($interconexion[$i]['nombre'])) ?>" class="details-link" title="Ver Producto"><i class="bx bx-link"></i></a>
               </div>
             </div>
           <?php
