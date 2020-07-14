@@ -261,7 +261,7 @@ With 28 years of experience we can affirm that our service is the best for you.<
           </div>
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Regístrate</h4>
+            <h4>Register</h4>
             <p>Our copyorative catalogues have been updated.</p>
             <form action="https://cleanenergy.us10.list-manage.com/subscribe/post?u=39ba0c8b4ede43bedc1ae898f&amp;id=81663c505f" method="post">
               <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your e-mail here " required>

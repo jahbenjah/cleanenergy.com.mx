@@ -121,7 +121,7 @@
                 </div>
                 <div class="col-lg-4 info mt-4 mt-lg-0">
                   <i class="icofont-envelope"></i>
-                  <h4>E-mail:</h4>
+                  <h4>Email:</h4>
                   <p>contacto@cleanenergy.com.mx<br>emarin@cleanenergy.com.mx</p>
                 </div>
                 <div class="col-lg-4 info mt-4 mt-lg-0">
@@ -149,20 +149,20 @@
             <form action="https://formspree.io/xayppzlk"" method="post" role="form" class="php-email-form">
               <div class="form-row">
                 <div class="col-md-6 form-group">
-                  <input type="text" id="inputname" name="inputname" class="form-control" placeholder="Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <input type="text" id="inputname" name="inputname" class="form-control" placeholder="Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                   <div class="validate"></div>
                 </div>
                 <div class="col-md-6 form-group">
-                  <input type="email" class="form-control" id="inputemail" name="inputemail" placeholder="Correo" data-rule="email" data-msg="Please enter a valid email" />
+                  <input type="email" class="form-control" id="inputemail" name="inputemail" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
                   <div class="validate"></div>
                 </div>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" id="inputphone" name="inputphone" placeholder="Teléfono" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <input type="text" class="form-control" id="inputphone" name="inputphone" placeholder="Phone" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                 <div class="validate"></div>
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensaje"></textarea>
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                 <div class="validate"></div>
               </div>
               <div id="statusForm" class="mb-3">
@@ -216,7 +216,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Regístrate</h4>
+            <h4>Register</h4>
             <p>Our copyorative catalogues have been updated.</p>
             <form action="https://cleanenergy.us10.list-manage.com/subscribe/post?u=39ba0c8b4ede43bedc1ae898f&amp;id=81663c505f" method="post">
               <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your e-mail here " required>
