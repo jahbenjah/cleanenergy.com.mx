@@ -77,12 +77,12 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="<?= URL ?>en/home">Home</a></li>
-          <li><a href="<?= URL ?>en/aboutus">About Us</a></li>
+          <li><a href="<?= URL ?>en/about">About Us</a></li>
           <li class="drop-down"><a href="">Products</a>
             <ul>
-              <li><a href="<?= URL ?>en/interconexion">Interconexión</a></li>
-              <li><a href="<?= URL ?>en/autonomos">Autonomos</a></li>
-              <li><a href="<?= URL ?>en/luminarias">Luminarias</a></li>
+              <li><a href="<?= URL ?>interconexion">Interconexión</a></li>
+              <li><a href="<?= URL ?>autonomos">Autonomos</a></li>
+              <li><a href="<?= URL ?>luminarias">Luminarias</a></li>
             </ul>
           </li>
           <li><a href="<?= URL ?>en/contact">Contact</a></li>
@@ -255,7 +255,7 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Categories</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>en/home">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>en/index">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>en/aboutus">About Us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>en/contact">Contact</a></li>
             </ul>
@@ -264,9 +264,9 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Products</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>en/interconexion">Interconexión</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>en/autonomos">Autonomos</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>en/luminarias">Luminarias</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>interconexion">Interconexión</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>autonomos">Autonomos</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>luminarias">Luminarias</a></li>
             </ul>
           </div>
 

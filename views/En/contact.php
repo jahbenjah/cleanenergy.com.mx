@@ -1,167 +1,344 @@
-<?php 
+<?php
 
 ?>
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="utf-8">
-    <title>Clean Energy </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   
-    <meta name="keywords" content="" />
-    <link href="<?=URL?>public/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
-    <link href="<?=URL?>public/css/style.css" rel='stylesheet' type='text/css' />
-    <link href="<?=URL?>public/css/fontawesome-all.css" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-    <link rel="icon" href="<?=URL?>public/img/favicon.png">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170731497-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Clean Energy</title>
+  <meta content="" name="Somos El Centro de Distribución Solar más completo de México. Nuestro compromiso con el medio ambiente. Reduce tu gasto de electricidad en un 95%. Ofrecemos la más amplia variedad de sistemas Fotovoltaicos y térmicos. Con las mejores marcas damos la oportunidad a nuestros clientes de que puedan encontrar todo en un mismo lugar." name="description">
+  <meta content="" name="keywords">
+  <meta property="og:title" content="Clean Energy Rosarito" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://cleanenergy.com.mx/" />
+  <meta property="og:description" content="Somos El Centro de Distribución Solar más completo de México. Nuestro compromiso con el medio ambiente. Reduce tu gasto de electricidad en un 95%. Ofrecemos la más amplia variedad de sistemas Fotovoltaicos y térmicos. Con las mejores marcas damos la oportunidad a nuestros clientes de que puedan encontrar todo en un mismo lugar." />
+  <meta property="og:image" content="https://cleanenergy.com.mx/public/assets/img/og.png" />
+  <meta property="og:image:width" content="512" />
+  <meta property="og:image:height" content="512" />
 
-  gtag('config', 'UA-170731497-1');
-</script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">  
+  <meta name="theme-color" content="#ffffff">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  
+  <link href="<?= URL ?>public/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/aos/aos.css" rel="stylesheet">
+  
+  <link href="<?= URL ?>public/assets/css/style.css" rel="stylesheet">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170731497-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
+    function gtag() {
+    dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-170731497-1');
+  </script>
 </head>
+
 <body>
-    <div class="d-flex flex-column flex-md-row align-items-center px-md-4  border-bottom shadow-sm top_bg fixed-top sticky-top">
-      <p class="my-0  font-weight-normal bg-orange  pl-5 pr-5"><a href="tel:6611042808"><small class="text-white"><i class="fa fa-phone"></i>  (661) 104 2808 </a></small></p>
-      <span class="text-white ml-5 "><i class="fa fa-envelope"></i> contacto@cleanenergy.com.mx</span>
-      <a href="<?=URL?>contacto" class="ml-md-auto"><img src="<?=URL?>public/img/mx.png" alt="clean energy español"></a>
-      <?php
-        if (isset($_SESSION['name'])) {
-          ?>
-          <span class="pr-3 pl-3 text-white"><?=$_SESSION['name']?></span>
-          <a href="<?=URL?>index/destroySession" class="text-light pl-md-5 ">Salir</span></a>
-          <?php
-        }
-      ?>
-      
-    </div>
-    <div class="container-fluid">
-       <div class="row">
-            <div class="col-7 col-md-4 pt-2">
-              <div class="float-left">
-                <img src="<?=URL?>public/img/logo.png" alt="clean Energy logo" class="img-fluid" style="width: 60%;">
-              </div>
-            </div>
-            <div class="col-4 col-md-7">
-              <nav class="navbar navbar-expand-lg navbar-light bg-light pt-3 float-right">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa fa-bars"></i>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                      <ul class="nav float-right">
-                        <li class="nav-item">
-                          <a class="nav-link active" href="<?=URL?>us">Home</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="<?=URL?>en/about">About us</a>
-                        </li>
-                        <li class="nav-item">
-                              <a class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                               Products
-                              </a>
-                              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="<?=URL?>interconexion">Interconexion</a>
-                                <a class="dropdown-item" href="<?=URL?>autonomos">Autonomos</a>
-                                <a class="dropdown-item" href="<?=URL?>calentadores">Calentadores</a>
-                              </div>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="<?=URL?>en/contact">Contact</a>
-                        </li>
-                     </ul>
-                </div>
-              </nav>
-              
-            </div>
-       </div>
-    </div>
-    <section>
-      <div class="container">
-         <div class="row">
-           <div class="p-5">
-               <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">WE'RE HERE TO SERVE YOU</span> </h2>
-               <p class="pt-3 pl-5 pr-5">We are here to serve you, if you have any questions about our products, please fill out this form and we will contact you shortly.</p>
-           </div>
-           
-           <div class="col-12 col-md-6 p-3">
-              <div class="embed-responsive embed-responsive-4by3">
-                <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1192.0881562547693!2d-117.04827780819443!3d32.318986526649766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzLCsDE5JzA4LjQiTiAxMTfCsDAyJzUzLjgiVw!5e0!3m2!1ses!2smx!4v1570352676876!5m2!1ses!2smx" frameborder="0" style="border:0;" allowfullscreen="" ></iframe>
-              </div>
- 
-           </div>
-            <div class="col-12 col-md-6 pb-3">
-              <div class="contact-form">
-                <h3 class="text-center text-muted font-weight-normal">Contact Form</h3>
-                <form  method="post" id="sendMessageForm">
-                  <div class="form-group">
-                    <label for="exampleFormControlInput1">Name </label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="john">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleFormControlInput2">Email</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="john@gmail.com">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleFormControlInput3">Phone</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="111 222 3333">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleFormControlInput4">Message</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput4" placeholder="Your message">
-                  </div>
-                  <div class="text-center">
-                     <button type="submit" class="btn btn-block btn-energy">Send </button>
-                  </div>
-                  
-                </form>
-                <div id="statusSendMessageForm" ></div>
-              </div>
-           </div>
-         </div>
+
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-none d-lg-block">
+    <div class="container d-flex">
+      <div class="contact-info mr-auto">
+        <i class="icofont-envelope"></i><a href="contacto@cleanenergy.com.mx">contacto@cleanenergy.com.mx</a>
+        <i class="icofont-phone"></i> +52 661 104 2828
       </div>
-    </section>
-    <section class="pt-5 pb-5 top_bg">
-        <div class="container">
-          <div class="row">
-              <div class="col-6 col-md-4 m-auto pl-5">
-                <img src="<?=URL?>public/img/logo-white.png" alt="clean energy logo" class="img-fluid">
+      <div class="social-links">
+        <a href="https://www.facebook.com/CleanEnergyRosarito/" class="facebook"><i class="icofont-facebook"></i></a>
+        <a href="https://www.instagram.com/cleanenergymx/" class="instagram"><i class="icofont-instagram"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container d-flex">
+
+      <div class="logo mr-auto">
+      <a href="index.html"><img src="<?= URL ?>/public/img/logo.png" alt="" class="img-fluid"></a>        
+      </div>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li><a href="<?= URL ?>en/index">Home</a></li>
+          <li><a href="<?= URL ?>en/about">About Us</a></li>
+          <li class="drop-down"><a href="">Products</a>
+            <ul>
+              <li><a href="<?= URL ?>interconexion">Interconexión</a></li>
+              <li><a href="<?= URL ?>autonomos">Autonomos</a></li>
+              <li><a href="<?= URL ?>luminarias">Luminarias</a></li>
+            </ul>
+          </li>
+          <li class="active"><a href="<?= URL ?>en/contact">Contact</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+   
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+         
+               <h2 class="text-center font-weight-normal" data-aos="fade-up"><span style="border-bottom: 5px solid #f47825 !important;">Contact us</span> </h2>
+               <p class="text-center" data-aos="fade-up">Learn about the benefits of generating your own polluting-free renewable energy, reducing the rates of your services. <br>Call us, a Certified Technician will assist you. </p>
+           </div>
+                 
+	<div class="container">
+    <div class="map-section">
+      <iframe style="border:0; width: 100%; height: 450px;" title="Mapa Clean Energy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3091.88907568844!2d-117.05005113900367!3d32.319135082633366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d92f8d48ece72d%3A0x59c0e18969690ad5!2sCLEAN%20ENERGY!5e0!3m2!1sen!2smx!4v1594094211399!5m2!1sen!2smx" allowfullscreen></iframe>
+    </div>
+    
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="row justify-content-center" data-aos="fade-up">
+          <div class="col-lg-10">
+            <div class="info-wrap">
+              <div class="row">
+                <div class="col-lg-4 info">
+                  <i class="icofont-google-map"></i>
+                  <h4>Location:</h4>
+                  <p>Km29 Carrt. Tijuana Ensenada 3125<br>Hermenegildo Cuenca Diaz<br>
+              22710 Rosarito, B.C.</p>  
+                </div>
+                <div class="col-lg-4 info mt-4 mt-lg-0">
+                  <i class="icofont-envelope"></i>
+                  <h4>E-mail:</h4>
+                  <p>contacto@cleanenergy.com.mx<br>emarin@cleanenergy.com.mx</p>
+                </div>
+                <div class="col-lg-4 info mt-4 mt-lg-0">
+                  <i class="icofont-phone"></i>
+                  <h4>Phones:</h4>
+                  <p>+52 661 104 2828<br>+52 661 640 4105</p>
+                </div>
               </div>
-              <div class="col-6 col-md-4 text-center  ">
-                 <p><a href="<?=URL?>en" class="text-white">Home</a></p>
-                 <p><a href="<?=URL?>en/about" class="text-white">About us</a></p>
-                 <p><a href="<?=URL?>" class="text-white">Products</a></p>
-                 <p><a href="<?=URL?>en/contact" class="text-white">Contact</a></p>
-              </div>
-              <div class="col-12 col-md-4 text-white"> 
-                <h5 class="text-white font-weight-normal "><small class="text-energy"><i class="fa  fa-map"></i>  Address:</small></h5>
-                <p class="font-weight-normal mb-0">Blvd. Popotla 3125 L1 , Col. Cuenca Diaz</p>
-                <p  class="font-weight-normal">Rosarito, B.c. 22710</p>
-                <h5 class="text-white font-weight-normal text-energy"><small  class="text-energy"><i class="fa  fa-phone"></i>  Phones:</small></h5>
-                <p  class="font-weight-normal mb-0">(661) 104 2828</p>
-                <p  class="font-weight-normal">(661) 640 4105</p>
-                <h5 class="text-white font-weight-normal text-energy"><small  class="text-energy"><i class="fa  fa-envelope"></i> Email:</small></h5>
-                <p  class="font-weight-normal mb-0">contacto@cleanenergy.com.mx</p>
-              </div>
+            </div>
+
           </div>
-          
+
+        </div>
         </div>
         
-    </section>
-    <footer class="pt-4 pb-2 pt-md-5 bg-dark-blue">
-      <div class=" ">
-        <div class="col-12 col-md"> 
-          <small class="d-block  text-light text-center">&copy; 2019 Clean Energy</small>
+        <section id="formulario" class="formulario">
+          <div class="container">
+         
+           <h2 class="text-center font-weight-normal" data-aos="fade-up"><span style="border-bottom: 5px solid #f47825 !important;">Request a call</span></h2>
+            <p class="text-center" data-aos="fade-up">Get advised by one of our Certified Technicians.  Fill out this form and we will contact you shortly.</p>               
+             </div>                      
+              
+        <div class="row mt-5 justify-content-center" data-aos="fade-up">
+          <div class="col-lg-10">
+            <form action="https://formspree.io/xayppzlk"" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="col-md-6 form-group">
+                  <input type="text" id="inputname" name="inputname" class="form-control" placeholder="Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="email" class="form-control" id="inputemail" name="inputemail" placeholder="Correo" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="inputphone" name="inputphone" placeholder="Teléfono" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensaje"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div id="statusForm" class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
+            </form>
+          </div>
         </div>
       </div>
-    </footer>
-    <script src="<?=URL?>public/resources/jquery/jquery-2.1.4.min.js"></script>
-    <script src="<?=URL?>public/resources/bootstrap-4.0/js/bootstrap.min.js"></script>
-    <script src="<?=URL?>public/js/popper.min.js"></script>
-    <!-- <script src="<?=URL?>public/js/bootstrap.min.js"></script> -->
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+        <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Clean Energy</h3>
+            <p>
+              Km29 Carrt. Tijuana Ensenada 3125<br>Hermenegildo Cuenca Diaz<br>
+              22710 Rosarito, B.C.<br>              
+              <strong>Phone:</strong> +52 661 104 2828<br>
+              <strong>Phone:</strong> +52 661 640 4105<br>
+              <strong>E-mail:</strong> contacto@cleanenergy.com.mx<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Categories</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>en/index">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>en/aboutus">About Us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>en/contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Products</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>interconexion">Interconexión</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>autonomos">Autonomos</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>luminarias">Luminarias</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Regístrate</h4>
+            <p>Our copyorative catalogues have been updated.</p>
+            <form action="https://cleanenergy.us10.list-manage.com/subscribe/post?u=39ba0c8b4ede43bedc1ae898f&amp;id=81663c505f" method="post">
+              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your e-mail here " required>
+              <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscríbete" class="button"></div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="mr-md-auto text-center text-md-left">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Clean Energy</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed by <a href="rosaritocentro.com">rosaritocentro</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="https://www.facebook.com/CleanEnergyRosarito/" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/cleanenergymx/" class="instagram"><i class="bx bxl-instagram"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <script src="<?= URL ?>public/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/php-email-form/validate.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/venobox/venobox.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="<?= URL ?>public/assets/vendor/aos/aos.js"></script>
+  <script src="<?= URL ?>public/assets/js/main.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("#contactForm").validate({
+        rules: {
+          inputname: "required",
+          inputphone: "required",
+          inputemail: {
+            required: true,
+            email: true,
+          },
+        },
+        messages: {
+          inputname: "<span class='text-danger'>ingresa tu nombre</span>",
+          inputphone: "<span class='text-danger'>ingresa tu telefono</span>",
+          inputemail: {
+            required: "<span class='text-danger'>ingresa un email</span>",
+            email: "<span class='text-danger'>ingresa un correo valido</span>"
+          },
+        },
+
+        submitHandler: function() {
+          waiting();
+          sendContactForm();
+
+        },
+        highlight: function(element) {
+          var id_attr = "#" + $(element).attr("id") + "1";
+          $(element).closest('.form-group'). /*removeClass('has-success').*/ addClass('has-error');
+        },
+        unhighlight: function(element) {
+          var id_attr = "#" + $(element).attr("id") + "1";
+          $(element).closest('.form-group').removeClass('has-error') /*.addClass('has-success')*/ ;
+        },
+        errorElement: 'span',
+        errorClass: 'hidden',
+        errorPlacement: function(error, element) {
+          if (element.length) {
+            error.insertAfter(element);
+          } else {
+            error.insertAfter(element);
+          }
+        }
+      });
+
+      function sendContactForm() {
+        var formData = new FormData($('form#contactForm')[0]);
+        $.ajax({
+          url: "<?= URL ?>index/contactform",
+          type: 'POST',
+          data: formData,
+          beforeSend: function() {
+
+            $('#statusForm').removeClass('d-none');
+            $("#facturaForm").find('button[type="submit"]').html('Enviando..');
+            $("#facturaForm").find('button').removeAttr('disabled');
+          },
+          success: function(msg) {
+            if ($.isNumeric(msg)) {
+              $('#statusForm').html('<div class="alert alert-success"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><strong>Gracias por tu registro, en breve un representante le atendera..</strong> </div>');
+              setTimeout(function() {
+                location.reload()
+              }, 2500);
+            } else {
+              $('#statusForm').html('<div class="alert alert-warning"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><strong>ERROR:' + msg + '</strong></div>');
+            }
+          },
+          error: function() {
+            alert('');
+          },
+          cache: false,
+          contentType: false,
+          processData: false
+        });
+        return false;
+      }
+    });
+  </script>
+  <script>
+    function waiting() {
+      $('#statusForm').removeClass('d-none');
+    }
+  </script>
 </body>
+
 </html>
