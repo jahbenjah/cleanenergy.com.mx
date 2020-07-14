@@ -69,7 +69,7 @@
     <div class="container d-flex">
 
       <div class="logo mr-auto">
-      <a href="index.html"><img src="<?= URL ?>/public/img/logo.png" alt="" class="img-fluid"></a>        
+      <a href="index"><img src="<?= URL ?>/public/img/logo.png" alt="" class="img-fluid"></a>        
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
