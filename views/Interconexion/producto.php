@@ -76,7 +76,7 @@ $productDetails = $this->productDetails[0];
           <li><a href="<?= URL ?>nosotros">Nosotros</a></li>
           <li class="drop-down"><a href="">Productos</a>
             <ul>
-              <li class="active"><a href="<?= URL ?>interconexion">Interconexión</a></li>
+            <li class="active"><a href="<?= URL ?>interconexión">Interconexción</a></li>
               <li><a href="<?= URL ?>autonomos">Autonomos</a></li>
               <li><a href="<?= URL ?>luminarias">Luminarias</a></li>
             </ul>

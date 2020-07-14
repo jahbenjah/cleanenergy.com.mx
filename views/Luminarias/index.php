@@ -112,8 +112,7 @@ $luminarias = $this->luminarias;
         <div class="row" data-aos="fade-up">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">Todos</li>
-              <li data-filter=".filter-panel">Luminarias</li>
+              <li data-filter="*" class="filter-active">Luminarias</li>              
             </ul>
           </div>
         </div>
