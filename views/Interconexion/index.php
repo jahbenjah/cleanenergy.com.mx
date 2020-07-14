@@ -3,7 +3,6 @@ $interconexion = $this->interconexion;
 ?>
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -41,30 +40,28 @@ $interconexion = $this->interconexion;
     window.dataLayer = window.dataLayer || [];
 
     function gtag() {
-      dataLayer.push(arguments);
+    dataLayer.push(arguments);
     }
     gtag('js', new Date());
-
     gtag('config', 'UA-170731497-1');
   </script>
-
 </head>
 
 <body>
-  <div class="d-flex flex-column flex-md-row align-items-center px-md-4  border-bottom shadow-sm top_bg fixed-top sticky-top">
-    <p class="my-0  font-weight-normal bg-orange  pl-5 pr-5"><a href="tel:6611042808"><small class="text-white"><i class="fa fa-phone"></i> (661) 104 2808 </a></small></p>
-    <span class="text-white ml-5 "><i class="fa fa-envelope"></i> contacto@cleanenergy.com.mx</span>
-    <a href="#" class="ml-md-auto"><img src="<?= URL ?>public/img/us.png" alt="clean energy us"></a>
-    <?php
-    if (isset($_SESSION['name'])) {
-    ?>
-      <span class="pr-3 pl-3 text-white"><?= $_SESSION['name'] ?></span>
-      <a href="<?= URL ?>index/destroySession" class="text-light pl-md-5 ">Salir</span></a>
-    <?php
-    }
-    ?>
 
-  </div>
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-none d-lg-block">
+    <div class="container d-flex">
+      <div class="contact-info mr-auto">
+        <i class="icofont-envelope"></i><a href="contacto@cleanenergy.com.mx">contacto@cleanenergy.com.mx</a>
+        <i class="icofont-phone"></i> +52 661 104 2828
+      </div>
+      <div class="social-links">
+        <a href="https://www.facebook.com/CleanEnergyRosarito/" class="facebook"><i class="icofont-facebook"></i></a>
+        <a href="https://www.instagram.com/cleanenergymx/" class="instagram"><i class="icofont-instagram"></i></a>
+      </div>
+    </div>
+  </section>
 <!-- ======= Header ======= -->
 <header id="header">
     <div class="container d-flex">

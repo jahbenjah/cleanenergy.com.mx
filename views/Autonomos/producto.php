@@ -3,24 +3,29 @@ $productDetails = $this->productDetails[0];
 ?>
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Clean Energy Rosarito</title>
-  <meta content="" name="description">
+  <title>Clean Energy</title>
+  <meta content="" name="Somos El Centro de Distribución Solar más completo de México. Nuestro compromiso con el medio ambiente. Reduce tu gasto de electricidad en un 95%. Ofrecemos la más amplia variedad de sistemas Fotovoltaicos y térmicos. Con las mejores marcas damos la oportunidad a nuestros clientes de que puedan encontrar todo en un mismo lugar." name="description">
   <meta content="" name="keywords">
   <meta property="og:title" content="Clean Energy Rosarito" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://cleanenergy.com.mx/" />
-  <meta property="og:description" content="Distribución Solar más completo de México" />
-  <meta property="og:image" content="" />
-  <meta property="og:image:width" content="" />
-  <meta property="og:image:height" content="" />
+  <meta property="og:url" content="https://cleanenergy.com.mx/" />
+  <meta property="og:description" content="Somos El Centro de Distribución Solar más completo de México. Nuestro compromiso con el medio ambiente. Reduce tu gasto de electricidad en un 95%. Ofrecemos la más amplia variedad de sistemas Fotovoltaicos y térmicos. Con las mejores marcas damos la oportunidad a nuestros clientes de que puedan encontrar todo en un mismo lugar." />
+  <meta property="og:image" content="https://cleanenergy.com.mx/public/assets/img/og.png" />
+  <meta property="og:image:width" content="512" />
+  <meta property="og:image:height" content="512" />
 
-  <link href="<?= URL ?>public/assets/img/favicon.png" rel="icon">
-  <link href="<?= URL ?>assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">  
+  <meta name="theme-color" content="#ffffff">
+  
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  
   <link href="<?= URL ?>public/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="<?= URL ?>public/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
   <link href="<?= URL ?>public/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
@@ -28,37 +33,35 @@ $productDetails = $this->productDetails[0];
   <link href="<?= URL ?>public/assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="<?= URL ?>public/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="<?= URL ?>public/assets/vendor/aos/aos.css" rel="stylesheet">
+  
   <link href="<?= URL ?>public/assets/css/style.css" rel="stylesheet">
-  <link rel="icon" href="<?= URL ?>public/img/favicon.png">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170731497-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
 
     function gtag() {
-      dataLayer.push(arguments);
+    dataLayer.push(arguments);
     }
     gtag('js', new Date());
-
     gtag('config', 'UA-170731497-1');
   </script>
 </head>
 
 <body>
-  <div class="d-flex flex-column flex-md-row align-items-center px-md-4  border-bottom shadow-sm top_bg fixed-top sticky-top">
-    <p class="my-0  font-weight-normal bg-orange  pl-5 pr-5"><a href="tel:6611042808"><small class="text-white"><i class="fa fa-phone"></i> (661) 104 2808 </a></small></p>
-    <span class="text-white ml-5 "><i class="fa fa-envelope"></i> contacto@cleanenergy.com.mx</span>
-    <a href="#" class="ml-md-auto"><img src="<?= URL ?>public/img/us.png" alt="clean energy us"></a>
-    <?php
-    if (isset($_SESSION['name'])) {
-    ?>
-      <span class="pr-3 pl-3 text-white"><?= $_SESSION['name'] ?></span>
-      <a href="<?= URL ?>index/destroySession" class="text-light pl-md-5 ">Salir</span></a>
-    <?php
-    }
-    ?>
 
-  </div>
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-none d-lg-block">
+    <div class="container d-flex">
+      <div class="contact-info mr-auto">
+        <i class="icofont-envelope"></i><a href="contacto@cleanenergy.com.mx">contacto@cleanenergy.com.mx</a>
+        <i class="icofont-phone"></i> +52 661 104 2828
+      </div>
+      <div class="social-links">
+        <a href="https://www.facebook.com/CleanEnergyRosarito/" class="facebook"><i class="icofont-facebook"></i></a>
+        <a href="https://www.instagram.com/cleanenergymx/" class="instagram"><i class="icofont-instagram"></i></a>
+      </div>
+    </div>
+  </section>
   <!-- ======= Header ======= -->
   <header id="header">
     <div class="container d-flex">

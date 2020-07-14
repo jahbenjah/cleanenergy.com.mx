@@ -1,9 +1,8 @@
 <?php
-
+$productDetails = $this->productDetails[0];
 ?>
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -41,12 +40,12 @@
     window.dataLayer = window.dataLayer || [];
 
     function gtag() {
-      dataLayer.push(arguments);
+    dataLayer.push(arguments);
     }
     gtag('js', new Date());
     gtag('config', 'UA-170731497-1');
   </script>
-
+</head>
 
 <body>
 
@@ -63,7 +62,6 @@
       </div>
     </div>
   </section>
-
   <!-- ======= Header ======= -->
   <header id="header">
     <div class="container d-flex">
