@@ -100,7 +100,7 @@
           <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right"></div>
           <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
             <div class="content d-flex flex-column justify-content-center">
-              <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">¿Qué hacemos?</span></h2>
+              <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">What do we do?</span></h2>
               <p data-aos="fade-up">
               We offer you the widest variety of photovoltaic and thermal systems. 
               With the best brands we give the opportunity to our customers that they can find everything in one place. As well as tools to transform your business. Switch to a more environmentally friendly side.</p>
