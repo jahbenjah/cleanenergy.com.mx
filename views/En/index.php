@@ -151,7 +151,7 @@
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-        <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">Nuestras Marcas</span> </h2>
+        <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">Our Brands</span> </h2>
 
           <p></p>
         </div>
@@ -274,7 +274,7 @@
             <h4>Regístrate</h4>
             <p>Our copyorative catalogues have been updated.</p>
             <form action="https://cleanenergy.us10.list-manage.com/subscribe/post?u=39ba0c8b4ede43bedc1ae898f&amp;id=81663c505f" method="post">
-              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Correo electrónico aquí " required>
+              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your e-mail here " required>
               <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscríbete" class="button"></div>
             </form>
           </div>
