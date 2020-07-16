@@ -6,8 +6,10 @@ $interconexion = $this->interconexion;
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Clean Energy</title>
-  <meta content="" name="Somos El Centro de Distribución Solar más completo de México. Nuestro compromiso con el medio ambiente. Reduce tu gasto de electricidad en un 95%. Ofrecemos la más amplia variedad de sistemas Fotovoltaicos y térmicos. Con las mejores marcas damos la oportunidad a nuestros clientes de que puedan encontrar todo en un mismo lugar." name="description">
+  <title>Clean Energy Rosarito B. C.</title>
+  <meta 
+    content="Somos El Centro de Distribución Solar más completo de México. Nuestro compromiso con el medio ambiente. Reduce tu gasto de electricidad en un 95%."
+    name="description">
   <meta content="" name="keywords">
   <meta property="og:title" content="Clean Energy Rosarito" />
   <meta property="og:type" content="website" />
@@ -40,12 +42,83 @@ $interconexion = $this->interconexion;
     window.dataLayer = window.dataLayer || [];
 
     function gtag() {
-    dataLayer.push(arguments);
+      dataLayer.push(arguments);
     }
     gtag('js', new Date());
     gtag('config', 'UA-170731497-1');
+  </script> 
+  <script type="application/ld+json">
+  {
+    "@context" : "http://schema.org",
+    "@type" : "Organization",
+    "name" : "Clean Energy",
+   "url" : "https://cleanenergy.com.mx",
+   "sameAs" : [
+     "https://www.facebook.com/CleanEnergyRosarito",
+     "https://www.instagram.com/cleanenergymx/"
+     ]
+  }
   </script>
-</head>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "image": [
+         "https://cleanenergy.com.mx/favicon-32x32.png"
+       ],
+      "@id": "https://cleanenergy.com.mx/",
+      "name": "Clean Energy",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Km29 Carrt. Tijuana Ensenada 3125",
+        "addressLocality": "Baja California",
+        "addressRegion": "Rosarito",
+        "postalCode": "22710",
+        "addressCountry": "MX"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 32.319045,
+        "longitude": -117.048154
+      },
+      "url": "https://cleanenergy.com.mx/",
+      "telephone": "661 104 2828",      
+      "priceRange": "$$",
+      ,"openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday"
+          ],
+          "opens": "9:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "9:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "9:00",
+          "closes": "14:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "Closed",
+          "closes": "Closed"
+        }      
+    }
+</script>
+
 
 <body>
 
