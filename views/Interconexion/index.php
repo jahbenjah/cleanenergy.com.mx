@@ -50,7 +50,7 @@ $interconexion = $this->interconexion;
   <script type="application/ld+json">
   {
     "@context" : "http://schema.org",
-    "@type" : "Organization",
+    "@type" : "LocalBusiness",
     "name" : "Clean Energy",
    "url" : "https://cleanenergy.com.mx",
    "sameAs" : [
@@ -81,8 +81,8 @@ $interconexion = $this->interconexion;
         "latitude": 32.319045,
         "longitude": -117.048154
       },
-      "url": "https://cleanenergy.com.mx/",
-      "telephone": "661 104 2828",      
+      "url": "https://cleanenergy.com.mx/contacto",
+      "telephone": "+52 661 104 2828",      
       "priceRange": "$$",
       ,"openingHoursSpecification": [
         {
@@ -115,8 +115,11 @@ $interconexion = $this->interconexion;
           "dayOfWeek": "Sunday",
           "opens": "Closed",
           "closes": "Closed"
-        }      
+        }
+      ]        
     }
+  ]
+}
 </script>
 
 

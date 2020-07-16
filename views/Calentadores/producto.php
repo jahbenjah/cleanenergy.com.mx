@@ -4,27 +4,125 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="utf-8">
-    <title>Clean Energy </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   
-    <meta name="keywords" content="" />
-    <link href="<?=URL?>public/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
-    <link href="<?=URL?>public/css/style.css" rel='stylesheet' type='text/css' />
-    <link href="<?=URL?>public/css/fontawesome-all.css" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-    <link rel="icon" href="<?=URL?>public/img/favicon.png">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170731497-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Clean Energy Rosarito B. C.</title>
+  <meta 
+    content="Somos El Centro de Distribución Solar más completo de México. Nuestro compromiso con el medio ambiente. Reduce tu gasto de electricidad en un 95%."
+    name="description">
+  <meta content="" name="keywords">
+  <meta property="og:title" content="Clean Energy Rosarito" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://cleanenergy.com.mx/" />
+  <meta property="og:description" content="Somos El Centro de Distribución Solar más completo de México. Nuestro compromiso con el medio ambiente. Reduce tu gasto de electricidad en un 95%. Ofrecemos la más amplia variedad de sistemas Fotovoltaicos y térmicos. Con las mejores marcas damos la oportunidad a nuestros clientes de que puedan encontrar todo en un mismo lugar." />
+  <meta property="og:image" content="https://cleanenergy.com.mx/public/assets/img/og.png" />
+  <meta property="og:image:width" content="512" />
+  <meta property="og:image:height" content="512" />
 
-  gtag('config', 'UA-170731497-1');
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">  
+  <meta name="theme-color" content="#ffffff">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  
+  <link href="<?= URL ?>public/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/vendor/aos/aos.css" rel="stylesheet">
+  
+  <link href="<?= URL ?>public/assets/css/style.css" rel="stylesheet">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170731497-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-170731497-1');
+  </script> 
+  <script type="application/ld+json">
+  {
+    "@context" : "http://schema.org",
+    "@type" : "LocalBusiness",
+    "name" : "Clean Energy",
+   "url" : "https://cleanenergy.com.mx",
+   "sameAs" : [
+     "https://www.facebook.com/CleanEnergyRosarito",
+     "https://www.instagram.com/cleanenergymx/"
+     ]
+  }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "image": [
+         "https://cleanenergy.com.mx/favicon-32x32.png"
+       ],
+      "@id": "https://cleanenergy.com.mx/",
+      "name": "Clean Energy",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Km29 Carrt. Tijuana Ensenada 3125",
+        "addressLocality": "Baja California",
+        "addressRegion": "Rosarito",
+        "postalCode": "22710",
+        "addressCountry": "MX"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 32.319045,
+        "longitude": -117.048154
+      },
+      "url": "https://cleanenergy.com.mx/contacto",
+      "telephone": "+52 661 104 2828",      
+      "priceRange": "$$",
+      ,"openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday"
+          ],
+          "opens": "9:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "9:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "9:00",
+          "closes": "14:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "Closed",
+          "closes": "Closed"
+        }
+      ]        
+    }
+  ]
+}
 </script>
 
-</head>
+
 <body>
     <div class="d-flex flex-column flex-md-row align-items-center px-md-4  border-bottom shadow-sm top_bg fixed-top sticky-top">
       <p class="my-0  font-weight-normal bg-orange  pl-5 pr-5"><a href="tel:6611042808"><small class="text-white"><i class="fa fa-phone"></i>  (661) 104 2808 </a></small></p>
