@@ -50,7 +50,7 @@ $productDetails = $this->productDetails[0];
   <script type="application/ld+json">
   {
     "@context" : "http://schema.org",
-    "@type" : "LocalBusiness",
+    "@type" : "Organization",
     "name" : "Clean Energy",
    "url" : "https://cleanenergy.com.mx",
    "sameAs" : [
@@ -71,19 +71,19 @@ $productDetails = $this->productDetails[0];
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Km29 Carrt. Tijuana Ensenada 3125",
-        "addressLocality": "Baja California",
-        "addressRegion": "Rosarito",
+        "addressLocality": "Playas de Rosarito",
+        "addressRegion": "Baja California",
         "postalCode": "22710",
         "addressCountry": "MX"
       },
       "geo": {
         "@type": "GeoCoordinates",
         "latitude": 32.319045,
-        "longitude": -117.048154
+        "longitude": 32.319045
       },
       "url": "https://cleanenergy.com.mx/contacto",
-      "telephone": "+52 661 104 2828",      
-      "priceRange": "$$",
+      "telephone": "+52661142828",
+      "priceRange": "$$"
       ,"openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
@@ -91,7 +91,7 @@ $productDetails = $this->productDetails[0];
             "Monday",
             "Tuesday"
           ],
-          "opens": "9:00",
+          "opens": "09:00",
           "closes": "18:00"
         },
         {
@@ -101,26 +101,24 @@ $productDetails = $this->productDetails[0];
             "Thursday",
             "Friday"
           ],
-          "opens": "9:00",
+          "opens": "09:00",
           "closes": "18:00"
         },
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": "Saturday",
-          "opens": "9:00",
+          "opens": "09:00",
           "closes": "14:00"
         },
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": "Sunday",
-          "opens": "Closed",
-          "closes": "Closed"
+          "opens": "closed",
+          "closes": "closed"
         }
-      ]        
-    }
-  ]
-}
-</script>
+       ]
+    },
+ </script>
 
 
 <body>
