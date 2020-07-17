@@ -109,7 +109,7 @@ $autonomos = $this->autonomos;
           "closes": "closed"
         }
        ]
-    },
+    }
  </script>
 
 

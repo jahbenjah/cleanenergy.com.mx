@@ -109,7 +109,7 @@
           "closes": "closed"
         }
        ]
-    },
+    }
  </script>
 
 
