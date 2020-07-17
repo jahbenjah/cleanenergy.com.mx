@@ -48,26 +48,18 @@ $autonomos = $this->autonomos;
     gtag('config', 'UA-170731497-1');
   </script> 
   <script type="application/ld+json">
-  {
-    "@context" : "http://schema.org",
-    "@type" : "Organization",
-    "name" : "Clean Energy",
-   "url" : "https://cleanenergy.com.mx",
-   "sameAs" : [
-     "https://www.facebook.com/CleanEnergyRosarito",
-     "https://www.instagram.com/cleanenergymx/"
-     ]
-  }
-  </script>
-  <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "image": [
          "https://cleanenergy.com.mx/favicon-32x32.png"
-       ],
+        ],
       "@id": "https://cleanenergy.com.mx/",
       "name": "Clean Energy",
+      "sameAs" : [
+        "https://www.facebook.com/CleanEnergyRosarito",
+        "https://www.instagram.com/cleanenergymx/"
+        ],
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Km29 Carrt. Tijuana Ensenada 3125",
@@ -79,7 +71,7 @@ $autonomos = $this->autonomos;
       "geo": {
         "@type": "GeoCoordinates",
         "latitude": 32.319045,
-        "longitude": 32.319045
+        "longitude": -117.048154
       },
       "url": "https://cleanenergy.com.mx/contacto",
       "telephone": "+52661142828",

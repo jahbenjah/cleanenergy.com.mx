@@ -65,9 +65,13 @@ $productDetails = $this->productDetails[0];
       "@type": "LocalBusiness",
       "image": [
          "https://cleanenergy.com.mx/favicon-32x32.png"
-       ],
+        ],
       "@id": "https://cleanenergy.com.mx/",
       "name": "Clean Energy",
+      "sameAs" : [
+        "https://www.facebook.com/CleanEnergyRosarito",
+        "https://www.instagram.com/cleanenergymx/"
+        ],
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Km29 Carrt. Tijuana Ensenada 3125",
@@ -79,7 +83,7 @@ $productDetails = $this->productDetails[0];
       "geo": {
         "@type": "GeoCoordinates",
         "latitude": 32.319045,
-        "longitude": 32.319045
+        "longitude": -117.048154
       },
       "url": "https://cleanenergy.com.mx/contacto",
       "telephone": "+52661142828",
