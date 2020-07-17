@@ -125,7 +125,7 @@
       <div class="social-links">
         <a href="https://www.facebook.com/CleanEnergyRosarito/" class="facebook"><i class="icofont-facebook"></i></a>
         <a href="https://www.instagram.com/cleanenergymx/" class="instagram"><i class="icofont-instagram"></i></a>
-        <a href="<?= URL ?>"><img src="<?= URL ?>/public/img/us.png" alt="clean energy us"></a>
+        <a href="<?= URL ?>"><img src="<?= URL ?>/public/img/mx.png" alt="clean energy us"></a>
       </div>
     </div>
   </section>

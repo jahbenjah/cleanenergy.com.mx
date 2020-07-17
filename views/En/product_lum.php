@@ -125,7 +125,7 @@ $productDetails = $this->productDetails[0];
       <div class="social-links">
         <a href="https://www.facebook.com/CleanEnergyRosarito/" class="facebook"><i class="icofont-facebook"></i></a>
         <a href="https://www.instagram.com/cleanenergymx/" class="instagram"><i class="icofont-instagram"></i></a>
-        <a href="<?= URL ?>"><img src="<?= URL ?>/public/img/us.png" alt="clean energy us"></a>
+        <a href="<?= URL ?>"><img src="<?= URL ?>/public/img/mx.png" alt="clean energy us"></a>
       </div>
     </div>
   </section>
@@ -143,9 +143,9 @@ $productDetails = $this->productDetails[0];
           <li><a href="<?= URL ?>nosotros">Nosotros</a></li>
           <li class="drop-down"><a href="">Productos</a>
             <ul>
-            <li class="active"><a href="<?= URL ?>interconexión">Interconexción</a></li>
+              <li><a href="<?= URL ?>interconexion">Interconexión</a></li>
               <li><a href="<?= URL ?>autonomos">Autonomos</a></li>
-              <li><a href="<?= URL ?>luminarias">Luminarias</a></li>
+              <li class="active"><a href="<?= URL ?>luminarias">Luminarias</a></li>
             </ul>
           </li>
           <li><a href="<?= URL ?>contacto">Contacto</a></li>
@@ -162,9 +162,9 @@ $productDetails = $this->productDetails[0];
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Productos Fotovoltaicos para Interconexión</h2>
+          <h2></h2>
           <ol>
-            <li><a href="<?= URL ?>interconexcion">Interconexión</a></li>
+            <li><a href="<?= URL ?>luminarias">Luminarias</a></li>
             <li><?= $productDetails['categoria'] ?></li>
           </ol>
         </div>

@@ -1,5 +1,5 @@
 <?php
-$productDetails = $this->productDetails[0];
+$autonomos = $this->autonomos;
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -109,7 +109,7 @@ $productDetails = $this->productDetails[0];
           "closes": "closed"
         }
        ]
-    },
+    }
  </script>
 
 
@@ -125,7 +125,7 @@ $productDetails = $this->productDetails[0];
       <div class="social-links">
         <a href="https://www.facebook.com/CleanEnergyRosarito/" class="facebook"><i class="icofont-facebook"></i></a>
         <a href="https://www.instagram.com/cleanenergymx/" class="instagram"><i class="icofont-instagram"></i></a>
-        <a href="<?= URL ?>"><img src="<?= URL ?>/public/img/us.png" alt="clean energy us"></a>
+        <a href="<?= URL ?>"><img src="<?= URL ?>/public/img/mx.png" alt="clean energy us"></a>
       </div>
     </div>
   </section>
@@ -143,8 +143,8 @@ $productDetails = $this->productDetails[0];
           <li><a href="<?= URL ?>nosotros">Nosotros</a></li>
           <li class="drop-down"><a href="">Productos</a>
             <ul>
-            <li class="active"><a href="<?= URL ?>interconexión">Interconexción</a></li>
-              <li><a href="<?= URL ?>autonomos">Autonomos</a></li>
+              <li><a href="<?= URL ?>interconexion">Interconexión</a></li>
+              <li class="active"><a href="<?= URL ?>autonomos">Autonomos</a></li>
               <li><a href="<?= URL ?>luminarias">Luminarias</a></li>
             </ul>
           </li>
@@ -162,46 +162,59 @@ $productDetails = $this->productDetails[0];
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Productos Fotovoltaicos para Interconexión</h2>
+          <h2>Autonomos</h2>
           <ol>
-            <li><a href="<?= URL ?>interconexcion">Interconexión</a></li>
-            <li><?= $productDetails['categoria'] ?></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li>Autonomos</li>
           </ol>
         </div>
 
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <!-- ======= Portfolio Details Section ======= -->
-    <section id="portfolio-details" class="portfolio-details">
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
       <div class="container">
-        <h2 class="portfolio-title"><?= $productDetails['nombre'] ?> <?= html_entity_decode($productDetails['fabricante']) ?> </h2>
-        <div class="row">
 
-          <div class="col-lg-7" data-aos="fade-right">
-            <div class="owl-carousel portfolio-details-carousel">
-              <img src="<?= URL ?>public/img/<?= $productDetails['image'] ?>" alt="<?= $productDetails['nombre'] ?>" class="img-fluid">
-            </div>
-          </div>
-
-          <div class="col-lg-5 portfolio-info" data-aos="fade-left">
-            <h3><?= $productDetails['nombre'] ?></h3>
-            <ul>
-              <li><strong>Fabricante</strong>: <?= html_entity_decode($productDetails['fabricante']) ?></li>
-              <li><strong>Categoria</strong>: <?= html_entity_decode($productDetails['categoria']) ?></li>
-              <li><strong>Ficha técnica</strong>: <a href="<?= URL ?>public/img/<?= $productDetails['urlfichatecnica'] ?>" target="_blank">Ver archivo</a></li>
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">Todos</li>
+              <li data-filter=".filter-panel">Paneles Autónomos</li>
+              <li data-filter=".filter-inversor">Inversores de Plantas Solares</li>
+              <li data-filter=".filter-microinversor">Controladores</li>
+              <li data-filter=".filter-montaje">Baterías</li>
+              <li data-filter=".filter-accesorios">Bombas</li>
+              <li data-filter=".filter-accesorios">Luminaria Solar</li>
+              <li data-filter=".filter-accesorios">Refrigeradores</li>
             </ul>
-
-            <p>
-              <?= html_entity_decode($productDetails['caracteristicas']) ?>
-            </p>
           </div>
         </div>
 
+        <div class="row portfolio-container" data-aos="fade-up">
+          <?php
+          for ($i = 0; $i < count($autonomos); $i++) {
+          ?>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <img src="<?= URL ?>public/img/<?= html_entity_decode($autonomos[$i]['image']) ?>" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><?= html_entity_decode($autonomos[$i]['nombre']) ?></h4>
+                <p><?= html_entity_decode($autonomos[$i]['fabricante']) ?></p>
+                <a href="<?= URL ?>public/img/<?= html_entity_decode($autonomos[$i]['image']) ?>" data-gall="portfolioGallery" class="venobox preview-link" title="<?= html_entity_decode($autonomos[$i]['nombre']) ?>"><i class="bx bx-plus"></i></a>
+                <a href="<?= URL . 'autonomos/producto/' . $autonomos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($autonomos[$i]['nombre'])) ?>" class="details-link" title="Ver Producto"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          <?php
+          }
+          ?>
+
+        </div>
+
       </div>
-    </section><!-- End Portfolio Details Section -->
+    </section><!-- End Portfolio Section -->
 
   </main><!-- End #main -->
+
   <!-- ======= Footer ======= -->
   <footer id="footer">
 
