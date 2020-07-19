@@ -171,7 +171,7 @@
             <div class="carousel-content animate__animated animate__fadeInUp">
               <h2 class="text-center"><span>We are the most complete Solar Distribution Center in Mexico</span></h2>
               <p class="text-center">Our commitment to the environment. <br>Reduce your electric bill up to 95%</p>
-              <div class="text-center"><a href="<?= URL ?>contacto" class="btn-get-started">Get a quote</a></div>
+              <div class="text-center"><a href="<?= URL ?>en/contacto" class="btn-get-started">Get a quote</a></div>
             </div>
           </div>
         </div>
@@ -339,7 +339,7 @@
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Register</h4>
-            <p>Our copyorative catalogues have been updated.</p>
+            <p>Our corporate products have been updated.</p>
             <form action="https://cleanenergy.us10.list-manage.com/subscribe/post?u=39ba0c8b4ede43bedc1ae898f&amp;id=81663c505f" method="post">
               <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your e-mail here " required>
               <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscríbete" class="button"></div>

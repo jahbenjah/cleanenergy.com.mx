@@ -284,7 +284,7 @@
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Regístrate</h4>
-            <p>Nuestros catálogos coporativos han sido actualizados tanto en español como en inglés.</p>
+            <p>Nuestros productos corporativos han sido actualizados.</p>
             <form action="https://cleanenergy.us10.list-manage.com/subscribe/post?u=39ba0c8b4ede43bedc1ae898f&amp;id=81663c505f" method="post">
               <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Correo electrónico aquí " required>
               <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscríbete" class="button"></div>
