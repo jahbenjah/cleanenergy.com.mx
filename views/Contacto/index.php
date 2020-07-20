@@ -297,7 +297,7 @@
 
     <div class="container d-md-flex py-4">
 
-      <div class="mr-md-auto text-center text-md-left">
+    <div class="mr-md-auto text-center text-md-center">
         <div class="copyright">
           &copy; Copyright <strong><span>Clean Energy</span></strong>. All Rights Reserved
         </div>
