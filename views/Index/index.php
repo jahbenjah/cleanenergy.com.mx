@@ -1,9 +1,10 @@
 <?php
 
 ?>
-<!DOCTYPE html>
-<html lang="es">
 
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head -->
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -19,25 +20,31 @@
   <meta property="og:image" content="https://cleanenergy.com.mx/public/assets/img/og.png" />
   <meta property="og:image:width" content="512" />
   <meta property="og:image:height" content="512" />
-
+  
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
   <meta name="msapplication-TileColor" content="#da532c">  
   <meta name="theme-color" content="#ffffff">
-  
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-  
-  <link href="<?= URL ?>public/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="<?= URL ?>public/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="<?= URL ?>public/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="<?= URL ?>public/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="<?= URL ?>public/assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="<?= URL ?>public/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="<?= URL ?>public/assets/vendor/aos/aos.css" rel="stylesheet">
-  
-  <link href="<?= URL ?>public/assets/css/style.css" rel="stylesheet">
+
+<!--FlexSlider-->
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<!--//FlexSlider-->
+	
+<link href="css/lsb.css" rel="stylesheet" type="text/css"><!-- gallery -->
+
+<!-- custom css theme files -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<!-- //custom css theme files -->
+
+<!-- google fonts -->
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'><!--web font-->
+<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+<!-- //google fonts -->
+
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170731497-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -110,270 +117,649 @@
           "closes": "closed"
         }
        ]
-    }
+    },
  </script>
 
-
+</head>
+<!-- Body -->
 <body>
+<!-- banner -->
+<div class="w3l-banner">
+<div class="wthree-dot">
+		<!-- nav -->
+		<div class="header w3layouts">
+				<div class="container-fluid">
+					<nav class="navbar navbar-default">
+						<div class="navbar-header navbar-left">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<h1><a class="navbar-brand" href="index.html"><span>Clean</span>Energy</a></h1>
+						</div>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+							<nav>
+								<ul class="nav navbar-nav top-right">
+									<li class="active"><a href="index.html">Inicio</a></li>
+									<li><a href="#about" class="scroll">Nosotros</a></li>
+									<li><a href="#services" class="scroll">Servicios</a></li>
+									<li><a href="#team" class="scroll">Equipo</a></li>
+									<li><a href="#gallery" class="scroll">Proyectos</a></li>
+									<li><a href="#contact" class="scroll">Contacto</a></li>
+								</ul>
+								
+							</nav>
+						<ul class="top-links social">
+							<li><a href="https://www.facebook.com/CleanEnergyRosarito/"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://www.instagram.com/cleanenergymx/"><i class="fa fa-instagram"></i></a></li>
+						</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		<!-- //nav -->
 
-  <!-- ======= Top Bar ======= -->
-  <section id="topbar" class="d-none d-lg-block">
-    <div class="container d-flex">
-      <div class="contact-info mr-auto">
-        <i class="icofont-envelope"></i><a href="contacto@cleanenergy.com.mx">contacto@cleanenergy.com.mx</a>
-        <i class="icofont-phone"></i> +52 661 104 2828
-      </div>
-      <div class="social-links">
-        <a href="https://www.facebook.com/CleanEnergyRosarito/" class="facebook"><i class="icofont-facebook"></i></a>
-        <a href="https://www.instagram.com/cleanenergymx/" class="instagram"><i class="icofont-instagram"></i></a>
-        <a href="<?= URL ?>en/index"><img src="<?= URL ?>/public/img/us.png" alt="clean energy us"></a>
-      </div>
-    </div>
-  </section>
+		<!-- //Header -->
+		<div class="container">
+			<div class="flexslider-info">
+				<section class="slider">
+					<div class="flexslider">
+						<ul class="slides">
+							<li>
+							<div class="w3l-info">
+								<a href="index.html"><img src="images/logob.png" alt="" /></a>
+								<p>Somos El Centro de Distribución Solar más completo de México<br>
+								 Nuestro compromiso con el medio ambiente.<br>
+								 Reduce tu gasto de electricidad en un 95%.</p>
+								<ul>
+									<li><a href="#contact" class="scroll w3l_contact">Cotiza Ahora!</a></li>
+									<li><a href="#contact" class="scroll w3l_contact">Contáctanos</a></li>
+								</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //banner -->
 
-  <!-- ======= Header ======= -->
+<!-- banner bottom -->
+<div class="banner-bottom">
+	<div class="container">
+		<div class="col-md-6 bottomleft">
+			<h3>Tenemos los mejores productos</h3>
+			<p>En CLEAN ENERGY sólo distribuimos productos de la más alta calidad, contamos con las mejores marcas del mercado a un precio accesible. Podrás encontrar todo tipo de productos solares, desde Paneles y Calentadores hasta Inversores y Controladores para plantas solares.</p>
+			<p></p>
+		</div>
+		<div class="col-md-6 bottomright">
+			<img src="images/1.jpg" alt="" />
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- //banner bottom -->
 
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="container d-flex">
+<!-- about -->
+<div class="about" id="about">
+	<div class="container">
+		<h3 class="heading">Nosotros</h3>
+			<div class="abouttop">
+				<div class="col-md-6">
+					<div class="abouttopleft">
+						<h3>¿Qué hacemos?</h3>
+						<p><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Ofrecemos la más amplia variedad de sistemas Fotovoltaicos y térmicos.</p>
+						<p><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Con las mejores marcas damos la oportunidad a nuestros clientes de que puedan encontrar todo en un mismo lugar. </p>
+						<p><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Así como herramientas para transformar a su negocio.</p>
+						<p><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Cámbiate a un lado mas amigable para el medio ambiente.</p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="abouttopright">
+						<img src="images/about1.jpg" alt="" />
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="aboutbottom">
+				<div class="col-md-6">
+					<div class="aboutbottomleft">
+						<img src="images/about2.jpg" alt="" />
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="aboutbottomright">
+						<h3>¿Quiénes somos?</h3>
+						<p><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Somos el centro de distribución solar más completo de México.</p>
+						<p><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Con un gran compromiso para el medio ambiente. </p>
+						<p><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Estamos transformando a México a través de la energía solar.</p>
+						<p><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Con 28 años de experiencia podemos afirmar que nuestro servicio es el mejor para ti.</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+	</div>
+</div>
+<!-- //about -->
 
-      <div class="logo mr-auto">
-      <h1 class="text-light"><a href="index.html"><a href="index.html"><img src="<?= URL ?>/public/img/logo.png" alt="" class="img-fluid"></a></h1>
-      </div>
+<!-- services -->
+	<div class="services" id="services">
+		<div class="container">
+		<h3 class="heading">Servicios</h3>
+			<div class="agileits-services">
+				<div class="services-right-grids">
+					<div class="col-sm-3 services-right-grid">
+						<div class="services-icon hvr-radial-in">
+							<i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+						</div>
+						<div class="services-icon-info">
+							<h5>Servicio</h5>
+							<p>Cambia tu estilo de vida a uno más ecológico, te proveemos el mejor servicio para que tu hogar o local utilice energía solar.</p>
+						</div>
+					</div>
+					<div class="col-sm-3 services-right-grid">
+						<div class="services-icon hvr-radial-in">
+							<i class="fa fa-globe" aria-hidden="true"></i>
+						</div>
+						<div class="services-icon-info">
+							<h5>Ecología</h5>
+							<p>Tenemos un gran compromiso con el medio ambiente, tomando en cuenta la belleza e importancia de nuestro planeta, nuestro objetivo es cuidar nuestro entorno y tu economía.</p>
+						</div>
+					</div>
+					<div class="col-sm-3 services-right-grid">
+						<div class="services-icon hvr-radial-in">
+							<i class="fa fa-bolt" aria-hidden="true"></i>
+						</div>
+						<div class="services-icon-info">
+							<h5>Calidad</h5>
+							<p>Nos aseguramos de contar con las mejores opciones de materiales disponibles en el mercado utilizando equipo de última generación con la mejor calidad para darte un excelente servicio.</p>
+						</div>
+					</div>
+					<div class="col-sm-3 services-right-grid">
+						<div class="services-icon hvr-radial-in">
+							<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+						</div>
+						<div class="services-icon-info">
+							<h5>Confiabilidad</h5>
+							<p>Tienes la certeza de que somos un equipo profesional que te dará las mejores opciones y orientación a tus necesidades.</p>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- //services -->
 
-      <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="<?= URL ?>inicio">Inicio</a></li>
-          <li><a href="<?= URL ?>nosotros">Nosotros</a></li>
-          <li class="drop-down"><a href="">Productos</a>
-            <ul>
-              <li><a href="<?= URL ?>interconexion">Interconexión</a></li>
-              <li><a href="<?= URL ?>autonomos">Autonomos</a></li>
-              <li><a href="<?= URL ?>luminarias">Luminarias</a></li>
-            </ul>
-          </li>
-          <li><a href="<?= URL ?>contacto">Contacto</a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
+<!--/team-->
+<div class="team" id="team">
+	<div class="container">
+		<h3 class="heading">Equipo</h3>
+			   <div class="about-section agileits">
+				<div class="col-md-6 ab-left">
+				  <div class="grid">
+			        <div class="h-f">
+					<figure class="effect-jazz">
+					<img src="images/t1.jpg" alt="img25">
+						<figcaption>
+							<h4>Ernesto<span>Marín</span></h4>
+							
+							<p>
+							  Consultor
+							</p>
+							
+						</figcaption>			
+					</figure>
+					
+				 </div>
+				 <div class="h-f">
+					<figure class="effect-jazz">
+						<img src="images/t2.jpg" alt="img25">
+						<figcaption>
+							<h4>Gabriel<span>Gutiérrez</span></h4>
+							
+							<p>
+							  Técnico Certificado
+							</p>
+							
+						</figcaption>			
+					</figure>
+					
+				 </div>
+				 <div class="clearfix"> </div>
+				 </div>
+			   </div>
+			   <div class="about-section">
+						<div class="col-md-6 ab-left">
+				  <div class="grid">
+			        <div class="h-f">
+					<figure class="effect-jazz">
+					<img src="images/t4.jpg" alt="img25">
+						<figcaption>
+							<h4>Luis<span>Otañez</span></h4>
+							
+							<p>
+							  Técnico
+							</p>
+							
+						</figcaption>			
+					</figure>
+					
+				 </div>
+				 <div class="h-f">
+					<figure class="effect-jazz">
+						<img src="images/t3.jpg" alt="img25">
+						<figcaption>
+							<h4>William<span>Ker</span></h4>
+						
+							<p>
+							  Técnico
+							</p>
+						
+						</figcaption>			
+					</figure>
+					
+				 </div>
+				 <div class="clearfix"> </div>
+				 </div>
+			   </div>
+					<div class="clearfix"> </div>
+			 </div>
+			</div>
+	     </div>
+</div>
+<!--/team-->
 
-    </div>
-  </header><!-- End Header -->
+<!--gallery-->
+<div class="gallery" id="gallery">
+	<div class="container">
+		<h3 class="heading">Proyectos</h3>
+	</div>
+			<ul id="flexiselDemo1">	
+			<li>
+				<div class="wthree_gallery_grid">
+					<a href="images/g1.jpg" class="lsb-preview" data-lsb-group="header">
+						<div class="view second-effect">
+							<img src="images/g1.jpg" alt="" class="img-responsive" />
+							<div class="mask">
+								<h6>Clean Energy</h6>
+								<p>Nuestro compromiso con el medio ambiente</p>
+							</div>
+						</div>	
+					</a>
+				</div>
+			</li>
+			<li>
+				<div class="wthree_gallery_grid">
+					<a href="images/g2.jpg" class="lsb-preview" data-lsb-group="header">
+						<div class="view second-effect">
+							<img src="images/g2.jpg" alt="" class="img-responsive" />
+							<div class="mask">
+								<h6>Clean Energy</h6>
+								<p>Reduce tu gasto de electricidad en un 95%</p>
+							</div>
+						</div>	
+					</a>
+				</div>
+			</li>
+			<li>
+				<div class="wthree_gallery_grid">
+					<a href="images/g3.jpg" class="lsb-preview" data-lsb-group="header">
+						<div class="view second-effect">
+							<img src="images/g3.jpg" alt="" class="img-responsive" />
+							<div class="mask">
+								<h6>Clean Energy</h6>
+								<p>Nuestro compromiso con el medio ambiente</p>
+							</div>
+						</div>	
+					</a>
+				</div>
+			</li>
+			<li>
+				<div class="wthree_gallery_grid">
+					<a href="images/g4.jpg" class="lsb-preview" data-lsb-group="header">
+						<div class="view second-effect">
+							<img src="images/g4.jpg" alt="" class="img-responsive" />
+							<div class="mask">
+								<h6>Clean Energy</h6>
+								<p>Reduce tu gasto de electricidad en un 95%</p>
+							</div>
+						</div>	
+					</a>
+				</div>
+			</li>
+			<li>
+				<div class="wthree_gallery_grid">
+					<a href="images/g5.jpg" class="lsb-preview" data-lsb-group="header">
+						<div class="view second-effect">
+							<img src="images/g5.jpg" alt="" class="img-responsive" />
+							<div class="mask">
+								<h6>Clean Energy</h6>
+								<p>Nuestro compromiso con el medio ambiente</p>
+							</div>
+						</div>	
+					</a>
+				</div>
+			</li>
+			<li>
+				<div class="wthree_gallery_grid">
+					<a href="images/g6.jpg" class="lsb-preview" data-lsb-group="header">
+						<div class="view second-effect">
+							<img src="images/g6.jpg" alt="" class="img-responsive" />
+							<div class="mask">
+								<h6>Clean Energy</h6>
+								<p>Reduce tu gasto de electricidad en un 95%</p>
+							</div>
+						</div>	
+					</a>
+				</div>
+			</li>
+			<li>
+				<div class="wthree_gallery_grid">
+					<a href="images/g7.jpg" class="lsb-preview" data-lsb-group="header">
+						<div class="view second-effect">
+							<img src="images/g7.jpg" alt="" class="img-responsive" />
+							<div class="mask">
+								<h6>Clean Energy</h6>
+								<p>Nuestro compromiso con el medio ambiente</p>
+							</div>
+						</div>	
+					</a>
+				</div>
+			</li>
+		</ul>
+	</div>
+<!--//gallery-->
+		
+<!--/reviews-->
+<!--div id="testimonials" class="testimonials">
+		<div class="container">
+		<h3 class="heading">Testimonials</h3>
+				<div class="test-monials">
+				<//screen-gallery-->
+						<!--div class="sreen-gallery-cursual">
+							
+						       <div id="owl-demo" class="owl-carousel">
+					                 <div class="item-owl">
+					                	<div class="test-review">
+											<div class="img-agile">
+												<img src="images/ts1.jpg" class="img-responsive" alt=""/>
+											</div>
+											<div class="textagile">
+												<p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
+													ut labore et doloremagnal aliquyamerat, sed diam voluptua. At vero eos et accusam
+													et justo duo dolores et ea rebum stet kasd gubergren sed diam aliquyamerat, sed voluptua.</p>
+												 <h5>Linda Carl</h5>
+											</div>
+										</div>
+					                </div>
+					                 <div class="item-owl">
+					                	<div class="test-review">
+											<div class="img-agile">
+												<img src="images/ts2.jpg" class="img-responsive" alt=""/>
+											</div>
+											<div class="textagile">
+												<p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
+													ut labore et doloremagnal aliquyamerat, sed diam voluptua. At vero eos et accusam
+													et justo duo dolores et ea rebum stet kasd gubergren sed diam aliquyamerat, sed voluptua.</p>
+												<h5>Williams Allen</h5>
+											</div>
+					                	</div>
+					                </div>
+					                 <div class="item-owl">
+					                	<div class="test-review">
+											<div class="img-agile">
+												<img src="images/ts3.jpg" class="img-responsive" alt=""/>
+											</div>
+											<div class="textagile">
+												<p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
+													ut labore et doloremagnal aliquyamerat, sed diam voluptua. At vero eos et accusam
+													et justo duo dolores et ea rebum stet kasd gubergren sed diam aliquyamerat, sed voluptua.</p>
+												<h5>Ashley Rose</h5>
+											</div>
+					                	</div>
+					                </div>
+				              </div>
+					</div>
+				</div>
+			</div>
+		</div-->
+<!--//reviews-->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+<!-- blog -->
+	<div class="blog" id="blog">
+		<div class="container">
+			<h3 class="heading">Asesorate</h3>
+			<div class="agile_inner_w3ls-grids">
+	
+				<div class="col-sm-6 w3-agile-post-grids">
+					<div class="w3-agile-post-img w3-agile-post-img1">
+						<a href="#" data-toggle="modal" data-target="#"> 
+						</a>
+					</div>
+					<div class="w3-agile-post-info">
+						<h4><a href="#" data-toggle="modal" data-target="#">Contáctanos</a></h4>
+						<p>Conoce los beneficios de generar tu propia energía renovable sin contaminantes, reduciendo las tarifas de tus servicios. <br>Llámanos, un Técnico Certificado te atenderá.</p>
+						<ul>
+							<li><a href="#contact"></a></li>
+							<li></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-6 w3-agile-post-grids">
+					<div class="w3-agile-post-img w3-agile-post-img2">
+						<a href="#" data-toggle="modal" data-target="#"> 
+						</a>
+					</div>
+					<div class="w3-agile-post-info">
+						<h4><a href="#" data-toggle="modal" data-target="#">Solicita una llamada</a></h4>
+						<p>Asesorarte con uno de nuestros Técnicos Certificados.</p>
+						<ul>
+							<li><a href="#contact"></a></li>
+							<li></li>
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //blog -->
 
-      <div class="carousel-inner" role="listbox">
+<!-- contact -->
+<div class="contact" id="contact">
+	<div class="container">
+		<h3 class="heading">Contáctanos</h3>
+		<h4></h4>
+	</div>
+	<div class="contactright1">
+		<p><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>Km29 Carrt. Tijuana Ensenada 3125, Hermenegildo Cuenca Diaz, 22710 Rosarito, B.C.</p>
+		<p><span class="glyphicon glyphicon-phone" aria-hidden="true"></span>+52 661 104 2828</p>
+		<p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:contacto@cleanenergy.com">contacto@cleanenergy.com</a></p>
+		<p><span class="glyphicon fa fa-facebook" aria-hidden="true"></span><a href="https://www.facebook.com/CleanEnergyRosarito/">Siguenos en Facebook</a></p>
+		<p><span class="glyphicon fa fa-instagram" aria-hidden="true"></span><a href="https://www.instagram.com/cleanenergymx/">Sigue nuestras redes sociales </a></p>
+		</ul>
+	</div>
+	<iframe style="border:0; width: 100%; height: 450px;" title="Mapa Clean Energy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3091.88907568844!2d-117.05005113900367!3d32.319135082633366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d92f8d48ece72d%3A0x59c0e18969690ad5!2sCLEAN%20ENERGY!5e0!3m2!1sen!2smx!4v1594094211399!5m2!1sen!2smx" allowfullscreen></iframe>
+</div>	
+</div>	
+<div class="contactform">
+		<div class="container">
+		<h3 class="heading">Escríbenos</h3>
+		<h4></h4>
+			<div class="agileits_agile_about_mail">
+				<form action="#" method="post">
+					<div class="col-md-6 agileits_agile_about_mail_left">
+						<input type="text" name="Name" placeholder="Name" required="">
+					<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-6 agileits_agile_about_mail_left">
+						<input type="text" name="Subject" placeholder="Subject" required="">
+					<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-6 agileits_agile_about_mail_left">
+						<input type="email" name="Email" placeholder="Email" required="">
+					<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-6 agileits_agile_about_mail_left">
+						<input type="text" name="Phone" placeholder="Phone" required="">
+					<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+					<textarea name="Message" placeholder="Message..." required=""></textarea>
+					<div class="submit">
+						<input type="submit" value="Submit">
+					</div>
+				</form>
+			</div>
+		</div>
+</div>
+<!-- //contact -->
 
-        <!-- Slide 1 -->
-        <div class="carousel-item active" style="background-image: url(/public/img/banner3.jpg);">
-          <div class="carousel-container">
-            <div class="carousel-content animate__animated animate__fadeInUp">
-              <h2 class="text-center"><span>Somos El Centro de Distribución Solar más completo de México</span></h2>
-              <p class="text-center">Nuestro compromiso con el medio ambiente. <br>Reduce tu gasto de electricidad en un 95%.</p>
-              <div class="text-center"><a href="<?= URL ?>contacto" class="btn-get-started">Cotiza Ahora!</a></div>
-            </div>
-          </div>
-        </div>
+<!-- copyright -->
+<div class="wthree_copy_right">
+	<div class="container">
+		<p>&copy; 2020 Clean Energy. All rights reserved | Design by <a href="http://rosaritocentro.com/">Rosarito Centro</a></p>
+			
+	</div>
+</div>
+<!-- //copyright -->
 
-      </div>
+<!-- bootstrap-modal-pop-up -->
+	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					 Solar energy
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div>
+					<div class="modal-body">
+						<img src="images/1.jpg" alt=" " class="img-responsive" />
+						<p>
+							<i>" Quis autem vel eum iure reprehenderit qui in ea voluptate velit 
+								esse quam nihil molestiae consequatur.</i></p>
+					</div>
+			</div>
+		</div>
+	</div>
+<!-- //bootstrap-modal-pop-up --> 
 
-      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon bx bx-left-arrow" aria-hidden="true"></span>
-        <span class="sr-only">Anterio</span>
-      </a>
+<!-- Default-JavaScript-File -->
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- //Default-JavaScript-File -->
 
-      <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon bx bx-right-arrow" aria-hidden="true"></span>
-        <span class="sr-only">Siguiente</span>
-      </a>
+<!--Start-slider-script-->
+	<script defer src="js/jquery.flexslider.js"></script>
+		<script type="text/javascript">
+		
+		$(window).load(function(){
+		  $('.flexslider').flexslider({
+			animation: "slide",
+			start: function(slider){
+			  $('body').removeClass('loading');
+			}
+		  });
+		});
+	  </script>
+<!--End-slider-script-->
 
-      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+<!-- testimonials required-js-files-->
+							<link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+							        <script>
+							    $(document).ready(function() {
+							      $("#owl-demo").owlCarousel({
+							        items : 1,
+							        lazyLoad : true,
+							        autoPlay : true,
+							        navigation : false,
+							        navigationText :  false,
+							        pagination : true,
+							      });
+							    });
+							    </script>
+<!--// testimonials required-js-files-->
 
-    </div>
-  </section><!-- End Hero -->
+<!-- flexisel -->
+		<script type="text/javascript">
+		$(window).load(function() {
+			$("#flexiselDemo1").flexisel({
+				visibleItems: 4,
+				animationSpeed: 1000,
+				autoPlay: true,
+				autoPlaySpeed: 3000,    		
+				pauseOnHover: true,
+				enableResponsiveBreakpoints: true,
+				responsiveBreakpoints: { 
+					portrait: { 
+						changePoint:480,
+						visibleItems: 1
+					}, 
+					landscape: { 
+						changePoint:640,
+						visibleItems:2
+					},
+					tablet: { 
+						changePoint:768,
+						visibleItems: 2
+					}
+				}
+			});
+			
+		});
+	</script>
+	<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+<!-- //flexisel -->
 
-  <main id="main">
+<!-- gallery-pop-up -->
+	<script src="js/lsb.min.js"></script>
+	<script>
+	$(window).load(function() {
+		  $.fn.lightspeedBox();
+		});
+	</script>
+<!-- //gallery-pop-up -->
 
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-      <div class="container">
+<!-- smooth scrolling -->
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	<!-- //here ends scrolling icon -->
+<!-- smooth scrolling -->
 
-        <div class="row">
-          <div class="col-lg-9 text-center text-lg-left">
-            <h3><span>Tenemos los mejores productos</span></h3>
-            <p> En CLEAN ENERGY sólo distribuimos productos de la más alta calidad, contamos con las mejores marcas del mercado a un precio accesible. Podrás encontrar todo tipo de productos solares, desde Paneles y Calentadores hasta Inversores y Controladores para plantas solares.</p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="<?= URL ?>contacto">Cotiza Ahora</a>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Cta Section -->
-
-    <!-- ======= Our Clients Section ======= -->
-    <section id="clients" class="clients">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-        <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">Nuestras Marcas</span> </h2>
-
-          <p></p>
-        </div>
-
-        <div class="row no-gutters clients-wrap clearfix" data-aos="fade-up">
-
-            <div class="col-lg-3 col-md-4 col-xs-6">              
-                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Solar_Energy_BC.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">              
-                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Ctrl_Sun.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">              
-                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_DAH.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Enphase.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Fangpusun.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img//marcas/Marcas_Distribuidas_Por_Solar_Center_Fronius.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Go_Solar.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Growatt.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Hoymiles.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Jntech.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Marzo_2019_GCL.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_NEP.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Part_Master.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_QXPV.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Samlex.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Seraphim.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_SHURflo.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Solis.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_SRNE.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Unirac.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Yassion.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_ZJ_Beny.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Our Clients Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Clean Energy</h3>
-            <p>
-              Km29 Carrt. Tijuana Ensenada 3125<br>Hermenegildo Cuenca Diaz<br>
-              22710 Rosarito, B.C.<br>              
-              <strong>Teléfono:</strong> +52 661 104 2828<br>
-              <strong>Teléfono:</strong> +52 661 640 4105<br>
-              <strong>Correo:</strong> contacto@cleanenergy.com.mx<br>
-            </p>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Categorías</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>inicio">Inicio</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>nosotros">Nosotros</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>contacto">Contacto</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Nuestros Productos</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>interconexion">Interconexión</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>autonomos">Autonomos</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>luminarias">Luminarias</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Regístrate</h4>
-            <p>Nuestros productos corporativos han sido actualizados.</p>
-            <form action="https://cleanenergy.us10.list-manage.com/subscribe/post?u=39ba0c8b4ede43bedc1ae898f&amp;id=81663c505f" method="post">
-              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Correo electrónico aquí " required>
-              <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscríbete" class="button"></div>
-            </form>
-          </div>
-
-          <div class="container d-md-flex py-6">
-
-            <div class="mr-md-auto text-center text-md-center">
-              <div class="copyright">
-                &copy; Copyright <strong><span>Clean Energy</span></strong>. All Rights Reserved
-              </div>
-              <div class="credits">
-                Designed by <a href="rosaritocentro.com">rosaritocentro</a>
-              </div>
-            </div>
-            <div class="social-links text-center text-md-right pt-3 pt-md-0">
-              <a href="https://www.facebook.com/CleanEnergyRosarito/" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="https://www.instagram.com/cleanenergymx/" class="instagram"><i class="bx bxl-instagram"></i></a>
-            </div>
-          </div>
-  </footer><!-- End Footer -->
-
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-  <script src="<?= URL ?>public/assets/vendor/jquery/jquery.min.js"></script>
-  <script src="<?= URL ?>public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="<?= URL ?>public/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="<?= URL ?>public/assets/vendor/php-email-form/validate.js"></script>
-  <script src="<?= URL ?>public/assets/vendor/jquery-sticky/jquery.sticky.js"></script>
-  <script src="<?= URL ?>public/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="<?= URL ?>public/assets/vendor/venobox/venobox.min.js"></script>
-  <script src="<?= URL ?>public/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="<?= URL ?>public/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="<?= URL ?>public/assets/vendor/aos/aos.js"></script>
-  <script src="<?= URL ?>public/assets/js/main.js"></script>
+<!-- scrolling script -->
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+<!-- //scrolling script -->
+	
 </body>
-
+<!-- //Body -->
 </html>
