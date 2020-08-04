@@ -213,7 +213,7 @@
               
         <div class="row mt-5 justify-content-center" data-aos="fade-up">
           <div class="col-lg-10">
-            <form action="https://formspree.io/xayppzlk" method="post" role="form" class="php-email-form">
+            <form action="https://formspree.io/xayppzlk" method="post" class="php-email-form">
               <div class="form-row">
                 <div class="col-md-6 form-group">
                   <input type="text" id="inputname" name="inputname" class="form-control" placeholder="Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
