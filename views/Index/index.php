@@ -3,7 +3,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <!-- Head -->
 <head>
   <meta charset="utf-8">

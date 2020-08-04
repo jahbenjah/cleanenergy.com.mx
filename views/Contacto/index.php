@@ -213,7 +213,7 @@
               
         <div class="row mt-5 justify-content-center" data-aos="fade-up">
           <div class="col-lg-10">
-            <form action="https://formspree.io/xayppzlk"" method="post" role="form" class="php-email-form">
+            <form action="https://formspree.io/xayppzlk" method="post" role="form" class="php-email-form">
               <div class="form-row">
                 <div class="col-md-6 form-group">
                   <input type="text" id="inputname" name="inputname" class="form-control" placeholder="Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -324,88 +324,8 @@
   <script src="<?= URL ?>public/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="<?= URL ?>public/assets/vendor/aos/aos.js"></script>
   <script src="<?= URL ?>public/assets/js/main.js"></script>
-  <script>
-    $(document).ready(function() {
-      $("#contactForm").validate({
-        rules: {
-          inputname: "required",
-          inputphone: "required",
-          inputemail: {
-            required: true,
-            email: true,
-          },
-        },
-        messages: {
-          inputname: "<span class='text-danger'>ingresa tu nombre</span>",
-          inputphone: "<span class='text-danger'>ingresa tu telefono</span>",
-          inputemail: {
-            required: "<span class='text-danger'>ingresa un email</span>",
-            email: "<span class='text-danger'>ingresa un correo valido</span>"
-          },
-        },
-
-        submitHandler: function() {
-          waiting();
-          sendContactForm();
-
-        },
-        highlight: function(element) {
-          var id_attr = "#" + $(element).attr("id") + "1";
-          $(element).closest('.form-group'). /*removeClass('has-success').*/ addClass('has-error');
-        },
-        unhighlight: function(element) {
-          var id_attr = "#" + $(element).attr("id") + "1";
-          $(element).closest('.form-group').removeClass('has-error') /*.addClass('has-success')*/ ;
-        },
-        errorElement: 'span',
-        errorClass: 'hidden',
-        errorPlacement: function(error, element) {
-          if (element.length) {
-            error.insertAfter(element);
-          } else {
-            error.insertAfter(element);
-          }
-        }
-      });
-
-      function sendContactForm() {
-        var formData = new FormData($('form#contactForm')[0]);
-        $.ajax({
-          url: "<?= URL ?>index/contactform",
-          type: 'POST',
-          data: formData,
-          beforeSend: function() {
-
-            $('#statusForm').removeClass('d-none');
-            $("#facturaForm").find('button[type="submit"]').html('Enviando..');
-            $("#facturaForm").find('button').removeAttr('disabled');
-          },
-          success: function(msg) {
-            if ($.isNumeric(msg)) {
-              $('#statusForm').html('<div class="alert alert-success"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><strong>Gracias por tu registro, en breve un representante le atendera..</strong> </div>');
-              setTimeout(function() {
-                location.reload()
-              }, 2500);
-            } else {
-              $('#statusForm').html('<div class="alert alert-warning"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><strong>ERROR:' + msg + '</strong></div>');
-            }
-          },
-          error: function() {
-            alert('');
-          },
-          cache: false,
-          contentType: false,
-          processData: false
-        });
-        return false;
-      }
-    });
-  </script>
-  <script>
-    function waiting() {
-      $('#statusForm').removeClass('d-none');
-    }
-  </script>
+  
+  
 </body>
 
 </html>
