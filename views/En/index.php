@@ -175,7 +175,7 @@
             </div>
           </div>
         </div>
-        
+
         <!-- Slide 2 -->
         <div class="carousel-item active" style="background-image: url(/public/img/banner1.jpg);">
           <div class="carousel-container">
@@ -213,6 +213,7 @@
       <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
     </div>
+    
   </section><!-- End Hero -->
 
   <main id="main">
