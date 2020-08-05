@@ -176,6 +176,28 @@
           </div>
         </div>
 
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(/public/img/banner.jpg);">
+          <div class="carousel-container">
+            <div class="carousel-content animate__animated animate__fadeInUp">
+              <h2 class="text-center"><span>Somos El Centro de Distribución Solar más completo de México</span></h2>
+              <p class="text-center">Nuestro compromiso con el medio ambiente. <br>Reduce tu gasto de electricidad en un 95%.</p>
+              <div class="text-center"><a href="<?= URL ?>contacto" class="btn-get-started">Cotiza Ahora!</a></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(/public/img/banner4.jpg);">
+          <div class="carousel-container">
+            <div class="carousel-content animate__animated animate__fadeInUp">
+              <h2 class="text-center"><span>Somos El Centro de Distribución Solar más completo de México</span></h2>
+              <p class="text-center">Nuestro compromiso con el medio ambiente. <br>Reduce tu gasto de electricidad en un 95%.</p>
+              <div class="text-center"><a href="<?= URL ?>contacto" class="btn-get-started">Cotiza Ahora!</a></div>
+            </div>
+          </div>
+        </div>
+
       </div>
 
       <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
@@ -191,6 +213,7 @@
       <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
     </div>
+
   </section><!-- End Hero -->
 
   <main id="main">
@@ -224,73 +247,138 @@
 
         <div class="row no-gutters clients-wrap clearfix" data-aos="fade-up">
 
-            <div class="col-lg-3 col-md-4 col-xs-6">              
+            <div class="col-lg-3 col-md-4 col-xs-6"> 
+              <div class="client-logo">           
                 <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Solar_Energy_BC.png" alt="clean energy marcas" class="img-fluid">
+              </div>  
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">              
+
+            <div class="col-lg-3 col-md-4 col-xs-6">  
+              <div class="client-logo">            
                 <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Ctrl_Sun.png" alt="clean energy marcas" class="img-fluid">
+              </div>  
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">              
+
+            <div class="col-lg-3 col-md-4 col-xs-6">    
+              <div class="client-logo">          
                 <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_DAH.png" alt="clean energy marcas" class="img-fluid">
+              </div>  
             </div>
+
             <div class="col-lg-3 col-md-4 col-xs-6">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Enphase.png" alt="clean energy marcas" class="img-fluid">
+              <div class="client-logo">
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Enphase.png" alt="clean energy marcas" class="img-fluid">
+              </div>  
             </div>
+
             <div class="col-lg-3 col-md-4 col-xs-6">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Fangpusun.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img//marcas/Marcas_Distribuidas_Por_Solar_Center_Fronius.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Go_Solar.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Growatt.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Hoymiles.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Jntech.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Marzo_2019_GCL.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_NEP.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Part_Master.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_QXPV.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Samlex.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Seraphim.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_SHURflo.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Solis.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_SRNE.png" alt="clean energy marcas" class="img-fluid">
-            </div>
-            <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Unirac.png" alt="clean energy marcas" class="img-fluid">
+              <div class="client-logo">
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Fangpusun.png" alt="clean energy marcas" class="img-fluid">
+              </div>              
             </div>
 
             <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Yassion.png" alt="clean energy marcas" class="img-fluid">
+              <div class="client-logo">
+                <img src="<?= URL ?>public/img//marcas/Marcas_Distribuidas_Por_Solar_Center_Fronius.png" alt="clean energy marcas" class="img-fluid">
+              </div>  
             </div>
+
             <div class="col-6 col-md-2">
-              <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_ZJ_Beny.png" alt="clean energy marcas" class="img-fluid">
+              <div class="client-logo">
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Go_Solar.png" alt="clean energy marcas" class="img-fluid">
+              </div>  
             </div>
+
+            <div class="col-6 col-md-2">
+              <div class="client-logo">
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Growatt.png" alt="clean energy marcas" class="img-fluid">
+              </div>  
+            </div>
+
+            <div class="col-6 col-md-2">
+              <div class="client-logo">
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Hoymiles.png" alt="clean energy marcas" class="img-fluid">
+              </div>  
+            </div>
+
+            <div class="col-6 col-md-2">
+              <div class="client-logo">
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Jntech.png" alt="clean energy marcas" class="img-fluid">
+              </div>  
+            </div>
+            
+            <div class="col-6 col-md-2">
+              <div class="client-logo">
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Marzo_2019_GCL.png" alt="clean energy marcas" class="img-fluid">
+              </div>  
+            </div>
+            
+            <div class="col-6 col-md-2">
+              <div class="client-logo">
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_NEP.png" alt="clean energy marcas" class="img-fluid">
+              </div>  
+            </div>
+            
+            <div class="col-6 col-md-2">
+              <div class="client-logo">
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Part_Master.png" alt="clean energy marcas" class="img-fluid">
+              </div>  
+            </div>
+            
+            <div class="col-6 col-md-2">
+              <div class="client-logo">
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_QXPV.png" alt="clean energy marcas" class="img-fluid">
+              </div>  
+            </div>
+            
+            <div class="col-6 col-md-2">
+              <div class="client-logo">
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Samlex.png" alt="clean energy marcas" class="img-fluid">
+              </div>  
+            </div>
+            
+            <div class="col-6 col-md-2">
+              <div class="client-logo">
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Seraphim.png" alt="clean energy marcas" class="img-fluid">
+              </div>  
+            </div>
+            
+            <div class="col-6 col-md-2">
+              <div class="client-logo">
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_SHURflo.png" alt="clean energy marcas" class="img-fluid">
+              </div>  
+            </div>
+            
+            <div class="col-6 col-md-2">
+              <div class="client-logo">
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Solis.png" alt="clean energy marcas" class="img-fluid">
+              </div>  
+            </div>
+            
+            <div class="col-6 col-md-2">
+              <div class="client-logo">
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_SRNE.png" alt="clean energy marcas" class="img-fluid">
+              </div>  
+            </div>
+            
+            <div class="col-6 col-md-2">
+              <div class="client-logo">
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Unirac.png" alt="clean energy marcas" class="img-fluid">
+              </div>  
+            </div>
+            
+            <div class="col-6 col-md-2">
+              <div class="client-logo">
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Yassion.png" alt="clean energy marcas" class="img-fluid">
+              </div>  
+            </div>
+            
+            <div class="col-6 col-md-2">
+              <div class="client-logo">
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_ZJ_Beny.png" alt="clean energy marcas" class="img-fluid">
+              </div>  
+            </div>
+            
           </div>
 
         </div>
