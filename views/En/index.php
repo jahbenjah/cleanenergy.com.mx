@@ -171,29 +171,29 @@
             <div class="carousel-content animate__animated animate__fadeInUp">
               <h2 class="text-center"><span>We are the most complete Solar Distribution Center in Mexico</span></h2>
               <p class="text-center">Our commitment to the environment. <br>Reduce your electric bill up to 95%</p>
-              <div class="text-center"><a href="<?= URL ?>en/contacto" class="btn-get-started">Get a quote</a></div>
+              <div class="text-center"><a href="<?= URL ?>contacto" class="btn-get-started">Get a quote</a></div>
             </div>
           </div>
         </div>
 
         <!-- Slide 2 -->
-        <div class="carousel-item active" style="background-image: url(/public/img/banner1.jpg);">
+        <div class="carousel-item" style="background-image: url(/public/img/banner1.jpg);">
           <div class="carousel-container">
             <div class="carousel-content animate__animated animate__fadeInUp">
               <h2 class="text-center"><span>We are the most complete Solar Distribution Center in Mexico</span></h2>
               <p class="text-center">Our commitment to the environment. <br>Reduce your electric bill up to 95%</p>
-              <div class="text-center"><a href="<?= URL ?>en/contacto" class="btn-get-started">Get a quote</a></div>
+              <div class="text-center"><a href="<?= URL ?>contacto" class="btn-get-started">Get a quote</a></div>
             </div>
           </div>
-        </div>   
+        </div>
 
         <!-- Slide 3 -->
-        <div class="carousel-item active" style="background-image: url(/public/img/banner4.jpg);">
+        <div class="carousel-item" style="background-image: url(/public/img/banner4.jpg);">
           <div class="carousel-container">
             <div class="carousel-content animate__animated animate__fadeInUp">
               <h2 class="text-center"><span>We are the most complete Solar Distribution Center in Mexico</span></h2>
               <p class="text-center">Our commitment to the environment. <br>Reduce your electric bill up to 95%</p>
-              <div class="text-center"><a href="<?= URL ?>en/contacto" class="btn-get-started">Get a quote</a></div>
+              <div class="text-center"><a href="<?= URL ?>contacto" class="btn-get-started">Get a quote</a></div>
             </div>
           </div>
         </div>
@@ -213,7 +213,7 @@
       <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
     </div>
-    
+
   </section><!-- End Hero -->
 
   <main id="main">
