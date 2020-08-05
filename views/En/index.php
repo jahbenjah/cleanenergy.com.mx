@@ -177,7 +177,7 @@
         </div>
 
         <!-- Slide 2 -->
-        <div class="carousel-item" style="background-image: url(/public/img/banner1.jpg);">
+        <div class="carousel-item" style="background-image: url(/public/img/bannerpagina.png);">
           <div class="carousel-container">
             <div class="carousel-content animate__animated animate__fadeInUp">
               <h2 class="text-center"><span>We are the most complete Solar Distribution Center in Mexico</span></h2>
