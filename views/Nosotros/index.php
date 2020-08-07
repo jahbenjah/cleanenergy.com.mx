@@ -149,6 +149,7 @@
               <li><a href="<?= URL ?>luminarias">Luminarias</a></li>
             </ul>
           </li>
+          <li><a href="<?= URL ?>productos">Productos</a></li>
           <li><a href="<?= URL ?>contacto">Contacto</a></li>
         </ul>
       </nav><!-- .nav-menu -->
