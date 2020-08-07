@@ -145,13 +145,7 @@
         <ul>
           <li class="active"><a href="<?= URL ?>inicio">Inicio</a></li>
           <li><a href="<?= URL ?>nosotros">Nosotros</a></li>
-          <li class="drop-down"><a href="">Productos</a>
-            <ul>
-              <li><a href="<?= URL ?>interconexion">Interconexión</a></li>
-              <li><a href="<?= URL ?>autonomos">Autonomos</a></li>
-              <li><a href="<?= URL ?>luminarias">Luminarias</a></li>
-            </ul>
-          </li>
+          <li><a href="<?= URL ?>interconexion">Productos</a></li>
           <li><a href="<?= URL ?>contacto">Contacto</a></li>
         </ul>
       </nav><!-- .nav-menu -->
