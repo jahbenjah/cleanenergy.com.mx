@@ -1,14 +1,14 @@
 <?php
-	class Contacto extends Controller
+class Contacto extends Controller
+{
+	function __construct()
 	{
-	    function __construct()
-	    {
-	        parent::__construct();
-	    }
-
-	    function index(){
-	    	 
-	    	$this->view->render($this, 'index');	    	
-	    }
+		parent::__construct();
 	}
+
+	function index()
+	{
+		$this->view->render($this, 'index');
+	}
+}
 ?>

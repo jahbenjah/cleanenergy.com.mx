@@ -8,7 +8,7 @@ class Productos extends Controller
 
 	function index()
 	{
-		$this->view->productos = $this->model->interconexion('Paneles Solares');
+		$this->view->productos = $this->model->productos('Paneles Solares');
 		$this->view->render($this, 'index');
 	}
 	function Categoria($cat)

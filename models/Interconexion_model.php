@@ -1,10 +1,10 @@
 <?php
-	class Interconexion_model extends Model
+	class Productos_model extends Model
 	{		
 		function __construct(){
 			parent::__construct();
 		}
-		function interconexion($cat){
+		function productos($cat){
 			$sql="SELECT * FROM interconexion WHERE categoria='".$cat."' ORDER BY id DESC"; 
 			return $this->db->select($sql);
 		}

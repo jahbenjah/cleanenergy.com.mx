@@ -1,5 +1,5 @@
 <?php
-$interconexion = $this->interconexion;
+$interconexion = $this->productos;
 ?>
 <!DOCTYPE html>
 <html lang="es">
