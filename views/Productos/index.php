@@ -1,5 +1,5 @@
 <?php
-$interconexion = $this->interconexion;
+$productos = $this->productos;
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -190,15 +190,15 @@ $interconexion = $this->interconexion;
 
         <div class="row portfolio-container" data-aos="fade-up">
           <?php
-          for ($i = 0; $i < count($interconexion); $i++) {
+          for ($i = 0; $i < count($productos); $i++) {
           ?>
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="<?= URL ?>public/img/<?= html_entity_decode($interconexion[$i]['image']) ?>" class="img-fluid" alt="<?= html_entity_decode($interconexion[$i]['nombre']) ?>">
+              <img src="<?= URL ?>public/img/<?= html_entity_decode($productos[$i]['image']) ?>" class="img-fluid" alt="<?= html_entity_decode($productos[$i]['nombre']) ?>">
               <div class="portfolio-info">
-                <h4><?= html_entity_decode($interconexion[$i]['nombre']) ?></h4>
-                <p><?= html_entity_decode($interconexion[$i]['fabricante']) ?></p>
-                <a href="<?= URL ?>public/img/<?= html_entity_decode($interconexion[$i]['image']) ?>" data-gall="portfolioGallery" class="venobox preview-link" title="<?= html_entity_decode($interconexion[$i]['nombre']) ?>"><i class="bx bx-plus"></i></a>
-                <a href="<?= URL . 'interconexion/producto/' . $interconexion[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($interconexion[$i]['nombre'])) ?>" class="details-link" title="Ver Producto"><i class="bx bx-link"></i></a>
+                <h4><?= html_entity_decode($productos[$i]['nombre']) ?></h4>
+                <p><?= html_entity_decode($productos[$i]['fabricante']) ?></p>
+                <a href="<?= URL ?>public/img/<?= html_entity_decode($productos[$i]['image']) ?>" data-gall="portfolioGallery" class="venobox preview-link" title="<?= html_entity_decode($productos[$i]['nombre']) ?>"><i class="bx bx-plus"></i></a>
+                <a href="<?= URL . 'interconexion/producto/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['nombre'])) ?>" class="details-link" title="Ver Producto"><i class="bx bx-link"></i></a>
               </div>
             </div>
           <?php
