@@ -897,8 +897,7 @@ section {
 }
 
 .about-us .image {
-  background: url("/public/assets/img/team/consejos.jpeg") center center no-repeat;
-  background-size: cover;
+  background: url("/public/assets/img/solarenergy.jpg") ;  background-size: cover;
   min-height: 400px;
 }
 
