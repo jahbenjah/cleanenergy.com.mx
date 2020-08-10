@@ -156,10 +156,10 @@ $interconexion = $this->productos;
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Interconexión</h2>
+          <h2>Productos</h2>
           <ol>
             <li><a href="index.html">Inicio</a></li>
-            <li>Interconexión</li>
+            <li>Productos</li>
           </ol>
         </div>
 
