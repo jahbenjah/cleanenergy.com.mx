@@ -1,5 +1,5 @@
 <?php
-$interconexion = $this->productos;
+
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -141,7 +141,7 @@ $interconexion = $this->productos;
         <ul>
           <li><a href="<?= URL ?>inicio">Inicio</a></li>
           <li><a href="<?= URL ?>nosotros">Nosotros</a></li>
-          <li class="active"><a href="<?= URL ?>interconexion">Productos</a></li>
+          <li class="active"><a href="<?= URL ?>productos">Productos</a></li>
           <li><a href="<?= URL ?>contacto">Contacto</a></li>
         </ul>
       </nav><!-- .nav-menu -->
