@@ -174,10 +174,10 @@ $interconexion = $this->productos;
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">Paneles Solares</li>              
-              <li data-filter=".filter-inversor">Inversores de Cadena</li>
+              <li data-filter=".filter-inversor">Inversores</li>
               <li data-filter=".filter-microinversor">Microinversores</li>
               <li data-filter=".filter-montaje">Sistemas de Montaje</li>
-              <li data-filter=".filter-accesorios">Accesorios</li>
+              <li data-filter=".filter-accesorios">Baterias</li>
             </ul>
           </div>
         </div>
