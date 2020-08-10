@@ -159,7 +159,7 @@
           <h2>Productos</h2>
           <ol>
             <li><a href="index.html">Inicio</a></li>
-            <li>Productos reTest</li>
+            <li>Productos</li>
           </ol>
         </div>
 
