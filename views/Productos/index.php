@@ -156,7 +156,7 @@ $productos = $this->productos;
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Productos Testing</h2>
+          <h2>Productos</h2>
           <ol>
             <li><a href="index.html">Inicio</a></li>
             <li>Productos</li>
@@ -173,11 +173,11 @@ $productos = $this->productos;
         <div class="row" data-aos="fade-up">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">Paneles Solares</li>              
-              <li data-filter=".filter-inversor">Inversores</li>
+              <li data-filter="*" class="filter-active">Productos</li>              
+              <!--li data-filter=".filter-inversor">Inversores</li>
               <li data-filter=".filter-microinversor">Microinversores</li>
               <li data-filter=".filter-montaje">Sistemas de Montaje</li>
-              <li data-filter=".filter-accesorios">Baterias</li>
+              <li data-filter=".filter-accesorios">Baterias</li-->
             </ul>
           </div>
         </div>
