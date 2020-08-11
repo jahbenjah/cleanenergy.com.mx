@@ -180,7 +180,7 @@ $productDetails = $this->productDetails[0];
 
           <div class="col-lg-7" data-aos="fade-right">
             <div class="owl-carousel portfolio-details-carousel">
-              <img src="<?= URL ?>public/img/<?= $productDetails['image'] ?>" alt="<?= $productDetails['nombre'] ?>" class="img-fluid">
+              <img src="<?= URL ?>public/imagenespdfs/<?= $productDetails['image'] ?>" alt="<?= $productDetails['nombre'] ?>" class="img-fluid">
             </div>
           </div>
 
@@ -189,7 +189,7 @@ $productDetails = $this->productDetails[0];
             <ul>
               <li><strong>Fabricante</strong>: <?= html_entity_decode($productDetails['fabricante']) ?></li>
               <li><strong>Categoria</strong>: <?= html_entity_decode($productDetails['categoria']) ?></li>
-              <li><strong>Ficha técnica</strong>: <a href="<?= URL ?>public/img/<?= $productDetails['urlfichatecnica'] ?>" target="_blank">Ver archivo</a></li>
+              <li><strong>Ficha técnica</strong>: <a href="<?= URL ?>public/imagenespdfs/<?= $productDetails['FichaTécnicayManualdeUsuario'] ?>" target="_blank">Ver archivo</a></li>
             </ul>
 
             <p>
