@@ -4,8 +4,8 @@
 		function __construct(){
 			parent::__construct();
 		}
-		function productos($cat){
-			$sql="SELECT * FROM interconexion WHERE categoria='".$cat."' ORDER BY id DESC"; 
+		function productos(){
+			$sql="SELECT * FROM productos ORDER BY id DESC"; 
 			return $this->db->select($sql);
 		}
 		function productDetails($id){

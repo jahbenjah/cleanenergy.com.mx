@@ -8,6 +8,7 @@ class Productos extends Controller
 
 	function index()
 	{
+		$this->view->productos = $this->model->productos();
 		$this->view->render($this, 'index');
 	}
 }
