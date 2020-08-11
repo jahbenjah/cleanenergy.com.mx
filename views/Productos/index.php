@@ -192,7 +192,7 @@ $productos = $this->productos;
                 <h4><?= html_entity_decode($productos[$i]['Nombre']) ?></h4>
                 <p><?= html_entity_decode($productos[$i]['Nombre']) ?></p>
                 <a href="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" data-gall="portfolioGallery" class="venobox preview-link" title="<?= html_entity_decode($productos[$i]['Nombre']) ?>"><i class="bx bx-plus"></i></a>
-                <a href="<?= URL . 'interconexion/producto/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['Nombre'])) ?>" class="details-link" title="Ver Producto"><i class="bx bx-link"></i></a>
+                <a href="<?= URL . 'productos/producto/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['Nombre'])) ?>" class="details-link" title="Ver Producto"><i class="bx bx-link"></i></a>
               </div>
             </div>
           <?php

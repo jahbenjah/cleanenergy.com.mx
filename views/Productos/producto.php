@@ -141,13 +141,7 @@ $productDetails = $this->productDetails[0];
         <ul>
           <li><a href="<?= URL ?>inicio">Inicio</a></li>
           <li><a href="<?= URL ?>nosotros">Nosotros</a></li>
-          <li class="drop-down"><a href="">Productos</a>
-            <ul>
-            <li class="active"><a href="<?= URL ?>interconexión">Interconexción</a></li>
-              <li><a href="<?= URL ?>autonomos">Autonomos</a></li>
-              <li><a href="<?= URL ?>luminarias">Luminarias</a></li>
-            </ul>
-          </li>
+          <li class="active"><a href="<?= URL ?>productos">Productos</a></li>
           <li><a href="<?= URL ?>contacto">Contacto</a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -162,9 +156,9 @@ $productDetails = $this->productDetails[0];
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Productos Fotovoltaicos para Interconexión</h2>
+          <h2>Productos</h2>
           <ol>
-            <li><a href="<?= URL ?>interconexcion">Interconexión</a></li>
+            <li><a href="<?= URL ?>productos">Productos</a></li>
             <li><?= $productDetails['categoria'] ?></li>
           </ol>
         </div>
@@ -175,7 +169,7 @@ $productDetails = $this->productDetails[0];
     <!-- ======= Portfolio Details Section ======= -->
     <section id="portfolio-details" class="portfolio-details">
       <div class="container">
-        <h2 class="portfolio-title"><?= $productDetails['nombre'] ?> <?= html_entity_decode($productDetails['fabricante']) ?> </h2>
+        <h2 class="portfolio-title"><?= $productDetails['nombre'] ?> <?= html_entity_decode($productDetails['marca']) ?> </h2>
         <div class="row">
 
           <div class="col-lg-7" data-aos="fade-right">
@@ -187,9 +181,9 @@ $productDetails = $this->productDetails[0];
           <div class="col-lg-5 portfolio-info" data-aos="fade-left">
             <h3><?= $productDetails['nombre'] ?></h3>
             <ul>
-              <li><strong>Fabricante</strong>: <?= html_entity_decode($productDetails['fabricante']) ?></li>
+              <li><strong>Marca</strong>: <?= html_entity_decode($productDetails['marca']) ?></li>
               <li><strong>Categoria</strong>: <?= html_entity_decode($productDetails['categoria']) ?></li>
-              <li><strong>Ficha técnica</strong>: <a href="<?= URL ?>public/imagenespdfs/<?= $productDetails['FichaTécnicayManualdeUsuario'] ?>" target="_blank">Ver archivo</a></li>
+              <li><strong>Ficha Técnica y Manual de Usuario</strong>: <a href="<?= URL ?>public/imagenespdfs/<?= $productDetails['FichaTecnicayManualdeUsuario'] ?>" target="_blank">Ver archivo</a></li>
             </ul>
 
             <p>
