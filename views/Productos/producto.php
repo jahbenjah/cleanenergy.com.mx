@@ -185,9 +185,11 @@ $productDetails = $this->productDetails[0];
             <ul>
               <li><strong>Marca</strong>: <?= html_entity_decode($productDetails['Marca']) ?></li>
               <li><strong>Categoria</strong>: <?= html_entity_decode($productDetails['categoria']) ?></li>
-              <li><strong>Ficha Técnica y Manual de Usuario</strong>: <a 
+              <li><strong>Ficha Técnica y Manual de Usuario</strong>:
+              <a 
               href="<?= URL ?>public/imagenespdfs/<?= $productDetails['FichaTecnicayManualdeUsuario'] ?>" 
-              target="_blank">Ver archivo</a></li>
+              target="_blank">Ver archivo <?= html_entity_decode($productDetails['FichaTecnicayManualdeUsuario']) ?></a>
+            </li>
             </ul>
 
             <p>
