@@ -270,9 +270,9 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Nuestros Productos</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>interconexion">Interconexión</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>autonomos">Autonomos</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>luminarias">Luminarias</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>">Paneles Solares</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>">Inversores</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>">Microinversores</a></li>
             </ul>
           </div>
 
@@ -296,7 +296,7 @@
           &copy; Copyright <strong><span>Clean Energy</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
-          Designed by <a href="rosaritocentro.com">rosaritocentro</a>
+          Designed by <a href="https://rosaritocentro.com/">rosaritocentro</a>
         </div>
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">

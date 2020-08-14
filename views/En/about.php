@@ -142,13 +142,7 @@
         <ul>
           <li><a href="<?= URL ?>en/index">Home</a></li>
           <li class="active"><a href="<?= URL ?>en/about">About Us</a></li>
-          <li class="drop-down"><a href="">Products</a>
-            <ul>
-              <li><a href="<?= URL ?>interconexion">Interconexión</a></li>
-              <li><a href="<?= URL ?>autonomos">Autonomos</a></li>
-              <li><a href="<?= URL ?>luminarias">Luminarias</a></li>
-            </ul>
-          </li>
+          <li><a href="<?= URL ?>en/products">Products</a></li>
           <li><a href="<?= URL ?>en/contact">Contact</a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -365,9 +359,9 @@ With 28 years of experience we can affirm that our service is the best for you.<
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Products</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>interconexion">Interconexión</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>autonomos">Autonomos</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>luminarias">Luminarias</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>">Paneles Solares</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>">Inversores</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>">Microinversores</a></li>
             </ul>
           </div>
 
@@ -391,7 +385,7 @@ With 28 years of experience we can affirm that our service is the best for you.<
           &copy; Copyright <strong><span>Clean Energy</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
-          Designed by <a href="rosaritocentro.com">rosaritocentro</a>
+          Designed by <a href="https://rosaritocentro.com/">rosaritocentro</a>
         </div>
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">

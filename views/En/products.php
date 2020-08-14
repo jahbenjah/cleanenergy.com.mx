@@ -1,8 +1,9 @@
 <?php
-$productDetails = $this->productDetails[0];
+
 ?>
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -129,26 +130,23 @@ $productDetails = $this->productDetails[0];
       </div>
     </div>
   </section>
+
+  <!-- ======= Header ======= -->
+
   <!-- ======= Header ======= -->
   <header id="header">
     <div class="container d-flex">
 
       <div class="logo mr-auto">
-        <h1 class="text-light"><a href="index.html"><a href="index.html"><img src="<?= URL ?>/public/img/logo.png" alt="" class="img-fluid"></a></h1>
+      <h1 class="text-light"><a href="index"><a href="index"><img src="<?= URL ?>/public/img/logo.png" alt="" class="img-fluid"></a></h1>
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li><a href="<?= URL ?>inicio">Inicio</a></li>
-          <li><a href="<?= URL ?>nosotros">Nosotros</a></li>
-          <li class="drop-down"><a href="">Productos</a>
-            <ul>
-              <li><a href="<?= URL ?>interconexion">Interconexión</a></li>
-              <li><a href="<?= URL ?>autonomos">Autonomos</a></li>
-              <li class="active"><a href="<?= URL ?>luminarias">Luminarias</a></li>
-            </ul>
-          </li>
-          <li><a href="<?= URL ?>contacto">Contacto</a></li>
+        <li><a href="<?= URL ?>en/index">Home</a></li>
+          <li><a href="<?= URL ?>en/about">About Us</a></li>
+          <li class="active"><a href="<?= URL ?>en/products">Products</a></li>
+          <li><a href="<?= URL ?>en/contact">Contact</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -162,46 +160,108 @@ $productDetails = $this->productDetails[0];
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2></h2>
+          <h2>Products</h2>
           <ol>
-            <li><a href="<?= URL ?>luminarias">Luminarias</a></li>
-            <li><?= $productDetails['categoria'] ?></li>
+            <li><a href="en/index.html">Home</a></li>
+            <li>Products</li>
           </ol>
         </div>
 
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <!-- ======= Portfolio Details Section ======= -->
-    <section id="portfolio-details" class="portfolio-details">
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
       <div class="container">
-        <h2 class="portfolio-title"><?= $productDetails['nombre'] ?> <?= html_entity_decode($productDetails['fabricante']) ?> </h2>
-        <div class="row">
 
-          <div class="col-lg-7" data-aos="fade-right">
-            <div class="owl-carousel portfolio-details-carousel">
-              <img src="<?= URL ?>public/img/<?= $productDetails['image'] ?>" alt="<?= $productDetails['nombre'] ?>" class="img-fluid">
-            </div>
-          </div>
-
-          <div class="col-lg-5 portfolio-info" data-aos="fade-left">
-            <h3><?= $productDetails['nombre'] ?></h3>
-            <ul>
-              <li><strong>Fabricante</strong>: <?= html_entity_decode($productDetails['fabricante']) ?></li>
-              <li><strong>Categoria</strong>: <?= html_entity_decode($productDetails['categoria']) ?></li>
-              <li><strong>Ficha técnica</strong>: <a href="<?= URL ?>public/img/<?= $productDetails['urlfichatecnica'] ?>" target="_blank">Ver archivo</a></li>
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">Products</li>              
+              <!--li data-filter=".filter-inversor">Inversores</li>
+              <li data-filter=".filter-microinversor">Microinversores</li>
+              <li data-filter=".filter-montaje">Sistemas de Montaje</li>
+              <li data-filter=".filter-accesorios">Baterias</li-->
             </ul>
-
-            <p>
-              <?= html_entity_decode($productDetails['caracteristicas']) ?>
-            </p>
           </div>
         </div>
 
+        <div class="row portfolio-container" data-aos="fade-up">
+          <?php
+          for ($i = 0; $i < count($productos); $i++) {
+          ?>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <img 
+              src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
+              class="img-fluid" alt="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
+              <div class="portfolio-info">
+                <h4><?= html_entity_decode($productos[$i]['Nombre']) ?></h4>
+                <p><?= html_entity_decode($productos[$i]['Marca']) ?></p>
+                <a href="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
+                data-gall="portfolioGallery" 
+                class="venobox preview-link" 
+                title="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
+                <i class="bx bx-plus"></i></a>
+                <a href="<?= URL . 'productos/producto/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['Nombre'])) ?>" 
+                class="details-link" 
+                title="Ver Producto">
+                <i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          <?php
+          }
+          ?>
+
+        </div>
+
       </div>
-    </section><!-- End Portfolio Details Section -->
+    </section><!-- End Portfolio Section -->
+
+        <!-- ======= Our Clients Section ======= -->
+        <section id="clients" class="clients">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+        <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">Our Brands</span> </h2>
+
+          <p></p>
+        </div>
+
+              <div class="owl-carousel clients-carousel">           
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Solar_Energy_BC.png" alt="clean energy marcas" class="img-fluid">      
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Ctrl_Sun.png" alt="clean energy marcas" class="img-fluid">       
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_DAH.png" alt="clean energy marcas" class="img-fluid">
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Enphase.png" alt="clean energy marcas" class="img-fluid">
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Fangpusun.png" alt="clean energy marcas" class="img-fluid">
+                <img src="<?= URL ?>public/img//marcas/Marcas_Distribuidas_Por_Solar_Center_Fronius.png" alt="clean energy marcas" class="img-fluid">
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Go_Solar.png" alt="clean energy marcas" class="img-fluid">
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Growatt.png" alt="clean energy marcas" class="img-fluid">    
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Hoymiles.png" alt="clean energy marcas" class="img-fluid">
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Jntech.png" alt="clean energy marcas" class="img-fluid">       
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Marzo_2019_GCL.png" alt="clean energy marcas" class="img-fluid">       
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_NEP.png" alt="clean energy marcas" class="img-fluid">    
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Part_Master.png" alt="clean energy marcas" class="img-fluid">          
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_QXPV.png" alt="clean energy marcas" class="img-fluid">
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Samlex.png" alt="clean energy marcas" class="img-fluid">  
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Seraphim.png" alt="clean energy marcas" class="img-fluid">         
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_SHURflo.png" alt="clean energy marcas" class="img-fluid">       
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Solis.png" alt="clean energy marcas" class="img-fluid">         
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_SRNE.png" alt="clean energy marcas" class="img-fluid">          
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Unirac.png" alt="clean energy marcas" class="img-fluid">     
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Yassion.png" alt="clean energy marcas" class="img-fluid">    
+                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_ZJ_Beny.png" alt="clean energy marcas" class="img-fluid">
+              </div>   
+            </div>
+            
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Our Clients Section -->
 
   </main><!-- End #main -->
+
   <!-- ======= Footer ======= -->
   <footer id="footer">
 
@@ -213,36 +273,36 @@ $productDetails = $this->productDetails[0];
             <h3>Clean Energy</h3>
             <p>
               Km29 Carrt. Tijuana Ensenada 3125<br>Hermenegildo Cuenca Diaz<br>
-              22710 Rosarito, B.C.<br>
-              <strong>Teléfono:</strong> +52 661 104 2828<br>
-              <strong>Teléfono:</strong> +52 661 640 4105<br>
-              <strong>Correo:</strong> contacto@cleanenergy.com.mx<br>
+              22710 Rosarito, B.C.<br>              
+              <strong>Phone:</strong> +52 661 104 2828<br>
+              <strong>Phone:</strong> +52 661 640 4105<br>
+              <strong>E-mail:</strong> contacto@cleanenergy.com.mx<br>
             </p>
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Categorías</h4>
+            <h4>Categories</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>inicio">Inicio</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>nosotros">Nosotros</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>contacto">Contacto</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>en/index">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>en/aboutus">About Us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>en/contact">Contact</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Nuestros Productos</h4>
+            <h4>Our Products</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>interconexion">Interconexión</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>autonomos">Autonomos</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>luminarias">Luminarias</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>">Paneles Solares</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>">Inversores</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>">Microinversores</a></li>
             </ul>
           </div>
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Regístrate</h4>
-            <p>Nuestros productos corporativos han sido actualizados.</p>
+            <h4>Register</h4>
+            <p>Our corporate products have been updated.</p>
             <form action="https://cleanenergy.us10.list-manage.com/subscribe/post?u=39ba0c8b4ede43bedc1ae898f&amp;id=81663c505f" method="post">
-              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Correo electrónico aquí " required>
+              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your e-mail here " required>
               <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscríbete" class="button"></div>
             </form>
           </div>
@@ -254,7 +314,7 @@ $productDetails = $this->productDetails[0];
                 &copy; Copyright <strong><span>Clean Energy</span></strong>. All Rights Reserved
               </div>
               <div class="credits">
-                Designed by <a href="rosaritocentro.com">rosaritocentro</a>
+                Designed by <a href="https://rosaritocentro.com/">rosaritocentro</a>
               </div>
             </div>
             <div class="social-links text-center text-md-right pt-3 pt-md-0">
@@ -263,6 +323,7 @@ $productDetails = $this->productDetails[0];
             </div>
           </div>
   </footer><!-- End Footer -->
+
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
   <script src="<?= URL ?>public/assets/vendor/jquery/jquery.min.js"></script>
