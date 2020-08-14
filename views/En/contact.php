@@ -143,7 +143,7 @@
         <ul>
           <li><a href="<?= URL ?>en/index">Home</a></li>
           <li><a href="<?= URL ?>en/about">About Us</a></li>
-          <li><a href="<?= URL ?>en/products">Products</a></li>
+          <li><a href="<?= URL ?>productos">Products</a></li>
           <li class="active"><a href="<?= URL ?>en/contact">Contact</a></li>
         </ul>
       </nav><!-- .nav-menu -->
