@@ -9,7 +9,7 @@
 			return $this->db->select($sql);
 		}
 		function productDetails($id){
-			$sql="SELECT `productos`.* ,`categoria`.`nombre` as NombreCategoria FROM `productos` LEFT JOIN `categoria` on `productos`.`categoria` = `categoria`.id ORDER BY id DESC
+			$sql="SELECT `productos`.* ,`categoria`.`nombre` as NombreCategoria FROM `productos` LEFT JOIN `categoria` on `productos`.`categoria` = `categoria`.id
 				WHERE `productos`.id=:id";
 			return $this->db->select($sql, array('id' =>$id));
 		}
