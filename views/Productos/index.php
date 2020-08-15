@@ -175,9 +175,9 @@ $productos = $this->productos;
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">Productos</li>              
               <li data-filter=".filter-1">Paneles solares</li>
-              <li data-filter=".filter-2">Inversore</li>
+              <li data-filter=".filter-2">Inversores</li>
               <li data-filter=".filter-3">Microinversores</li>
-              <li data-filter=".filter-4">Baterias</li>
+              <li data-filter=".filter-4">Baterías</li>
               <li data-filter=".filter-5">Sistema de montaje</li>
             </ul>
           </div>
