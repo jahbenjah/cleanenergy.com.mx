@@ -5,7 +5,7 @@
 			parent::__construct();
 		}
 		function productos(){
-			$sql="SELECT * FROM productos ORDER BY id DESC"; 
+			$sql="SELECT `productos`.* ,`categoria`.`nombre` as NombreCategoria FROM `productos` LEFT JOIN `categoria` on `productos`.`categoria` = `categoria`.id ORDER BY id DESC"; 
 			return $this->db->select($sql);
 		}
 		function productDetails($id){
