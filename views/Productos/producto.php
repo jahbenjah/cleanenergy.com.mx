@@ -159,7 +159,8 @@ $productDetails = $this->productDetails[0];
           <h2>Productos</h2>
           <ol>
             <li><a href="<?= URL ?>productos">Productos</a></li>
-            <li><?= $productDetails['categoria'] ?></li>
+            <li><?= $productDetails['NombreCategoria'] ?></li>
+            <li><?= $productDetails['Nombre'] ?></li>
           </ol>
         </div>
 
@@ -184,9 +185,9 @@ $productDetails = $this->productDetails[0];
             <h3><?= $productDetails['Nombre'] ?></h3>
             <ul>
               <li><strong>Marca</strong>: <?= html_entity_decode($productDetails['Marca']) ?></li>
-              <li><strong>Categoria</strong>: <?= html_entity_decode($productDetails['NombreCategoria']) ?></li>
-              <!--li><strong>Cód. Fab.</strong>: <?= html_entity_decode($productDetails['Cód.Fab.']) ?></li>
-              <li><strong>Código</strong>: <?= html_entity_decode($productDetails['Código']) ?></li-->
+              <li><strong>Categoría</strong>: <?= html_entity_decode($productDetails['NombreCategoria']) ?></li>
+              <li><strong>Cód. Fab.</strong>: <?= html_entity_decode($productDetails['Cód.Fab.']) ?></li>
+              <li><strong>Código</strong>: <?= html_entity_decode($productDetails['Código']) ?></li>
               <li><strong>Ficha Técnica</strong>:
               <a 
               href="<?= URL ?>public/imagenespdfs/<?= $productDetails['Ficha'] ?>" 
