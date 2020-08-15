@@ -3,13 +3,12 @@
 ?>
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Clean Energy Rosarito B. C.</title>
-  <meta 
-    content="Somos El Centro de Distribución Solar más completo de México. Nuestro compromiso con el medio ambiente. Reduce tu gasto de electricidad en un 95%."
-    name="description">
+  <meta content="Somos El Centro de Distribución Solar más completo de México. Nuestro compromiso con el medio ambiente. Reduce tu gasto de electricidad en un 95%." name="description">
   <meta content="" name="keywords">
   <meta property="og:title" content="Clean Energy Rosarito" />
   <meta property="og:type" content="website" />
@@ -23,11 +22,11 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
-  <meta name="msapplication-TileColor" content="#da532c">  
+  <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
-  
+
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-  
+
   <link href="<?= URL ?>public/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="<?= URL ?>public/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
   <link href="<?= URL ?>public/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
@@ -35,7 +34,7 @@
   <link href="<?= URL ?>public/assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="<?= URL ?>public/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="<?= URL ?>public/assets/vendor/aos/aos.css" rel="stylesheet">
-  
+
   <link href="<?= URL ?>public/assets/css/style.css" rel="stylesheet">
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170731497-1"></script>
   <script>
@@ -46,20 +45,20 @@
     }
     gtag('js', new Date());
     gtag('config', 'UA-170731497-1');
-  </script> 
+  </script>
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "image": [
-         "https://cleanenergy.com.mx/favicon-32x32.png"
-        ],
+        "https://cleanenergy.com.mx/favicon-32x32.png"
+      ],
       "@id": "https://cleanenergy.com.mx/",
       "name": "Clean Energy",
-      "sameAs" : [
+      "sameAs": [
         "https://www.facebook.com/CleanEnergyRosarito",
         "https://www.instagram.com/cleanenergymx/"
-        ],
+      ],
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Km29 Carrt. Tijuana Ensenada 3125",
@@ -75,9 +74,8 @@
       },
       "url": "https://cleanenergy.com.mx/contacto",
       "telephone": "+52661142828",
-      "priceRange": "$$"
-      ,"openingHoursSpecification": [
-        {
+      "priceRange": "$$",
+      "openingHoursSpecification": [{
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": [
             "Monday",
@@ -108,9 +106,9 @@
           "opens": "closed",
           "closes": "closed"
         }
-       ]
+      ]
     }
- </script>
+  </script>
 
 
 <body>
@@ -135,7 +133,7 @@
     <div class="container d-flex">
 
       <div class="logo mr-auto">
-      <h1 class="text-light"><a href="index.html"><a href="index.html"><img src="<?= URL ?>/public/img/logo.png" alt="" class="img-fluid"></a></h1>
+        <h1 class="text-light"><a href="index.html"><a href="index.html"><img src="<?= URL ?>/public/img/logo.png" alt="" class="img-fluid"></a></h1>
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
@@ -152,7 +150,7 @@
 
   <main id="main">
 
-    
+
     <!-- ======= About Us Section ======= -->
     <section id="about-us" class="about-us">
       <div class="container">
@@ -163,12 +161,12 @@
             <div class="content d-flex flex-column justify-content-center">
               <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">¿Qué hacemos?</span></h2>
               <p data-aos="fade-up">
-                Ofrecemos la más amplia variedad de sistemas Fotovoltaicos y térmicos. 
+                Ofrecemos la más amplia variedad de sistemas Fotovoltaicos y térmicos.
                 Con las mejores marcas damos la oportunidad a nuestros clientes de que puedan encontrar todo en un mismo lugar. Así como herramientas para transformar a su negocio. Cámbiate a un lado mas amigable para el medio ambiente.</p>
 
               <h3 data-aos="fade-up"></h3>
               <p>
-                
+
               </p>
 
               <div class="row">
@@ -191,7 +189,7 @@
                   <i class="bx bx-images"></i>
                   <h4>Confiabilidad</h4>
                   <p>Tienes la certeza de que somos un equipo profesional que te dará las mejores opciones y orientación a tus necesidades.</p>
-                </div>                                
+                </div>
               </div>
             </div><!-- End .content-->
           </div>
@@ -201,131 +199,131 @@
     </section><!-- End About Us Section -->
 
   </main><!-- End #main -->
-  
-  <!-- ======= Our Team Section ======= -->
-    <section id="team" class="team section-bg">
-      <div class="container">
 
-        <div class="section-title" data-aos="fade-up">
-          <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">¿Quiénes somos?</span></h2>
-          <p>Somos el centro de distribución solar más completo de México. 
-Con un gran compromiso para el medio ambiente, estamos transformando a México a través de la energía solar. 
-Con 28 años de experiencia podemos afirmar que nuestro servicio es el mejor para ti.</p>
+  <!-- ======= Our Team Section ======= -->
+  <section id="team" class="team section-bg">
+    <div class="container">
+
+      <div class="section-title" data-aos="fade-up">
+        <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">¿Quiénes somos?</span></h2>
+        <p>Somos el centro de distribución solar más completo de México.
+          Con un gran compromiso para el medio ambiente, estamos transformando a México a través de la energía solar.
+          Con 28 años de experiencia podemos afirmar que nuestro servicio es el mejor para ti.</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="member" data-aos="fade-up" data-aos-delay="300">
+            <div class="member-img">
+              <img loading="lazy" src="/public/assets/img/team/team-1.jpg" class="img-fluid" alt="">
+              <div class="social">
+                <a href="https://www.facebook.com/CleanEnergyRosarito/"><i class="icofont-facebook"></i></a>
+                <a href="https://www.instagram.com/cleanenergymx/"><i class="icofont-instagram"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h4>Ing. Ernesto Marin</h4>
+              <span>Consultor</span>
+            </div>
+          </div>
         </div>
 
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <div class="member-img">
-                <img src="/public/assets/img/team/team-1.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href="https://www.facebook.com/CleanEnergyRosarito/"><i class="icofont-facebook"></i></a>
-                  <a href="https://www.instagram.com/cleanenergymx/"><i class="icofont-instagram"></i></a>
-                  </div>
-              </div>
-              <div class="member-info">
-                <h4>Ing. Ernesto Marin</h4>
-                <span>Consultor</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <div class="member-img">
-                <img src="/public/assets/img/team/team-2.jpg" class="img-fluid" alt="">
-                <div class="social">
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="member" data-aos="fade-up" data-aos-delay="300">
+            <div class="member-img">
+              <img loading="lazy" src="/public/assets/img/team/team-2.jpg" class="img-fluid" alt="">
+              <div class="social">
                 <a href="https://www.facebook.com/CleanEnergyRosarito/"><i class="icofont-facebook"></i></a>
                 <a href="https://www.instagram.com/cleanenergymx/"><i class="icofont-instagram"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Ing. Gabriel Gutiérrez</h4>
-                <span>Técnico Certificado</span>
               </div>
             </div>
+            <div class="member-info">
+              <h4>Ing. Gabriel Gutiérrez</h4>
+              <span>Técnico Certificado</span>
+            </div>
           </div>
+        </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <div class="member-img">
-                <img src="/public/assets/img/team/team-3.jpg" class="img-fluid" alt="">
-                <div class="social">
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="member" data-aos="fade-up" data-aos-delay="300">
+            <div class="member-img">
+              <img loading="lazy" src="/public/assets/img/team/team-3.jpg" class="img-fluid" alt="">
+              <div class="social">
                 <a href="https://www.facebook.com/CleanEnergyRosarito/"><i class="icofont-facebook"></i></a>
                 <a href="https://www.instagram.com/cleanenergymx/"><i class="icofont-instagram"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Ing. Luis Otañez</h4>
-                <span>Técnico</span>
               </div>
             </div>
+            <div class="member-info">
+              <h4>Ing. Luis Otañez</h4>
+              <span>Técnico</span>
+            </div>
           </div>
+        </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <div class="member-img">
-                <img src="/public/assets/img/team/team-4.jpg" class="img-fluid" alt="">
-                <div class="social">
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="member" data-aos="fade-up" data-aos-delay="300">
+            <div class="member-img">
+              <img loading="lazy" src="/public/assets/img/team/team-4.jpg" class="img-fluid" alt="">
+              <div class="social">
                 <a href="https://www.facebook.com/CleanEnergyRosarito/"><i class="icofont-facebook"></i></a>
                 <a href="https://www.instagram.com/cleanenergymx/"><i class="icofont-instagram"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Técnico</span>
               </div>
             </div>
+            <div class="member-info">
+              <h4>Amanda Jepson</h4>
+              <span>Técnico</span>
+            </div>
           </div>
-
         </div>
 
       </div>
-    </section><!-- End Our Team Section -->
+
+    </div>
+  </section><!-- End Our Team Section -->
 
   <!-- ======= Our Clients Section ======= -->
-    <section id="clients" class="clients">
-      <div class="container">
+  <section id="clients" class="clients">
+    <div class="container">
 
-        <div class="section-title" data-aos="fade-up">
-          <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">Nuestras Marcas</span> </h2>
+      <div class="section-title" data-aos="fade-up">
+        <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">Nuestras Marcas</span> </h2>
 
-          <p></p>
-        </div>
-
-              <div class="owl-carousel clients-carousel">           
-                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Solar_Energy_BC.png" alt="clean energy marcas" class="img-fluid">      
-                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Ctrl_Sun.png" alt="clean energy marcas" class="img-fluid">       
-                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_DAH.png" alt="clean energy marcas" class="img-fluid">
-                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Enphase.png" alt="clean energy marcas" class="img-fluid">
-                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Fangpusun.png" alt="clean energy marcas" class="img-fluid">
-                <img src="<?= URL ?>public/img//marcas/Marcas_Distribuidas_Por_Solar_Center_Fronius.png" alt="clean energy marcas" class="img-fluid">
-                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Go_Solar.png" alt="clean energy marcas" class="img-fluid">
-                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Growatt.png" alt="clean energy marcas" class="img-fluid">    
-                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Hoymiles.png" alt="clean energy marcas" class="img-fluid">
-                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Jntech.png" alt="clean energy marcas" class="img-fluid">       
-                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Marzo_2019_GCL.png" alt="clean energy marcas" class="img-fluid">       
-                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_NEP.png" alt="clean energy marcas" class="img-fluid">    
-                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Part_Master.png" alt="clean energy marcas" class="img-fluid">          
-                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_QXPV.png" alt="clean energy marcas" class="img-fluid">
-                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Samlex.png" alt="clean energy marcas" class="img-fluid">  
-                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Seraphim.png" alt="clean energy marcas" class="img-fluid">         
-                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_SHURflo.png" alt="clean energy marcas" class="img-fluid">       
-                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Solis.png" alt="clean energy marcas" class="img-fluid">         
-                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_SRNE.png" alt="clean energy marcas" class="img-fluid">          
-                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Unirac.png" alt="clean energy marcas" class="img-fluid">     
-                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Yassion.png" alt="clean energy marcas" class="img-fluid">    
-                <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_ZJ_Beny.png" alt="clean energy marcas" class="img-fluid">
-              </div>   
-            </div>
-            
-          </div>
-
-        </div>
-
+        <p></p>
       </div>
-    </section>
+
+      <div class="owl-carousel clients-carousel">
+        <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Solar_Energy_BC.png" alt="clean energy marcas" class="img-fluid">
+        <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Ctrl_Sun.png" alt="clean energy marcas" class="img-fluid">
+        <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_DAH.png" alt="clean energy marcas" class="img-fluid">
+        <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Enphase.png" alt="clean energy marcas" class="img-fluid">
+        <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Fangpusun.png" alt="clean energy marcas" class="img-fluid">
+        <img loading="lazy" src="<?= URL ?>public/img//marcas/Marcas_Distribuidas_Por_Solar_Center_Fronius.png" alt="clean energy marcas" class="img-fluid">
+        <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Go_Solar.png" alt="clean energy marcas" class="img-fluid">
+        <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Growatt.png" alt="clean energy marcas" class="img-fluid">
+        <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Hoymiles.png" alt="clean energy marcas" class="img-fluid">
+        <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Jntech.png" alt="clean energy marcas" class="img-fluid">
+        <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Marzo_2019_GCL.png" alt="clean energy marcas" class="img-fluid">
+        <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_NEP.png" alt="clean energy marcas" class="img-fluid">
+        <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Part_Master.png" alt="clean energy marcas" class="img-fluid">
+        <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_QXPV.png" alt="clean energy marcas" class="img-fluid">
+        <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Samlex.png" alt="clean energy marcas" class="img-fluid">
+        <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Seraphim.png" alt="clean energy marcas" class="img-fluid">
+        <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_SHURflo.png" alt="clean energy marcas" class="img-fluid">
+        <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Solis.png" alt="clean energy marcas" class="img-fluid">
+        <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_SRNE.png" alt="clean energy marcas" class="img-fluid">
+        <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Unirac.png" alt="clean energy marcas" class="img-fluid">
+        <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Yassion.png" alt="clean energy marcas" class="img-fluid">
+        <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_ZJ_Beny.png" alt="clean energy marcas" class="img-fluid">
+      </div>
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+  </section>
   <!-- End Our Clients Section -->
 
   <!-- ======= Footer ======= -->
@@ -339,7 +337,7 @@ Con 28 años de experiencia podemos afirmar que nuestro servicio es el mejor par
             <h3>Clean Energy</h3>
             <p>
               Km29 Carrt. Tijuana Ensenada 3125<br>Hermenegildo Cuenca Diaz<br>
-              22710 Rosarito, B.C.<br>              
+              22710 Rosarito, B.C.<br>
               <strong>Teléfono:</strong> +52 661 104 2828<br>
               <strong>Teléfono:</strong> +52 661 640 4105<br>
               <strong>Correo:</strong> contacto@cleanenergy.com.mx<br>
@@ -379,7 +377,7 @@ Con 28 años de experiencia podemos afirmar que nuestro servicio es el mejor par
 
     <div class="container d-md-flex py-4">
 
-    <div class="mr-md-auto text-center text-md-center">
+      <div class="mr-md-auto text-center text-md-center">
         <div class="copyright">
           &copy; Copyright <strong><span>Clean Energy</span></strong>. All Rights Reserved
         </div>
@@ -407,4 +405,5 @@ Con 28 años de experiencia podemos afirmar que nuestro servicio es el mejor par
   <script src="<?= URL ?>public/assets/vendor/aos/aos.js"></script>
   <script src="<?= URL ?>public/assets/js/main.js"></script>
 </body>
+
 </html>
