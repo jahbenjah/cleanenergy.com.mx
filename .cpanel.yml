@@ -12,3 +12,6 @@ deployment:
     #- /bin/cp -R temp $DEPLOYPATH
     #- /bin/cp -R test $DEPLOYPATH
     - /bin/cp -R views $DEPLOYPATH
+    - /bin/cp -R public/img $DEPLOYPATH
+    - /bin/cp -R public/Imagenespdfs $DEPLOYPATH
+     
