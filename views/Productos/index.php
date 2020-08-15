@@ -174,10 +174,11 @@ $productos = $this->productos;
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">Productos</li>              
-              <!--li data-filter=".filter-inversor">Inversores</li>
-              <li data-filter=".filter-microinversor">Microinversores</li>
-              <li data-filter=".filter-montaje">Sistemas de Montaje</li>
-              <li data-filter=".filter-accesorios">Baterias</li-->
+              <li data-filter=".filter-1">Paneles solares</li>
+              <li data-filter=".filter-2">Inversore</li>
+              <li data-filter=".filter-3">Microinversores</li>
+              <li data-filter=".filter-4">Baterias</li>
+              <li data-filter=".filter-5">Sistema de montaje</li>
             </ul>
           </div>
         </div>
@@ -186,7 +187,7 @@ $productos = $this->productos;
           <?php
           for ($i = 0; $i < count($productos); $i++) {
           ?>
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-<?= html_entity_decode($productos[$i]['categoria']) ?>">
               <img loading="lazy"
               src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
               class="img-fluid" alt="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
