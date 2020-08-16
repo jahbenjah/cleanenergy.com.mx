@@ -14,4 +14,4 @@ deployment:
     - /bin/cp -R views $DEPLOYPATH
     - /bin/cp -R public/img $DEPLOYPATH
     - /bin/cp -R public/Imagenespdfs $DEPLOYPATH
-     
+    - /bin/cp -R public/assets/css/style.css $DEPLOYPATH
