@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #f8f6f5;
+  background: #1e2639;
   padding: 10px 0;
   font-size: 14px;
 }
@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .social-links a {
-  color: #836a61;
+  color: whitesmoke;
   padding: 4px 0 4px 20px;
   display: inline-block;
   line-height: 1px;
