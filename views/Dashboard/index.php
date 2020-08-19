@@ -56,7 +56,7 @@
                   <tr>
                     <th class="d-none">#</th>
                     <th><small class="text-dark">Nombre</small></th>
-                    <th><small class="text-dark">Categoria</small></th>
+                    <th><small class="text-dark">Ficha</small></th>
                     <th><small class="text-dark">Marca</small></th>
                     <th class="text-center"><small class="text-dark">Borrar</small></th>
                   </tr>
@@ -65,12 +65,12 @@
                 <?php
                     for ($i=0; $i < count($interconexiones); $i++) { 
                       $linka= URL.'dashboard/editProduct/'.$interconexiones[$i]["id"];
-                      $linka.="/".str_replace(" ", '-', html_entity_decode($interconexiones[$i]['nombre']));
+                      $linka.="/".str_replace(" ", '-', html_entity_decode($interconexiones[$i]['Nombre']));
                         echo "
                             <tr>
-                              <td id='nombre-".$interconexiones[$i]['id']."' ><a href='$linka' class='text-info'>".$interconexiones[$i]['nombre']."</a></td>
-                               <td>".$interconexiones[$i]['categoria']."</td>
-                               <td>".$interconexiones[$i]['fabricante']."</td>
+                              <td id='nombre-".$interconexiones[$i]['id']."' ><a href='$linka' class='text-info'>".$interconexiones[$i]['Nombre']."</a></td>
+                               <td>".$interconexiones[$i]['Ficha']."</td>
+                               <td>".$interconexiones[$i]['Marca']."</td>
                                <td>".'<button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#modal-business" onclick="delBusinessTemp('.$interconexiones[$i]['id'].')"><i class="fa fa-trash"></i></button>'."</td>
                               <td></td>
                               

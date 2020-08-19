@@ -6,7 +6,7 @@
 		}
 		// ***** INTERCONEXIONES ** //
 		function interconexiones(){
-			$sql="SELECT * FROM `interconexion` ORDER BY log DESC";
+			$sql="SELECT * FROM `productos` ORDER BY id DESC";
 			return $this->db->select($sql);
 		}
 		function addingProduct($data){
