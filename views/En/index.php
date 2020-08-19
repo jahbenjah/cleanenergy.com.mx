@@ -182,7 +182,7 @@
         </div>
 
         <!-- Slide 3 -->
-        <div class="carousel-item" style="background-image: url(/public/img/maxresdefault.jpg);">
+        <div class="carousel-item" style="background-image: url(/public/img/solar.jpg);">
           <div class="carousel-container">
             <div class="carousel-content animate__animated animate__fadeInUp">
               <h2 class="text-center"><span>We are the most complete Solar Distribution Center in Mexico</span></h2>
