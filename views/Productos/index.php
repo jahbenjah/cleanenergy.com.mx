@@ -311,7 +311,7 @@ $productos = $this->productos;
                 &copy; Copyright <strong><span>Clean Energy</span></strong>. All Rights Reserved
               </div>
               <div class="credits">
-                Designed by <a href="https://rosaritocentro.com/">rosaritocentro</a>
+                Designed by <a href="https://rosaritocentro.com/">Rosarito Centro</a>
               </div>
             </div>
             <div class="social-links text-center text-md-right pt-3 pt-md-0">

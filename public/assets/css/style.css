@@ -2056,7 +2056,7 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
-  color: #046fb7;
+  color: #0281d6;
 }
 
 #footer .footer-top h4 {
@@ -2079,7 +2079,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #fd6f41;
+  color: #046fb7;
   font-size: 18px;
   line-height: 1;
 }
@@ -2095,7 +2095,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #044d7f;
+  color: #0281d6;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -2108,6 +2108,7 @@ section {
 
 #footer .footer-newsletter {
   font-size: 15px;
+  color: #0281d6;
 }
 
 #footer .footer-newsletter h4 {
@@ -2156,7 +2157,7 @@ section {
 #footer .credits {
   padding-top: 5px;
   font-size: 13px;
-  color: #044d7f;
+  color: #0281d6;
 }
 
 #footer .social-links a {
@@ -2175,7 +2176,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #fd5c28;
+  background: #046fb7;
   color: #fff;
   text-decoration: none;
 }
