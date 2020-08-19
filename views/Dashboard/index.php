@@ -35,10 +35,7 @@
       <h5 class="my-0 mr-md-auto font-weight-normal">Clean Energy</h5>
       <nav class="my-2 my-md-0 mr-md-3">
         <a class="p-2 text-dark" href="<?=URL?>dashboard/user">Usuarios</a>
-        <span class="border-bottom"><a class="p-2  text-info" href="<?=URL?>dashboard/">Interconexion</a></span>
-        <a class="p-2  text-dark" href="<?=URL?>dashboard/autonomos">Autonomos</a> 
-        <a class="p-2  text-dark" href="<?=URL?>dashboard/luminarias">Luminarias</a> 
-
+        <span class="border-bottom"><a class="p-2  text-info" href="<?=URL?>dashboard/">Productos</a></span>
       </nav>
       <a class="btn btn-outline-primary" href="<?=URL?>dashboard/destroySession">Salir</a>
     </div>
@@ -56,7 +53,7 @@
                   <tr>
                     <th class="d-none">#</th>
                     <th><small class="text-dark">Nombre</small></th>
-                    <th><small class="text-dark">Categoria</small></th>
+                    <th><small class="text-dark">Ficha</small></th>
                     <th><small class="text-dark">Marca</small></th>
                     <th class="text-center"><small class="text-dark">Borrar</small></th>
                   </tr>
@@ -65,12 +62,12 @@
                 <?php
                     for ($i=0; $i < count($interconexiones); $i++) { 
                       $linka= URL.'dashboard/editProduct/'.$interconexiones[$i]["id"];
-                      $linka.="/".str_replace(" ", '-', html_entity_decode($interconexiones[$i]['nombre']));
+                      $linka.="/".str_replace(" ", '-', html_entity_decode($interconexiones[$i]['Nombre']));
                         echo "
                             <tr>
-                              <td id='nombre-".$interconexiones[$i]['id']."' ><a href='$linka' class='text-info'>".$interconexiones[$i]['nombre']."</a></td>
-                               <td>".$interconexiones[$i]['categoria']."</td>
-                               <td>".$interconexiones[$i]['fabricante']."</td>
+                              <td id='nombre-".$interconexiones[$i]['id']."' ><a href='$linka' class='text-info'>".$interconexiones[$i]['Nombre']."</a></td>
+                               <td>".$interconexiones[$i]['Ficha']."</td>
+                               <td>".$interconexiones[$i]['Marca']."</td>
                                <td>".'<button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#modal-business" onclick="delBusinessTemp('.$interconexiones[$i]['id'].')"><i class="fa fa-trash"></i></button>'."</td>
                               <td></td>
                               
