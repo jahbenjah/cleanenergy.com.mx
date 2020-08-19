@@ -138,7 +138,7 @@
     <div class="container d-flex">
 
       <div class="logo mr-auto">
-      <h1 class="text-light"><a href="index.html"><a href="index.html"><img src="<?= URL ?>/public/img/logo.png" alt="" class="img-fluid"></a></h1>
+      <h1 class="text-light"><a href="index.html"><a href="index.html"><img src="<?= URL ?>/public/img/logoblanco.png" alt="" class="img-fluid"></a></h1>
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
