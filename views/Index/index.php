@@ -160,7 +160,7 @@
       <div class="carousel-inner" role="listbox">
 
         <!-- Slide 1 -->
-        <div class="carousel-item active" style="background-image: url(/public/img/banner3.jpg);">
+        <div class="carousel-item active" style="background-image: url(/public/img/solarpanels.jpg);">
           <div class="carousel-container">
             <div class="carousel-content animate__animated animate__fadeInUp">
               <h2 class="text-center"><span>Somos El Centro de Distribución Solar más completo de México</span></h2>
@@ -171,22 +171,22 @@
         </div>
 
         <!-- Slide 2 -->
-        <div class="carousel-item" style="background-image: url(/public/img/banner1.jpg);">
+        <div class="carousel-item" style="background-image: url(/public/img/bannerpagina.png);">
           <div class="carousel-container">
             <div class="carousel-content animate__animated animate__fadeInUp">
               <h2 class="text-center"><span>Somos El Centro de Distribución Solar más completo de México</span></h2>
-              <p class="text-center">Nuestro compromiso con el medio ambiente. <br>Reduce tu gasto de electricidad en un 95%.</p>
+              <p class="text-center">Genera tu propia energia.<br>Reduce tu gasto de electricidad, nosotros te ayudamos.</p>
               <div class="text-center"><a href="<?= URL ?>contacto" class="btn-get-started">Cotiza Ahora!</a></div>
             </div>
           </div>
         </div>
 
         <!-- Slide 3 -->
-        <div class="carousel-item" style="background-image: url(/public/img/banner4.jpg);">
+        <div class="carousel-item" style="background-image: url(/public/img/banner3.jpg);">
           <div class="carousel-container">
             <div class="carousel-content animate__animated animate__fadeInUp">
               <h2 class="text-center"><span>Somos El Centro de Distribución Solar más completo de México</span></h2>
-              <p class="text-center">Nuestro compromiso con el medio ambiente. <br>Reduce tu gasto de electricidad en un 95%.</p>
+              <p class="text-center">Producir energía limpia.<br>Te ayudara a reducir tu gasto de electricidad en un 95%.</p>
               <div class="text-center"><a href="<?= URL ?>contacto" class="btn-get-started">Cotiza Ahora!</a></div>
             </div>
           </div>
@@ -222,7 +222,7 @@
             <p> En CLEAN ENERGY sólo distribuimos productos de la más alta calidad, contamos con las mejores marcas del mercado a un precio accesible. Podrás encontrar todo tipo de productos solares, desde Paneles y Calentadores hasta Inversores y Controladores para plantas solares.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="<?= URL ?>contacto">Cotiza Ahora</a>
+            <a class="cta-btn align-middle" href="<?= URL ?>productos">Productos</a>
           </div>
         </div>
 
