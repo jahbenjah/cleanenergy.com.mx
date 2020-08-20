@@ -128,10 +128,10 @@
 			return $this->db->delete('business', 'id='.$id);
 		}
 		function delproduct($id){
-			return $this->db->delete('products','id='.$id);
+			return $this->db->delete('productos','id='.$id);
 		}
 		function delProd($id){
-			print($this->db->delete('products', 'id='.$id));
+			print($this->db->delete('productos', 'id='.$id));
 		}
 		function newsDetails($id){
 			$sql="
