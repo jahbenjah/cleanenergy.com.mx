@@ -267,7 +267,8 @@
                 <img src="<?= URL ?>public/img/marcas/jasolar.png" alt="clean energy marcas" class="img-fluid">
                 <img src="<?= URL ?>public/img/marcas/logo.png" alt="clean energy marcas" class="img-fluid">
                 <img src="<?= URL ?>public/img/marcas/solis.png" alt="clean energy marcas" class="img-fluid">
-                <img src="<?= URL ?>public/img/marcas/znshinesolar.jpg" alt="clean energy marcas" class="img-fluid">                                                                                                             
+                <img src="<?= URL ?>public/img/marcas/znshinesolar.jpg" alt="clean energy marcas" class="img-fluid">
+                <img src="<?= URL ?>public/img/marcas/nextpvrack.png" alt="clean energy marcas" class="img-fluid">                                                                                                                              
               </div>   
             </div>
             
