@@ -262,6 +262,12 @@
                 <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Unirac.png" alt="clean energy marcas" class="img-fluid">     
                 <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Yassion.png" alt="clean energy marcas" class="img-fluid">    
                 <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_ZJ_Beny.png" alt="clean energy marcas" class="img-fluid">
+                <img src="<?= URL ?>public/img/marcas/apsystems.jpg" alt="clean energy marcas" class="img-fluid">
+                <img src="<?= URL ?>public/img/marcas/fimer.png" alt="clean energy marcas" class="img-fluid">
+                <img src="<?= URL ?>public/img/marcas/jasolar.png" alt="clean energy marcas" class="img-fluid">
+                <img src="<?= URL ?>public/img/marcas/logo.png" alt="clean energy marcas" class="img-fluid">
+                <img src="<?= URL ?>public/img/marcas/solis.png" alt="clean energy marcas" class="img-fluid">
+                <img src="<?= URL ?>public/img/marcas/znshinesolar.jpg" alt="clean energy marcas" class="img-fluid">                                                                                                             
               </div>   
             </div>
             
