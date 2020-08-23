@@ -125,7 +125,7 @@
 			return $this->db->delete('post', 'id='.$id);
 		}
 		function delBusiness($id){
-			return $this->db->delete('business', 'id='.$id);
+			return $this->db->delete('productos', 'id='.$id);
 		}
 		function delproduct($id){
 			return $this->db->delete('productos','id='.$id);
