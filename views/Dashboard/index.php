@@ -73,7 +73,7 @@
                                      class="btn btn-sm btn-outline-secondary"
                                     data-toggle="modal" 
                                     data-target="#modal-business" 
-                                    onclick="delBusinessTemp('.$interconexiones[$i]['id'].')"><i class="fa fa-trash"></i>
+                                    onclick="delBusiness('.$interconexiones[$i]['id'].')"><i class="fa fa-trash"></i>
                                     </button>'."</td>
                               <td></td>
                               
