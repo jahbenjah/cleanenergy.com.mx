@@ -188,7 +188,7 @@ $productos = $this->productos;
           for ($i = 0; $i < count($productos); $i++) {
           ?>
             <div class="col-lg-4 col-md-6 portfolio-item filter-<?= html_entity_decode($productos[$i]['categoria']) ?>">
-             <div style="max-width:250px">      
+             <div style="max-width:300px">      
                <img loading="lazy"
                src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
                class="img-fluid" alt="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
