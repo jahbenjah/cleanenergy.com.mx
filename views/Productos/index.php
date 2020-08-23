@@ -189,7 +189,7 @@ $productos = $this->productos;
           ?>
             <div class="col-lg-4 col-md-6 portfolio-item filter-<?= html_entity_decode($productos[$i]['categoria']) ?>">
              <div style="max-width:250px">
-                <center>            
+             <center>            
                <img loading="lazy"
                src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
                class="img-fluid" alt="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
@@ -205,6 +205,7 @@ $productos = $this->productos;
                 class="details-link" 
                 title="Ver Producto">
                 <i class="bx bx-link"></i></a>
+               </center>
                </div> 
               </div>
             </div>

@@ -175,9 +175,13 @@ $productDetails = $this->productDetails[0];
 
           <div class="col-lg-7" data-aos="fade-right">
             <div class="owl-carousel portfolio-details-carousel">
+             <div style="max-width:250px">
+              <center>
               <img src="<?= URL ?>public/imagenespdfs/<?= $productDetails['Imagen'] ?>" 
               alt="<?= $productDetails['Nombre'] ?>" 
               class="img-fluid">
+              </center> 
+             </div> 
             </div>
           </div>
 
