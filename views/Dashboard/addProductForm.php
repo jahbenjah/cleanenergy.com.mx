@@ -39,10 +39,7 @@
       <h5 class="my-0 mr-md-auto font-weight-normal">Clean Energy</h5>
       <nav class="my-2 my-md-0 mr-md-3">
         <a class="p-2 text-dark" href="<?=URL?>dashboard/user">Usuarios</a>
-        <span class="border-bottom"><a class="p-2  text-info" href="<?=URL?>dashboard/">Interconexion</a></span>
-        <a class="p-2  text-dark" href="<?=URL?>dashboard/autonomos">Autonomos</a> 
-        <a class="p-2  text-dark" href="<?=URL?>dashboard/luminarias">Luminarias</a> 
-
+        <span class="border-bottom"><a class="p-2  text-info" href="<?=URL?>dashboard/">Productos</a></span>
       </nav>
       <a class="btn btn-outline-primary" href="<?=URL?>dashboard/destroySession">Salir</a>
     </div>
@@ -69,11 +66,11 @@
                       <label for="inputTipo" class="col-sm-2 control-label">Categoria</label>
                       <div class="col-sm-10">
                         <select name="inputcategoria" class="form-control">
-                          <option value="Paneles Solares" >Paneles Solares</option>
-                          <option value="Inversores de Cadena" >Inversores de Cadena</option>
-                          <option value="Microinversores" >Microinversores</option>
-                          <option value="Sistemas de Montaje"  >Sistemas de Montaje</option>
-                          <option value="Accesorios"  >Accesorios</option>
+                          <option value="1">Paneles Solares</option>
+                          <option value="2">Inversores</option>
+                          <option value="3">Microinversores</option>
+                          <option value="4">Baterias</option>
+                          <option value="5">Sistemas de Montaje</option>
                         </select>
                       </div>
                     </div>
