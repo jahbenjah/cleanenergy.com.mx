@@ -8,7 +8,7 @@
 		<div class="form-group hidden">
 	    	<label for="inputTipo" class="col-sm-2 control-label">ID</label>
 	    	<div class="col-sm-10">
-	      		<input type="number" class="form-control" name="inputpost_section" value="<?= $this->post['id'] ?>" required reado nly>
+	      		<input type="number" class="form-control" name="inputpost_section" value="<?= $this->post['id'] ?>" required readonly>
 	    	</div>
 	  	</div>
 	  	<div class="modal-footer">

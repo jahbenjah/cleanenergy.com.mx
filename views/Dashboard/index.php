@@ -68,7 +68,13 @@
                               <td id='nombre-".$interconexiones[$i]['id']."' ><a href='$linka' class='text-info'>".$interconexiones[$i]['Nombre']."</a></td>
                                <td>".$interconexiones[$i]['Ficha']."</td>
                                <td>".$interconexiones[$i]['Marca']."</td>
-                               <td>".'<button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#modal-business" onclick="delBusinessTemp('.$interconexiones[$i]['id'].')"><i class="fa fa-trash"></i></button>'."</td>
+                               <td>".'<button 
+                                     type="button" 
+                                     class="btn btn-sm btn-outline-secondary"
+                                    data-toggle="modal" 
+                                    data-target="#modal-business" 
+                                    onclick="delBusinessTemp('.$interconexiones[$i]['id'].')"><i class="fa fa-trash"></i>
+                                    </button>'."</td>
                               <td></td>
                               
                             </tr>
@@ -92,10 +98,8 @@
         </div>
     </div>
     <!-- /modal -->
-    <script src="<?=URL?>public/resources/jquery/jquery-2.1.4.min.js"></script>
-    <script src="<?=URL?>public/resources/vendor/popper.min.js"></script>
-    <script src="<?=URL?>public/resources/bootstrap-4.0/js/bootstrap.min.js"></script>
-  </body>
+  <script src="<?=URL?>public/resources/jquery/jquery-2.1.4.min.js"></script>
+  <script src="<?=URL?>public/resources/bootstrap-4.0/js/bootstrap.min.js"></script>
   <script>
        function delBusiness(id){
             var nombre=$('#nombre-'+id).text();
@@ -123,10 +127,9 @@
                 }
             }); 
         }
-    </script>
-    <script>
-      function reloadscreen(){
+        function reloadscreen(){
         location.reload();
       }
-    </script>
+  </script>
+  </body>
 </html>
