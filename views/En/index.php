@@ -240,7 +240,14 @@
           <p></p>
         </div>
 
-              <div class="owl-carousel clients-carousel">           
+              <div class="owl-carousel clients-carousel">
+                <img src="<?= URL ?>public/img/marcas/cleanenergy.png" alt="clean energy marcas" class="img-fluid">
+                <img src="<?= URL ?>public/img/marcas/apsystems.jpg" alt="clean energy marcas" class="img-fluid">
+                <img src="<?= URL ?>public/img/marcas/jasolar.jpg" alt="clean energy marcas" class="img-fluid">
+                <img src="<?= URL ?>public/img/marcas/solis.jpg" alt="clean energy marcas" class="img-fluid">
+                <img src="<?= URL ?>public/img/marcas/znshinesolar.jpg" alt="clean energy marcas" class="img-fluid">
+                <img src="<?= URL ?>public/img/marcas/nextpvrack.jpg" alt="clean energy marcas" class="img-fluid">  
+                <img src="<?= URL ?>public/img/marcas/fimer.png" alt="clean energy marcas" class="img-fluid">               
                 <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Solar_Energy_BC.png" alt="clean energy marcas" class="img-fluid">      
                 <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Ctrl_Sun.png" alt="clean energy marcas" class="img-fluid">       
                 <img src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_DAH.png" alt="clean energy marcas" class="img-fluid">
