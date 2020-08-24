@@ -64,7 +64,6 @@
                     </div>
                     <div class="form-group  ">
                       <label for="inputTipo" class="col-sm-2 control-label">Categoria</label>
-                      <div class="col-sm-10">
                         <select name="inputcategoria" class="form-control">
                           <option value="1">Paneles Solares</option>
                           <option value="2">Inversores</option>
@@ -72,7 +71,6 @@
                           <option value="4">Baterias</option>
                           <option value="5">Sistemas de Montaje</option>
                         </select>
-                      </div>
                     </div>
                     <div class="form-group">
                       <label for="formGroupExampleInput2">Fabricante/Marca</label>
@@ -84,7 +82,7 @@
                     </div>
                     <div class="form-group">
                       <label for="formGroupExampleInput"> Código de Fabrica</label>
-                      <input type="text" class="form-control" id="inputurlfichatecnica" name="inputurlfichatecnica" placeholder="fichatecnica.pdf" >
+                      <input type="text" class="form-control" id="inputurlcodfab" name="inputurlcodfab" placeholder="" >
                     </div>
                     <div class="form-group">
                       <label for="formGroupExampleInput"> Marca</label>
