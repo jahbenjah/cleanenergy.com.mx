@@ -83,12 +83,28 @@
                       <textarea class="form-control" id="summernote" name="inputcaracteristicas" ></textarea>
                     </div>
                     <div class="form-group">
-                      <label for="formGroupExampleInput"> Ficha Tecnica (Nombre del pdf) </label>
+                      <label for="formGroupExampleInput"> Código de Fabrica</label>
                       <input type="text" class="form-control" id="inputurlfichatecnica" name="inputurlfichatecnica" placeholder="fichatecnica.pdf" >
+                    </div>
+                    <div class="form-group">
+                      <label for="formGroupExampleInput"> Marca</label>
+                      <input type="text" class="form-control" id="inputurlmarca" name="inputurlmarca" placeholder="Marca" >
+                    </div>
+                    <div class="form-group">
+                      <label for="formGroupExampleInput"> Código</label>
+                      <input type="text" class="form-control" id="inputurlcodigo" name="inputurlcodigo" placeholder="código" >
                     </div>
                     <div class="form-group">
                       <label for="formGroupExampleInput2">Imagen</label>
                       <input type="file" class="form-control" id="inputimage" name="inputimage"  >
+                    </div>
+                    <div class="form-group">
+                      <label for="formGroupExampleInput"> Ficha Tecnica (Nombre del pdf) </label>
+                      <input type="text" class="form-control" id="inputurlfichatecnica" name="inputurlfichatecnica" placeholder="fichatecnica.pdf" >
+                    </div>
+                    <div class="form-group">
+                      <label for="formGroupExampleInput"> Manual de usuario (Nombre del pdf) </label>
+                      <input type="text" class="form-control" id="inputurlmanual" name="inputurlmanual" placeholder="manual_de_usuario.pdf" >
                     </div>
                 </div>
            </div>
