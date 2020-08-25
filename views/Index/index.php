@@ -281,8 +281,8 @@
 
   </main><!-- End #main -->
 
-  <a id="promocion" href="images/Clean Energy/acumuladoresdecicloprofundo185.jpg" class="d-none gallery-popup hidden-xs-up">
-    <img src="images/Clean Energy/acumuladoresdecicloprofundo185.jpg" alt="">
+  <a id="promocion" href="/images/Clean Energy/acumuladoresdecicloprofundo185.jpg" class="d-none gallery-popup hidden-xs-up">
+    <img src="/images/Clean Energy/acumuladoresdecicloprofundo185.jpg" alt="">
   </a>
 
   <!-- ======= Footer ======= -->
