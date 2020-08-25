@@ -281,8 +281,8 @@
 
   </main><!-- End #main -->
 
-  <a id="promocion" href="/images/Clean Energy/acumuladoresdecicloprofundo185.jpg" class="d-none gallery-popup hidden-xs-up">
-    <img src="<?= URL ?>/images/Clean Energy/acumuladoresdecicloprofundo185.jpg" alt="">
+  <a id="promocion" href="<?= URL ?>images/Clean Energy/acumuladoresdecicloprofundo185.jpg" class="d-none gallery-popup hidden-xs-up">
+    <img src="<?= URL ?>images/Clean Energy/acumuladoresdecicloprofundo185.jpg" alt="">
   </a>
 
   <!-- ======= Footer ======= -->
@@ -358,8 +358,8 @@
   <script src="<?= URL ?>public/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
   <script src="<?= URL ?>public/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="<?= URL ?>public/assets/vendor/aos/aos.js"></script>
-  <script src="<?= URL ?>public/assets/js/main.js"></script>
   <script src="<?= URL ?>lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="<?= URL ?>public/assets/js/main.js"></script>
 </body>
 
 </html>
