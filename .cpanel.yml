@@ -8,6 +8,7 @@ deployment:
     - /bin/cp -R controllers $DEPLOYPATH
     - /bin/cp -R models $DEPLOYPATH
     - /bin/cp -R views $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
     #- /bin/cp -R libs $DEPLOYPATH
     #- /bin/cp -R public $DEPLOYPATH
     #- /bin/cp -R temp $DEPLOYPATH
