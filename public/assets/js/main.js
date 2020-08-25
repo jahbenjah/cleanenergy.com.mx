@@ -205,4 +205,8 @@
     aos_init();
   });
 
+  // custom code
+  (function () {
+    $('#promocion').click();
+  })();
 })(jQuery);
