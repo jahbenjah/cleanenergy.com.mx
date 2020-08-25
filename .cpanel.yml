@@ -7,8 +7,6 @@ deployment:
     - /bin/cp index.php $DEPLOYPATH
     - /bin/cp -R controllers $DEPLOYPATH
     - /bin/cp -R models $DEPLOYPATH
-    - /bin/cp -R images/Clean Energy $DEPLOYPATH
-    - /bin/cp -R lib $DEPLOYPATH
     - /bin/cp -R views $DEPLOYPATH
     #- /bin/cp -R libs $DEPLOYPATH
     #- /bin/cp -R public $DEPLOYPATH
