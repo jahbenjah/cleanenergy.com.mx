@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 10px 0;
-  background: url("/images/Clean Energy/leavesback.jpg") ;  background-size: cover;
+  background: url("/images/Clean Energy/leavesbackground.jpg") ;  background-size: cover;
 }
 
 #header.header-scrolled {
@@ -1295,7 +1295,7 @@ section {
 }
 
 .contact .info {
-  background: #fff;
+  background: url("/images/Clean Energy/leavesbackg.jpg") ;  background-size: cover;
 }
 
 .contact .info i {
