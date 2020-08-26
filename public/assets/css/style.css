@@ -72,11 +72,12 @@ h1, h2, h3, h4, h5, h6 {
   background: #1e2639;
   padding: 10px 0;
   font-size: 14px;
+  color: whitesmoke;
 }
 
 #topbar .contact-info a {
   line-height: 1;
-  color: #4d4643;
+  color: whitesmoke;
   transition: 0.3s;
 }
 
@@ -897,7 +898,7 @@ section {
 }
 
 .about-us .image {
-  background: url("/public/assets/img/savings.jpg") ;  background-size: cover;
+  background: url("/images/Clean Energy/savings.jpg") ;  background-size: cover;
   min-height: 400px;
 }
 
