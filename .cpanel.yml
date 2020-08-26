@@ -9,7 +9,7 @@ deployment:
     - /bin/cp -R models $DEPLOYPATH
     - /bin/cp -R views $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
-    - /bin/cp -R public/assets $DEPLOYPATH/public/assets 
+    - /bin/cp -R public/assets $DEPLOYPATH/public 
     #- /bin/cp -R lib $DEPLOYPATH
     #- /bin/cp -R libs $DEPLOYPATH
     #- /bin/cp -R public $DEPLOYPATH
