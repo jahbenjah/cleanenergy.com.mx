@@ -516,6 +516,11 @@ section {
   overflow: hidden;
 }
 
+.section-image {
+  background: url("/images/Clean Energy/bannerback.jpg") ;  background-size: cover;
+  min-height: 400px;
+}
+
 .section-bg {
   background-color: #f6f3f2;
 }
