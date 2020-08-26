@@ -1290,12 +1290,13 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info-wrap {
+  background: url("/images/Clean Energy/leavesbackg.jpg") ;  background-size: cover;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 30px;
 }
 
 .contact .info {
-  background: url("/images/Clean Energy/leavesbackg.jpg") ;  background-size: cover;
+  background: #fff;
 }
 
 .contact .info i {
