@@ -193,6 +193,7 @@
     items: 1
   });
 
+  
   // Init AOS
   function aos_init() {
     AOS.init({
@@ -203,6 +204,8 @@
   }
   $(window).on('load', function() {
     aos_init();
+    $('#promocion').magnificPopup({type: 'image'});
+    $('#promocion').click();
   });
   
 })(jQuery);
