@@ -28,7 +28,8 @@
   <meta name="theme-color" content="#ffffff">
   
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-  
+  <link href="<?= URL ?>lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+
   <link href="<?= URL ?>public/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="<?= URL ?>public/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
   <link href="<?= URL ?>public/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
@@ -36,6 +37,7 @@
   <link href="<?= URL ?>public/assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="<?= URL ?>public/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="<?= URL ?>public/assets/vendor/aos/aos.css" rel="stylesheet">
+
   
   <link href="<?= URL ?>public/assets/css/style.css" rel="stylesheet">
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170731497-1"></script>
