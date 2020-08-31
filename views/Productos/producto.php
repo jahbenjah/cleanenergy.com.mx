@@ -204,9 +204,9 @@ $productDetails = $this->productDetails[0];
             </li>
             </ul>
 
-            <p>
+            <!--p>
              <?= $productDetails['Nombre'] ?>
-            </p>
+            </p-->
           </div>
         </div>
 
