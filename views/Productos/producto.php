@@ -186,7 +186,7 @@ $productDetails = $this->productDetails[0];
           </div>
 
           <div class="col-lg-5 portfolio-info" data-aos="fade-left">
-            <h3><?= $productDetails['Nombre'] ?></h3>
+            <h3><?= html_entity_decode($productDetails['Caracteristicas']) ?></h3>
             <ul>
               <li><strong>Marca</strong>: <?= html_entity_decode($productDetails['Marca']) ?></li>
               <li><strong>Categoría</strong>: <?= html_entity_decode($productDetails['NombreCategoria']) ?></li>
@@ -205,7 +205,7 @@ $productDetails = $this->productDetails[0];
             </ul>
 
             <p>
-              <?= html_entity_decode($productDetails['Caracteristicas']) ?>
+             <?= $productDetails['Nombre'] ?>
             </p>
           </div>
         </div>
