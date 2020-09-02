@@ -190,7 +190,7 @@ $productos = $this->productos;
                 class="venobox preview-link" 
                 title="<?= html_entity_decode($productos[$i]['nombre']) ?>">
                 <i class="bx bx-plus"></i></a>
-                <a href="<?= URL . 'productos/producto/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['nombre'])) ?>" 
+                <a href="<?= URL . 'productos/productos/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['nombre'])) ?>" 
                 class="details-link" 
                 title="Ver Producto">
                 <i class="bx bx-link"></i></a>
