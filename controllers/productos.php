@@ -19,7 +19,7 @@ class Productos extends Controller
 
 	function categorias()	
 	{	
-		$this->view->productos = $this->model->productos();
+		$this->view->productos = $this->model->categorias();
 		$this->view->render($this, 'categorias');
 	}
 }

@@ -156,7 +156,7 @@ $productos = $this->productos;
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Productos</h2>
+          <h2>Categorías</h2>
           <ol>
             <li><a href="index.html">Inicio</a></li>
             <li>Productos</li>
@@ -171,37 +171,26 @@ $productos = $this->productos;
     <section id="portfolio" class="portfolio">
       <div class="container">
 
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">Productos</li>              
-              <li data-filter=".filter-1">Paneles solares</li>
-              <li data-filter=".filter-2">Inversores</li>
-              <li data-filter=".filter-3">Microinversores</li>
-              <li data-filter=".filter-4">Baterías</li>
-              <li data-filter=".filter-5">Sistema de montaje</li>
-            </ul>
-          </div>
-        </div>
+        
 
         <div class="row portfolio-container" data-aos="fade-up">
           <?php
           for ($i = 0; $i < count($productos); $i++) {
           ?>
-            <div class="col-lg-4 col-md-6 portfolio-item filter-<?= html_entity_decode($productos[$i]['categoria']) ?>">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-<?= html_entity_decode($productos[$i]['nombre']) ?>">
              <div style="max-width:300px">      
                <img loading="lazy"
-               src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
-               class="img-fluid" alt="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
+               src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['image']) ?>" 
+               class="img-fluid" alt="<?= html_entity_decode($productos[$i]['nombre']) ?>">
                <div class="portfolio-info">
-                <h4><?= html_entity_decode($productos[$i]['Nombre']) ?></h4>
-                <p><?= html_entity_decode($productos[$i]['Marca']) ?></p>
-                <a href="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
+                <h4><?= html_entity_decode($productos[$i]['nombre']) ?></h4>
+                <p><?= html_entity_decode($productos[$i]['id']) ?></p>
+                <a href="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['image']) ?>" 
                 data-gall="portfolioGallery" 
                 class="venobox preview-link" 
-                title="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
+                title="<?= html_entity_decode($productos[$i]['nombre']) ?>">
                 <i class="bx bx-plus"></i></a>
-                <a href="<?= URL . 'productos/producto/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['Nombre'])) ?>" 
+                <a href="<?= URL . 'productos/producto/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['nombre'])) ?>" 
                 class="details-link" 
                 title="Ver Producto">
                 <i class="bx bx-link"></i></a>

@@ -13,5 +13,9 @@
 				WHERE `productos`.id=:id";
 			return $this->db->select($sql, array('id' =>$id));
 		}
+		function categorias(){
+			$sql="SELECT * FROM `categoria`"; 
+			return $this->db->select($sql);
+		}
 	}
 ?>
