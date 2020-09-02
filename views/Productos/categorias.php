@@ -171,7 +171,11 @@ $productos = $this->productos;
     <section id="portfolio" class="portfolio">
       <div class="container">
 
-        
+      <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <h1 class="text-center">Nuestros Productos</h1>
+          </div>
+        </div>
 
         <div class="row portfolio-container" data-aos="fade-up">
           <?php
@@ -182,20 +186,14 @@ $productos = $this->productos;
                <img loading="lazy"
                src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['image']) ?>" 
                class="img-fluid" alt="<?= html_entity_decode($productos[$i]['nombre']) ?>">
-               <div class="portfolio-info">
+              <div class="portfolio-info">
                 <h4><?= html_entity_decode($productos[$i]['nombre']) ?></h4>
-                <p><?= html_entity_decode($productos[$i]['id']) ?></p>
-                <a href="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['image']) ?>" 
-                data-gall="portfolioGallery" 
-                class="venobox preview-link" 
-                title="<?= html_entity_decode($productos[$i]['nombre']) ?>">
-                <i class="bx bx-plus"></i></a>
                 <a href="<?= URL . 'productos/productos/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['nombre'])) ?>" 
                 class="details-link" 
-                title="Ver Producto">
-                <i class="bx bx-link"></i></a>
+                title="Ver Catagoria">
+               <i class="bx bx-link"></i></a>
+              </div> 
                </div> 
-              </div>
             </div>
           <?php
           }
