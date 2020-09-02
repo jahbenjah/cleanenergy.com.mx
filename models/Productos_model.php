@@ -21,7 +21,7 @@
 		function productosPorCategoria($categoria){
 			$sql="SELECT `productos`.* ,`categoria`.`nombre` as NombreCategoria FROM `productos` LEFT JOIN `categoria` on `productos`.`categoria` = `categoria`.id 
 			WHERE `productos`.categoria=:categoria ORDER BY id DESC"; 
-			return $this->db->select($sql);
+			return $this->db->select($sql, array('categoria' =>$categoria));
 		}
 	}
 ?>
