@@ -16,5 +16,11 @@ class Productos extends Controller
 		$this->view->productDetails = $this->model->productDetails($id);	
 		$this->view->render($this, 'producto');	
 	}
+
+	function categorias()	
+	{	
+		$this->view->productos = $this->model->productos();
+		$this->view->render($this, 'categorias');
+	}
 }
 ?>
