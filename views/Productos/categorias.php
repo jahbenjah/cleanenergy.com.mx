@@ -190,17 +190,18 @@ $productos = $this->productos;
           for ($i = 0; $i < count($productos); $i++) {
           ?>
             <div class="col-lg-4 col-md-6 portfolio-item filter-<?= html_entity_decode($productos[$i]['nombre']) ?>">
-             <div style="max-width:300px">      
+            <div class="view overlay zoom" style="max-width:300px">      
                <img loading="lazy"
                src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['image']) ?>" 
                class="img-fluid" alt="<?= html_entity_decode($productos[$i]['nombre']) ?>">
+               <div class="mask flex-center"> <p class="white-text"><?= html_entity_decode($productos[$i]['nombre']) ?></p></div>
+            </div> 
               <div class="portfolio-info">
                 <h4><?= html_entity_decode($productos[$i]['nombre']) ?></h4>
                 <a href="<?= URL . 'productos/productos/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['nombre'])) ?>" 
                 class="details-link" 
                 title="Ver Categoría">
-               <i class="bx bx-link"></i></a>
-              </div> 
+                <i class="bx bx-link"></i></a>
                </div> 
             </div>
           <?php
