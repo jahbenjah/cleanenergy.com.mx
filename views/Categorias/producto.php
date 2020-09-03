@@ -291,10 +291,11 @@ $productDetails = $this->productDetails[0];
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Categorías</h4>
+          <h4>Categorías</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>inicio">Inicio</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>nosotros">Nosotros</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>productos/categorias">Productos</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>contacto">Contacto</a></li>
             </ul>
           </div>
@@ -302,9 +303,11 @@ $productDetails = $this->productDetails[0];
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Nuestros Productos</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>">Paneles Solares</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>">Inversores</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>">Microinversores</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>productos/productos/4/Baterias">Baterías</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>productos/productos/2/Inversores">Inversores</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>productos/productos/3/Microinversores">Microinversores</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>productos/productos/1/Paneles-solares">Paneles Solares</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>productos/productos/5/Sistemas-de-Montaje">Sistemas de Montaje</a></li>
             </ul>
           </div>
 

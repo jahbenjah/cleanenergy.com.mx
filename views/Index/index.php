@@ -232,7 +232,7 @@
             <p> En CLEAN ENERGY sólo distribuimos productos de la más alta calidad, contamos con las mejores marcas del mercado a un precio accesible. Podrás encontrar todo tipo de productos solares, desde Paneles y Calentadores hasta Inversores y Controladores para plantas solares.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="<?= URL ?>productos">Productos</a>
+            <a class="cta-btn align-middle" href="<?= URL ?>productos/categorias">Productos</a>
           </div>
         </div>
 
