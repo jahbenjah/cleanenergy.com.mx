@@ -356,10 +356,7 @@
             </div>
           </div>
 
-          <div class="whatsapp">
-              <a href="https://api.whatsapp.com/send?phone=5216616404105&text=Informaci%C3%B3n%20sobre%20sus%20productos&source=&data=&app_absent=" target="_black">
-              <h5><i class="fa fa-whatsapp fa-3x " aria-hidden="true"></i></h5></a>
-          </div>   
+          <script defer data-key="b032d26a-2ae3-48d6-87b0-36add9207b35" src="https://widget.tochat.be/bundle.js"></script> 
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
