@@ -190,7 +190,7 @@ $productos = $this->productos;
                 <h4><?= html_entity_decode($productos[$i]['nombre']) ?></h4>
                 <a href="<?= URL . 'productos/productos/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['nombre'])) ?>" 
                 class="details-link" 
-                title="Ver Catagoria">
+                title="Ver Categoría">
                <i class="bx bx-link"></i></a>
               </div> 
                </div> 
