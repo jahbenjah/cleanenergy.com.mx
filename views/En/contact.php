@@ -143,7 +143,7 @@
         <ul>
           <li><a href="<?= URL ?>en/index">Home</a></li>
           <li><a href="<?= URL ?>en/about">About Us</a></li>
-          <li class="drop-down"><a href="<?= URL ?>productos/categorias">Productos</a>
+          <li class="drop-down"><a href="<?= URL ?>productos/categorias">Productcs</a>
             <ul>
               <li><a href="<?= URL ?>productos/productos/4/Baterias">Baterías</a></li>
               <li><a href="<?= URL ?>productos/productos/1/Paneles-solares">Paneles Solares</a></li>
