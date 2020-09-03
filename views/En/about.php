@@ -119,7 +119,7 @@
   <section id="topbar" class="d-none d-lg-block">
     <div class="container d-flex">
       <div class="contact-info mr-auto">
-        <i class="icofont-envelope"></i><a href="contacto@cleanenergy.com.mx">contacto@cleanenergy.com.mx</a>
+        <i class="icofont-envelope"></i><a href="mailto:contacto@cleanenergy.com.mx"> contacto@cleanenergy.com.mx</a>
         <i class="icofont-phone"></i> +52 661 104 2828
       </div>
       <div class="social-links">
@@ -142,7 +142,15 @@
         <ul>
           <li><a href="<?= URL ?>en/index">Home</a></li>
           <li class="active"><a href="<?= URL ?>en/about">About Us</a></li>
-          <li><a href="<?= URL ?>productos">Products</a></li>
+          <li class="drop-down"><a href="<?= URL ?>productos/categorias">Productos</a>
+            <ul>
+              <li><a href="<?= URL ?>productos/productos/4/Baterias">Baterías</a></li>
+              <li><a href="<?= URL ?>productos/productos/1/Paneles-solares">Paneles Solares</a></li>
+              <li><a href="<?= URL ?>productos/productos/2/Inversores">Inversores</a></li>
+              <li><a href="<?= URL ?>productos/productos/3/Microinversores">Microinversores</a></li>
+              <li><a href="<?= URL ?>productos/productos/5/Sistemas-de-Montaje">Sistemas de Montaje</a></li>
+            </ul>
+          </li>
           <li><a href="<?= URL ?>en/contact">Contact</a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -350,7 +358,7 @@ With 28 years of experience we can affirm that our service is the best for you.<
               22710 Rosarito, B.C.<br>              
               <strong>Phone:</strong> +52 661 104 2828<br>
               <strong>Phone:</strong> +52 661 640 4105<br>
-              <strong>E-mail:</strong> contacto@cleanenergy.com.mx<br>
+              <strong>E-mail:</strong><a href="mailto:contacto@cleanenergy.com.mx"> contacto@cleanenergy.com.mx</a>
             </p>
           </div>
 
