@@ -195,10 +195,10 @@ $productos = $this->productos;
                src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['image']) ?>" 
                class="img-fluid" alt="<?= html_entity_decode($productos[$i]['nombre']) ?>">
                <div class="mask flex-center"> 
-                 <p class="white-text"><a href="<?= URL . 'productos/productos/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['nombre'])) ?>" 
+                 <h4 class="white-text text-center"><a href="<?= URL . 'productos/productos/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['nombre'])) ?>" 
                 class="details-link" 
                 title="<?= html_entity_decode($productos[$i]['nombre']) ?>">
-                <?= html_entity_decode($productos[$i]['nombre']) ?><i class="bx bx-link"></i></a></p></div>
+                <?= html_entity_decode($productos[$i]['nombre']) ?><i class="bx bx-link"></i></a></h4></div>
             </div>   
             </div>
           <?php
