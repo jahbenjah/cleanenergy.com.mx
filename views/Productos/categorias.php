@@ -194,15 +194,12 @@ $productos = $this->productos;
                <img loading="lazy"
                src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['image']) ?>" 
                class="img-fluid" alt="<?= html_entity_decode($productos[$i]['nombre']) ?>">
-               <div class="mask flex-center"> <p class="white-text"><?= html_entity_decode($productos[$i]['nombre']) ?></p></div>
-            </div> 
-              <div class="portfolio-info">
-                <h4><?= html_entity_decode($productos[$i]['nombre']) ?></h4>
-                <a href="<?= URL . 'productos/productos/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['nombre'])) ?>" 
+               <div class="mask flex-center"> 
+                 <p class="white-text"><a href="<?= URL . 'productos/productos/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['nombre'])) ?>" 
                 class="details-link" 
-                title="Ver Categoría">
-                <i class="bx bx-link"></i></a>
-               </div> 
+                title="<?= html_entity_decode($productos[$i]['nombre']) ?>">
+                <i class="bx bx-link"></i></a></p></div>
+            </div>   
             </div>
           <?php
           }
