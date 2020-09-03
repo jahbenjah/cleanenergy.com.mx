@@ -309,7 +309,7 @@
               22710 Rosarito, B.C.<br>              
               <strong>Teléfono:</strong> +52 661 104 2828<br>
               <strong>Teléfono:</strong> +52 661 640 4105<br>
-              <strong>Correo:</strong><a href="mailto:contacto@cleanenergy.com.mx">contacto@cleanenergy.com.mx</a>
+              <strong>Correo:</strong><a href="mailto:contacto@cleanenergy.com.mx"> contacto@cleanenergy.com.mx</a>
             </p>
           </div>
 
