@@ -144,7 +144,7 @@
           <li><a href="<?= URL ?>">Inicio</a></li>
           <li><a href="<?= URL ?>nosotros">Nosotros</a></li>
           <li class="drop-down"><a href="<?= URL ?>productos/categorias">Productos</a>
-            <ul>/productos/productos/1/Paneles-solares
+            <ul>
               <li><a href="<?= URL ?>/productos/productos/4/Baterias">Baterías</a></li>
               <li><a href="<?= URL ?>/productos/productos/1/Paneles-solares">Paneles Solares</a></li>
               <li><a href="<?= URL ?>/productos/productos/2/Inversores">Inversores</a></li>

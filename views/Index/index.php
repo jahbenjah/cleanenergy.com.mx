@@ -147,7 +147,15 @@
         <ul>
           <li class="active"><a href="<?= URL ?>inicio">Inicio</a></li>
           <li><a href="<?= URL ?>nosotros">Nosotros</a></li>
-          <li><a href="<?= URL ?>productos/categorias">Productos</a></li>
+          <li class="drop-down"><a href="<?= URL ?>productos/categorias">Productos</a>
+            <ul>
+              <li><a href="<?= URL ?>/productos/productos/4/Baterias">Baterías</a></li>
+              <li><a href="<?= URL ?>/productos/productos/1/Paneles-solares">Paneles Solares</a></li>
+              <li><a href="<?= URL ?>/productos/productos/2/Inversores">Inversores</a></li>
+              <li><a href="<?= URL ?>/productos/productos/3/Microinversores">Microinversores</a></li>
+              <li><a href="<?= URL ?>/productos/productos/5/Sistemas-de-Montaje">Sistemas de Montaje</a></li>
+            </ul>
+          </li>
           <li><a href="<?= URL ?>contacto">Contacto</a></li>
         </ul>
       </nav><!-- .nav-menu -->
