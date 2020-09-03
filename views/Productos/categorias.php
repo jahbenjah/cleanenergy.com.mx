@@ -181,7 +181,7 @@ $productos = $this->productos;
 
       <div class="row">
           <div class="col-lg-12 d-flex justify-content-center">
-            <h1 class="text-center">Nuestros Productos</h1>
+            <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">Nuestros Productos</span> </h2>
           </div>
         </div>
 

@@ -178,7 +178,7 @@ $productos = $this->productos;
     <section id="portfolio" class="portfolio">
       <div class="container">
 
-        <div class="row" data-aos="fade-up">
+        <!--div class="row" data-aos="fade-up">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">Productos</li>              
@@ -189,7 +189,7 @@ $productos = $this->productos;
               <li data-filter=".filter-5">Sistema de montaje</li>
             </ul>
           </div>
-        </div>
+        </div-->
 
         <div class="row portfolio-container" data-aos="fade-up">
           <?php
