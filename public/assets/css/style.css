@@ -2185,3 +2185,17 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+.whatsapp {
+    position: fixed;
+    right: 0px;
+    top: 52%;
+    z-index: 999;
+}
+
+.whatsapp h5 {
+    color: white;
+    background: #20b20f;
+    padding: 12px;
+    border-radius: 10px;
+}

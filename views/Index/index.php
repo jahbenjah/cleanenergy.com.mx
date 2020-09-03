@@ -355,6 +355,11 @@
               <a href="https://www.instagram.com/cleanenergymx/" class="instagram"><i class="bx bxl-instagram"></i></a>
             </div>
           </div>
+
+          <div class="whatsapp">
+              <a href="https://api.whatsapp.com/send?phone=5216616404105&text=Informaci%C3%B3n%20sobre%20sus%20productos&source=&data=&app_absent=" target="_black">
+              <h5><i class="fa fa-whatsapp fa-3x fa-spin" aria-hidden="true"></i></h5></a>
+          </div>   
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
