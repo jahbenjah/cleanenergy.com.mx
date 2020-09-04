@@ -179,7 +179,7 @@ $productos = $this->productos;
       <div class="container">
 
         <div class="row">
-          <div class="row portfolio-container" data-aos="fade-up">
+        <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up">
             <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">Nuestros Productos</span> </h2>
           </div>
         </div>
