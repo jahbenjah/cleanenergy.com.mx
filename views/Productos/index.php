@@ -190,15 +190,12 @@ $productos = $this->productos;
           </div>
         </div>
 
-        <div class="row justify-content-center">
-                                  
-          <div class="col-xs-4 col-sm-5 col-md-4 col-lg-3 pl-1 pr-1 pt-1 pb-1 producto-squarecustom bord">
-            <div class="align-self-end">
+        <div class="row portfolio-container" data-aos="fade-up">
           <?php
           for ($i = 0; $i < count($productos); $i++) {
           ?>
             <div class="col-lg-4 col-md-6 portfolio-item filter-<?= html_entity_decode($productos[$i]['categoria']) ?>">
-             <div style="max-width:200px">      
+             <div style="max-width:300px">      
                <img loading="lazy"
                src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
                class="img-fluid" alt="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
@@ -216,9 +213,7 @@ $productos = $this->productos;
                 <i class="bx bx-link"></i></a>
                </div> 
               </div>
-             </div> 
             </div>
-          </div>
           <?php
           }
           ?>
