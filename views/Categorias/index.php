@@ -352,6 +352,7 @@ $productos = $this->productos;
   <script src="<?= URL ?>public/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
   <script src="<?= URL ?>public/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="<?= URL ?>public/assets/vendor/aos/aos.js"></script>
+  <script defer data-key="b032d26a-2ae3-48d6-87b0-36add9207b35" src="https://widget.tochat.be/bundle.js"></script>
   <script src="<?= URL ?>public/assets/js/main.js"></script>
 </body>
 

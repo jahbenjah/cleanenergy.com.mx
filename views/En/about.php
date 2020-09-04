@@ -424,6 +424,7 @@ With 28 years of experience we can affirm that our service is the best for you.<
   <script src="<?= URL ?>public/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
   <script src="<?= URL ?>public/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="<?= URL ?>public/assets/vendor/aos/aos.js"></script>
+  <script defer data-key="dc2caf0f-fbe5-48ed-9390-3fc65d2740d6" src="https://widget.tochat.be/bundle.js"></script>
   <script src="<?= URL ?>public/assets/js/main.js"></script>
 </body>
 </html>
