@@ -182,6 +182,9 @@ $productos = $this->productos;
             <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">Nuestros Productos</span> </h2>
           </div>
         </div>
+      </div>  
+
+      <div class="container">
 
         <div class="row portfolio-container" data-aos="fade-up">
           <?php
