@@ -26,6 +26,7 @@ $productos = $this->productos;
   <meta name="theme-color" content="#ffffff">
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="<?= URL ?>public/assets/js/css3-animate-it.js" type="text/javascript">
 
   <link href="<?= URL ?>public/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="<?= URL ?>public/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
@@ -178,7 +179,7 @@ $productos = $this->productos;
       <div class="container">
 
         <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center">
+          <div class="row portfolio-container" data-aos="fade-up">
             <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">Nuestros Productos</span> </h2>
           </div>
         </div>
@@ -202,14 +203,12 @@ $productos = $this->productos;
                 </div>
 
                 <div class="row justify-content-center pt-4 pb-3">
-                 <center>
                   <p class="text-uppercase fontGeneral">
                     <a href="<?= URL . 'productos/productos/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['nombre'])) ?>" 
                        class="details-link" 
                        title="<?= html_entity_decode($productos[$i]['nombre']) ?>">
                       <?= html_entity_decode($productos[$i]['nombre']) ?><i class=""></i>
                   </p></a>
-                 </center>
                 </div>
               </div>
             </div>
