@@ -194,7 +194,7 @@ $productos = $this->productos;
           <?php
           for ($i = 0; $i < count($productos); $i++) {
           ?>
-            <div class="col-lg-4 col-md-6<?= html_entity_decode($productos[$i]['categoria']) ?>">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-<?= html_entity_decode($productos[$i]['categoria']) ?>">
              <div style="max-width:300px">      
                <img loading="lazy"
                src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
@@ -206,11 +206,11 @@ $productos = $this->productos;
                 data-gall="portfolioGallery" 
                 class="venobox preview-link" 
                 title="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
-                <i class=""></i></a>
+                <i class="bx bx-plus"></i></a>
                 <a href="<?= URL . 'productos/producto/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['Nombre'])) ?>" 
                 class="details-link" 
                 title="Ver Producto">
-                <i class=""></i></a>
+                <i class="bx bx-link"></i></a>
                </div> 
               </div>
             </div>
