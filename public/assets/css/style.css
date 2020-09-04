@@ -740,7 +740,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #fff;
+  color: black;
   background: #f96328;
 }
 

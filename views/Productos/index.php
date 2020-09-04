@@ -196,8 +196,9 @@ $productos = $this->productos;
               for ($i = 0; $i < count($productos); $i++) {
             ?>
             <div class="col-lg-3 animated slowest fadeInLeft delay-500">
-              <div class="product-cuadro"><?= html_entity_decode($productos[$i]['categoria']) ?>
-                 <div style="max-width:300px">      
+              <div class="col-lg-4 col-md-6 portfolio-item filter-<?= html_entity_decode($productos[$i]['categoria']) ?>
+                 <div style="max-width:300px">  
+                 <div class="product-cuadro img-rounded zoom">     
                   <img loading="lazy"
                   src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
                   class="img-fluid" alt="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
@@ -208,7 +209,7 @@ $productos = $this->productos;
                    data-gall="portfolioGallery" 
                     class="" 
                     title="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
-                    <i class="bx bx-plus"></i></a>
+                    <i class=""></i></a>
                     <a href="<?= URL . 'productos/producto/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['Nombre'])) ?>" 
                     class="details-link" 
                    title="Ver Producto">
