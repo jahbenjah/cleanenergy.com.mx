@@ -804,7 +804,7 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-links a {
-  color: #fff;
+  color: rgb(0, 0, 0);
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
@@ -2518,7 +2518,7 @@ section {
     cursor: pointer;
 }
 
-.product-cuadro:hover {
+/*.product-cuadro:hover {
      color: white !important;
      background: clear;
      box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.19) !important;
