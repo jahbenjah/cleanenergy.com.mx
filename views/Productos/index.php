@@ -178,47 +178,49 @@ $productos = $this->productos;
     <section id="portfolio" class="portfolio">
       <div class="container">
 
-        <!--div class="row" data-aos="fade-up">
+        <div class="row" data-aos="fade-up">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">Productos</li>              
-              <li data-filter=".filter-1">Paneles solares</li>
-              <li data-filter=".filter-2">Inversores</li>
-              <li data-filter=".filter-3">Microinversores</li>
-              <li data-filter=".filter-4">Baterías</li>
-              <li data-filter=".filter-5">Sistema de montaje</li>
+              <li data-filter=".filter-1"><a href="<?= URL ?>productos/productos/4/Baterias">Baterías</a></li>              
+              <li data-filter=".filter-2"><a href="<?= URL ?>productos/productos/2/Inversores">Inversores</a></li>
+              <li data-filter=".filter-3"><a href="<?= URL ?>productos/productos/3/Microinversores">Microinversores</a></li>
+              <li data-filter=".filter-1"><a href="<?= URL ?>productos/productos/1/Paneles-solares">Paneles Solares</a></li>
+              <li data-filter=".filter-5"><a href="<?= URL ?>productos/productos/5/Sistemas-de-Montaje">Sistemas de Montaje</a></li>
             </ul>
           </div>
-        </div-->
+        </div>
 
-        <div class="row portfolio-container" data-aos="fade-up">
-          <?php
-          for ($i = 0; $i < count($productos); $i++) {
-          ?>
-            <div class="col-lg-4 col-md-6 portfolio-item filter-<?= html_entity_decode($productos[$i]['categoria']) ?>">
-             <div style="max-width:300px">      
-               <img loading="lazy"
-               src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
-               class="img-fluid" alt="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
-               <div class="portfolio-info">
-                <h4><?= html_entity_decode($productos[$i]['Nombre']) ?></h4>
-                <p><?= html_entity_decode($productos[$i]['Marca']) ?></p>
-                <a href="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
-                data-gall="portfolioGallery" 
-                class="venobox preview-link" 
-                title="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
-                <i class="bx bx-plus"></i></a>
-                <a href="<?= URL . 'productos/producto/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['Nombre'])) ?>" 
-                class="details-link" 
-                title="Ver Producto">
-                <i class="bx bx-link"></i></a>
+        <div class="container">
+          <div class="row justify-content-center animatedParent animateOnce">
+            <?php
+              for ($i = 0; $i < count($productos); $i++) {
+            ?>
+            <div class="col-lg-3 animated slowest fadeInLeft delay-500">
+              <div class="product-cuadro img-rounded zoom"><?= html_entity_decode($productos[$i]['categoria']) ?>">
+                 <div style="max-width:300px">      
+                  <img loading="lazy"
+                  src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
+                  class="img-fluid" alt="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
+                   <div class="portfolio-info">
+                    <h4><?= html_entity_decode($productos[$i]['Nombre']) ?></h4>
+                    <p><?= html_entity_decode($productos[$i]['Marca']) ?></p>
+                    <a href="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
+                   data-gall="portfolioGallery" 
+                    class="venobox preview-link" 
+                    title="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
+                    <i class="bx bx-plus"></i></a>
+                    <a href="<?= URL . 'productos/producto/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['Nombre'])) ?>" 
+                    class="details-link" 
+                   title="Ver Producto">
+                    <i class=""></i></a>
+                </div>    
                </div> 
               </div>
             </div>
           <?php
           }
           ?>
-
+          </div>
         </div>
 
       </div>

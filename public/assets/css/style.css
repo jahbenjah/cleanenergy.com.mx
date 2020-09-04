@@ -2520,7 +2520,7 @@ section {
 
 .product-cuadro:hover {
      color: white !important;
-     background: #f96328;
+     background: white;
      box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.19) !important;
      border-radius: 25px;
      cursor: pointer;
