@@ -217,15 +217,6 @@ $productos = $this->productos;
         </div>
 
       </div>
-
-      <div class="hover hover-5 text-white rounded">
-        <img src="https://res.cloudinary.com/mhmd/image/upload/v1570786267/hoverSet-9_tmoukz.jpg" alt="">
-        <div class="hover-overlay"></div>
-        <div class="hover-5-content">
-          <h3 class="hover-5-title text-uppercase font-weight-light mb-0">Image <strong class="font-weight-bold text-white">Caption </strong><span>Colorfull</span></h3>
-        </div>
-      </div>
-
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Our Clients Section ======= -->
