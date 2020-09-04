@@ -196,7 +196,7 @@ $productos = $this->productos;
               for ($i = 0; $i < count($productos); $i++) {
             ?>
             <div class="col-lg-3 animated slowest fadeInLeft delay-500">
-              <div class="product-cuadro img-rounded zoom"><?= html_entity_decode($productos[$i]['categoria']) ?>">
+              <div class="product-cuadro"><?= html_entity_decode($productos[$i]['categoria']) ?>">
                  <div style="max-width:300px">      
                   <img loading="lazy"
                   src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
@@ -206,7 +206,7 @@ $productos = $this->productos;
                     <p><?= html_entity_decode($productos[$i]['Marca']) ?></p>
                     <a href="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
                    data-gall="portfolioGallery" 
-                    class="venobox preview-link" 
+                    class="" 
                     title="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
                     <i class="bx bx-plus"></i></a>
                     <a href="<?= URL . 'productos/producto/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['Nombre'])) ?>" 

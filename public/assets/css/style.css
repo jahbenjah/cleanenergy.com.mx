@@ -2497,7 +2497,7 @@ section {
 
   .categoria-cuadro:hover {
       color: white;
-      background: #f96328;
+      background: clear;
   }
 
 .btn-categoria {
@@ -2520,7 +2520,7 @@ section {
 
 .product-cuadro:hover {
      color: white !important;
-     background: white;
+     background: clear;
      box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.19) !important;
      border-radius: 25px;
      cursor: pointer;
