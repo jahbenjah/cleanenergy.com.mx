@@ -2508,3 +2508,20 @@ section {
   color: black !important;
   border-radius: 6px !important;
 }
+
+.product-cuadro {
+    /*margin-top: 30px !important;
+    width: 250px !important;
+    height: 250px !important;
+    color: black !important;*/
+    color: black !important;
+    cursor: pointer;
+}
+
+.product-cuadro:hover {
+     color: white !important;
+     background: #3C91CF;
+     box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.19) !important;
+     border-radius: 25px;
+     cursor: pointer;
+ }
