@@ -2486,3 +2486,25 @@ section {
 .hover-5:hover::after {
   bottom: 0;
 }
+
+.categoria-cuadro {
+  margin-top: 30px !important;
+  width: 250px !important;
+  height: 250px !important;
+  color: black !important;
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+  .categoria-cuadro:hover {
+      color: white;
+      background: #3C91CF;
+  }
+
+.btn-categoria {
+  top: 40px !important;
+  right: -50px !important;
+  position: relative !important;
+  z-index: 1 !important;
+  color: black !important;
+  border-radius: 6px !important;
+}
