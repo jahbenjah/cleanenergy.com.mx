@@ -190,16 +190,19 @@ $productos = $this->productos;
           </div>
         </div>
 
-        <div class="row portfolio-container" data-aos="fade-up">
-          <?php
-          for ($i = 0; $i < count($productos); $i++) {
-          ?>
+        <div class="container pt-5">
+          <div class="row justify-content-center animatedParent animateOnce">
+            <?php
+              for ($i = 0; $i < count($productos); $i++) {
+           ?>
+              <div class="col-lg-3 animated slowest fadeInLeft delay-500">
             <div class="col-lg-4 col-md-6 portfolio-item filter-<?= html_entity_decode($productos[$i]['categoria']) ?>">
-             <div style="max-width:300px">      
+             <div style="max-width:200px">    
+             <div class="product-cuadro img-rounded zoom">  
                <img loading="lazy"
                src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
                class="img-fluid" alt="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
-               <div class="portfolio-info">
+               <div class="row justify-content-center pt-4 pb-3">
                 <h4><?= html_entity_decode($productos[$i]['Nombre']) ?></h4>
                 <p><?= html_entity_decode($productos[$i]['Marca']) ?></p>
                 <a href="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
