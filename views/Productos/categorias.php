@@ -194,19 +194,22 @@ $productos = $this->productos;
               <div style="max-width:300px">
 
                 <div class="product-cuadro img-rounded zoom">   
+                 <center>
                   <a href="<?= URL . 'productos/productos/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['nombre'])) ?>">
                     <img loading="lazy" src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['image']) ?>" class="img-fluid" alt="<?= html_entity_decode($productos[$i]['nombre']) ?>">
                   </a> 
+                 </center>  
                 </div>
 
                 <div class="row justify-content-center pt-4 pb-3">
+                 <center>
                   <p class="text-uppercase fontGeneral">
                     <a href="<?= URL . 'productos/productos/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['nombre'])) ?>" 
                        class="details-link" 
                        title="<?= html_entity_decode($productos[$i]['nombre']) ?>">
                       <?= html_entity_decode($productos[$i]['nombre']) ?><i class=""></i>
-                    </a>
-                  </h4>
+                  </p></a>
+                 </center>
                 </div>
               </div>
             </div>
