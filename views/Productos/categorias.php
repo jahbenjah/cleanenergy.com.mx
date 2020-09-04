@@ -193,8 +193,7 @@ $productos = $this->productos;
 
               <div style="max-width:300px">
 
-                <div class="product-cuadro img-rounded zoom">   
-                  <a href="<?= URL . 'productos/productos/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['nombre'])) ?>">
+                <div class="product-cuadro img-rounded zoom" onclick="location.href="<?= URL . 'productos/productos/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['nombre'])) ?>">
                     <img loading="lazy" src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['image']) ?>" class="img-fluid" alt="<?= html_entity_decode($productos[$i]['nombre']) ?>">
                   </a> 
                 </div>
