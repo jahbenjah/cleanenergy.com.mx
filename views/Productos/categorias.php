@@ -182,12 +182,14 @@ $productos = $this->productos;
             <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">Nuestros Productos</span> </h2>
           </div>
         </div>
+      </div>  
 
-        <div class="row portfolio-container" data-aos="fade-up">
+      <div class="container pt-5">
+        <div class="row justify-content-center animatedParent animateOnce">
           <?php
           for ($i = 0; $i < count($productos); $i++) {
           ?>
-            <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="col-lg-3 animated slowest fadeInLeft delay-500">
 
               <div style="max-width:300px">
 
@@ -197,7 +199,7 @@ $productos = $this->productos;
                   </a> 
                 </div>
 
-                <div class="mask flex-center">
+                <div class="row justify-content-center pt-4 pb-3">
                   <p class="text-uppercase fontGeneral">
                     <a href="<?= URL . 'productos/productos/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['nombre'])) ?>" 
                        class="details-link" 
