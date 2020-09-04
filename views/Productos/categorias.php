@@ -192,7 +192,9 @@ $productos = $this->productos;
               <div style="max-width:300px">
 
                 <div class="hover hover-5 text-white rounded">   
-                  <img loading="lazy" src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['image']) ?>" class="img-fluid" alt="<?= html_entity_decode($productos[$i]['nombre']) ?>">
+                  <a href="<?= URL . 'productos/productos/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['nombre'])) ?>">
+                    <img loading="lazy" src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['image']) ?>" class="img-fluid" alt="<?= html_entity_decode($productos[$i]['nombre']) ?>">
+                  </a> 
                   <div class="hover-overlay"></div>
                   <div class="hover-5-content">
                     <h3 class="hover-5-title text-uppercase font-weight-light mb-0"><?= html_entity_decode($productos[$i]['nombre']) ?> <span>Clean Energy</span></h3>
