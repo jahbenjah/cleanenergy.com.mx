@@ -190,7 +190,8 @@ $productos = $this->productos;
           </div>
         </div>
 
-        <div class="row portfolio-container" data-aos="fade-up">
+        <div class="container pt-5">
+         <div class="row justify-content-center animatedParent animateOnce">
           <?php
           for ($i = 0; $i < count($productos); $i++) {
           ?>
@@ -213,6 +214,7 @@ $productos = $this->productos;
                 <i class="bx bx-link"></i></a>
                </div> 
               </div>
+             </div> 
             </div>
           <?php
           }
