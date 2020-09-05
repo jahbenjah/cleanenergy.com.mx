@@ -194,9 +194,8 @@ $productos = $this->productos;
                <?php
                   for ($i = 0; $i < count($productos); $i++) {
                ?>
-           <div class="col-lg-3 animated slowest fadeInLeft delay-500">
-             
-            <div style="max-width:300px">   
+
+            <div style="max-width:200px">   
 
             <div class="product-cuadro img-rounded zoom"><?= html_entity_decode($productos[$i]['categoria']) ?>">
    
