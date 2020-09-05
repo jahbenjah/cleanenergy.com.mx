@@ -189,31 +189,35 @@ $productos = $this->productos;
             </ul>
           </div>
         </div>
+      </div>
 
+      <div class="container pt-5">
         <div class="row justify-content-center animatedParent animateOnce">
                <?php
                   for ($i = 0; $i < count($productos); $i++) {
                ?>
+           <div class="col-lg-3 animated slowest fadeInLeft delay-500">
+            <div style="max-width:300px">   
 
-            <div style="max-width:200px">   
-
-            <div class="product-cuadro img-rounded zoom"><?= html_entity_decode($productos[$i]['categoria']) ?>
+              <div class="col-lg-4 col-md-6 portfolio-item filter-<?= html_entity_decode($productos[$i]['categoria']) ?>">
    
-               <img loading="lazy"
-               src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
-               class="img-fluid" alt="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
+                  <img loading="lazy"
+                   src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
+                   class="img-fluid" alt="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
 
-               <div class="row justify-content-center pt-4 pb-3">
-                  <p class="text-uppercase fontGeneral"><?= html_entity_decode($productos[$i]['Nombre']) ?><p><?= html_entity_decode($productos[$i]['Marca']) ?></p>
-                  <a href="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
-                data-gall="portfolioGallery" 
-                class="venobox preview-link" 
-                title="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
-                <i class=""></i></a>
-                <a href="<?= URL . 'productos/producto/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['Nombre'])) ?>" 
-                class="details-link" 
-                title="Ver Producto">
-                <i class=""></i></a>
+                 <div class="row justify-content-center pt-4 pb-3">
+                  <p class="text-uppercase fontGeneral">
+                   <h4><?= html_entity_decode($productos[$i]['Nombre']) ?></h4>
+                   <p><?= html_entity_decode($productos[$i]['Marca']) ?></p>
+                    <a href="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
+                    data-gall="portfolioGallery" 
+                    class="venobox preview-link" 
+                    title="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
+                    <i class="bx bx-plus"></i></a>
+                    <a href="<?= URL . 'productos/producto/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['Nombre'])) ?>" 
+                    class="details-link" 
+                    title="Ver Producto">
+                    <i class="bx bx-link"></i></a>
                </div> 
               </div>
             </div>
