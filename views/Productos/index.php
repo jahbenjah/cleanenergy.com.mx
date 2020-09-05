@@ -204,7 +204,7 @@ $productos = $this->productos;
                <div class="row justify-content-center pt-4 pb-3">
                   <p class="text-uppercase fontGeneral">
                   <center>
-                <?= html_entity_decode($productos[$i]['Nombre']) ?></p>
+                <?= html_entity_decode($productos[$i]['Codigo']) ?></p>
                 <p><?= html_entity_decode($productos[$i]['Marca']) ?></p>
                 </center>  
                 <a href="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
