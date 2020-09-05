@@ -191,13 +191,13 @@ $productos = $this->productos;
         </div>
 
         <div class="row justify-content-center animatedParent animateOnce">
-               <?php
-                  for ($i = 0; $i < count($productos); $i++) {
-               ?>
+
            <div class="col-lg-3 animated slowest fadeInLeft delay-500">
              
             <div style="max-width:200px">
-
+                <?php
+                  for ($i = 0; $i < count($productos); $i++) {
+                ?>
                <img loading="lazy"
                src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
                class="img-fluid" alt="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
