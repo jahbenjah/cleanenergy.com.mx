@@ -207,8 +207,6 @@ $productos = $this->productos;
                 <?= html_entity_decode($productos[$i]['Codigo']) ?></p>
                 <p><?= html_entity_decode($productos[$i]['Nombre']) ?></p>
                 <p><?= html_entity_decode($productos[$i]['Marca']) ?></p>
-                <a href="<?= URL ?>public/imagenespdfs/<?= $productDetails['Ficha'] ?>" 
-              target="_blank"><i class="fas fa-file-alt"></i>Ficha Técnica</a>
                 </center>  
                 <a href="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
                 class="details-link" 
