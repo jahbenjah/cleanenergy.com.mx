@@ -196,9 +196,9 @@ $productos = $this->productos;
                ?>
            <div class="col-lg-3 animated slowest fadeInLeft delay-500">
              
-            <div style="max-width:300px">   
+            <div style="max-width:200px">   
 
-               <?= html_entity_decode($productos[$i]['categoria']) ?>">
+               <?= html_entity_decode($productos[$i]['categoria']) ?>
    
                <img loading="lazy"
                src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
