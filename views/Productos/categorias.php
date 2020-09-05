@@ -26,7 +26,7 @@ $productos = $this->productos;
   <meta name="theme-color" content="#ffffff">
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-  <link href="<?= URL ?>public/assets/js/css3-animate-it.js" type="text/javascript">
+  <link href="<?= URL ?>public/assets/vendor/animate-it/css/animations.css" rel="stylesheet" type="text/css">
 
   <link href="<?= URL ?>public/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="<?= URL ?>public/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
@@ -349,7 +349,7 @@ $productos = $this->productos;
   <script src="<?= URL ?>public/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
   <script src="<?= URL ?>public/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="<?= URL ?>public/assets/vendor/aos/aos.js"></script>
-  <script src="<?= URL ?>public/assets/js/css3-animate-it.js" type="text/javascript"></script>
+  <script src="<?= URL ?>public/assets/vendor/animate-it/js/css3-animate-it.js"></script>
   <script defer data-key="b032d26a-2ae3-48d6-87b0-36add9207b35" src="https://widget.tochat.be/bundle.js"></script>
   <script src="<?= URL ?>public/assets/js/main.js"></script>
 </body>
