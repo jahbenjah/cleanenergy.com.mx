@@ -190,7 +190,7 @@ $productos = $this->productos;
           </div>
         </div>
 
-        <div class="row portfolio-container" data-aos="fade-up">
+        <div class="row justify-content-center animatedParent animateOnce">
           <?php
           for ($i = 0; $i < count($productos); $i++) {
           ?>
