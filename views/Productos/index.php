@@ -201,7 +201,7 @@ $productos = $this->productos;
                <img loading="lazy"
                src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
                class="img-fluid" alt="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
-               <div class="row justify-content-center pt-4 pb-3">
+               <div class="row justify-content-center pt-4">
                   <p class="text-uppercase fontGeneral">
                   <center>
                 <?= html_entity_decode($productos[$i]['Codigo']) ?></p>
