@@ -190,15 +190,14 @@ $productos = $this->productos;
           </div>
         </div>
 
-
-        <div class="container pt-5">
           <div class="row justify-content-center animatedParent animateOnce">
                <?php
                   for ($i = 0; $i < count($productos); $i++) {
                ?>
            <div class="col-lg animated slowest fadeInLeft delay-500">
             <div style="max-width:300px">   
-            <center>
+              <div class="product-cuadro img-rounded zoom"> 
+                <center>
               <div class="col-lg portfolio-item filter-<?= html_entity_decode($productos[$i]['categoria']) ?>">
    
                   <img loading="lazy"
@@ -213,6 +212,7 @@ $productos = $this->productos;
                     class="details-link" 
                     title="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
                     <a href="<?= URL . 'productos/producto/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['Nombre'])) ?>">
+                  </div>    
                </div> 
               </div>
             </div>
