@@ -191,11 +191,15 @@ $productos = $this->productos;
         </div>
 
         <div class="row justify-content-center animatedParent animateOnce">
-          <?php
-          for ($i = 0; $i < count($productos); $i++) {
-          ?>
-            <div class="col-lg-4 col-md-6 portfolio-item filter-<?= html_entity_decode($productos[$i]['categoria']) ?>">
-             <div style="max-width:300px">      
+               <?php
+                  for ($i = 0; $i < count($productos); $i++) {
+               ?>
+           <div class="col-lg-3 animated slowest fadeInLeft delay-500">
+             
+            <div style="max-width:300px">   
+
+            <div class="product-cuadro img-rounded zoom"><?= html_entity_decode($productos[$i]['categoria']) ?>">
+   
                <img loading="lazy"
                src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
                class="img-fluid" alt="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
