@@ -199,7 +199,7 @@ $productos = $this->productos;
            <div class="col-lg animated slowest fadeInLeft delay-500">
             <div style="max-width:300px">   
 
-              <div class="col-lg-4 col-md-6 portfolio-item filter-<?= html_entity_decode($productos[$i]['categoria']) ?>">
+              <div class="col-lg portfolio-item filter-<?= html_entity_decode($productos[$i]['categoria']) ?>">
    
                   <img loading="lazy"
                    src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
@@ -214,10 +214,7 @@ $productos = $this->productos;
                     class="venobox preview-link" 
                     title="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
                     <i class="bx bx-plus"></i></a>
-                    <a href="<?= URL . 'productos/producto/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['Nombre'])) ?>" 
-                    class="details-link" 
-                    title="Ver Producto">
-                    <i class="bx bx-link"></i></a>
+                    <a href="<?= URL . 'productos/producto/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['Nombre'])) ?>">
                </div> 
               </div>
             </div>
