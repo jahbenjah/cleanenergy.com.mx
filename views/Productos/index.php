@@ -196,15 +196,16 @@ $productos = $this->productos;
                ?>
            <div class="col-lg-3 animated slowest fadeInLeft delay-500">
              
-            <div style="max-width:200px">   
-
-               <?= html_entity_decode($productos[$i]['categoria']) ?>
+            <div style="max-width:200px">
+            
+                <?= html_entity_decode($productos[$i]['categoria']) ?>">
    
                <img loading="lazy"
                src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
                class="img-fluid" alt="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
-               <div class="portfolio-info">
-                <h4><?= html_entity_decode($productos[$i]['Nombre']) ?></h4>
+               <div class="row justify-content-center pt-4 pb-3">
+                  <p class="text-uppercase fontGeneral">
+                <?= html_entity_decode($productos[$i]['Nombre']) ?></p>
                 <p><?= html_entity_decode($productos[$i]['Marca']) ?></p>
                 <a href="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
                 class="details-link" 
