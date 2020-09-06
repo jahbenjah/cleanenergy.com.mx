@@ -3,13 +3,12 @@ $productos = $this->productos;
 ?>
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Clean Energy Rosarito B. C.</title>
-  <meta 
-    content="Somos El Centro de Distribución Solar más completo de México. Nuestro compromiso con el medio ambiente. Reduce tu gasto de electricidad en un 95%."
-    name="description">
+  <meta content="Somos El Centro de Distribución Solar más completo de México. Nuestro compromiso con el medio ambiente. Reduce tu gasto de electricidad en un 95%." name="description">
   <meta content="" name="keywords">
   <meta property="og:title" content="Clean Energy Rosarito" />
   <meta property="og:type" content="website" />
@@ -23,11 +22,11 @@ $productos = $this->productos;
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
-  <meta name="msapplication-TileColor" content="#da532c">  
+  <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
-  
+
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-  
+
   <link href="<?= URL ?>public/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="<?= URL ?>public/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
   <link href="<?= URL ?>public/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
@@ -35,7 +34,7 @@ $productos = $this->productos;
   <link href="<?= URL ?>public/assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="<?= URL ?>public/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="<?= URL ?>public/assets/vendor/aos/aos.css" rel="stylesheet">
-  
+
   <link href="<?= URL ?>public/assets/css/style.css" rel="stylesheet">
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170731497-1"></script>
   <script>
@@ -46,20 +45,20 @@ $productos = $this->productos;
     }
     gtag('js', new Date());
     gtag('config', 'UA-170731497-1');
-  </script> 
+  </script>
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "image": [
-         "https://cleanenergy.com.mx/favicon-32x32.png"
-        ],
+        "https://cleanenergy.com.mx/favicon-32x32.png"
+      ],
       "@id": "https://cleanenergy.com.mx/",
       "name": "Clean Energy",
-      "sameAs" : [
+      "sameAs": [
         "https://www.facebook.com/CleanEnergyRosarito",
         "https://www.instagram.com/cleanenergymx/"
-        ],
+      ],
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Km29 Carrt. Tijuana Ensenada 3125",
@@ -75,9 +74,8 @@ $productos = $this->productos;
       },
       "url": "https://cleanenergy.com.mx/contacto",
       "telephone": "+52661142828",
-      "priceRange": "$$"
-      ,"openingHoursSpecification": [
-        {
+      "priceRange": "$$",
+      "openingHoursSpecification": [{
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": [
             "Monday",
@@ -108,9 +106,9 @@ $productos = $this->productos;
           "opens": "closed",
           "closes": "closed"
         }
-       ]
+      ]
     },
- </script>
+  </script>
 
 
 <body>
@@ -129,12 +127,12 @@ $productos = $this->productos;
       </div>
     </div>
   </section>
-<!-- ======= Header ======= -->
-<header id="header">
+  <!-- ======= Header ======= -->
+  <header id="header">
     <div class="container d-flex">
 
       <div class="logo mr-auto">
-      <h1 class="text-light"><a href="index.html"><img src="<?= URL ?>/public/img/logo.png" alt="" class="img-fluid"></a></h1>
+        <h1 class="text-light"><a href="index.html"><img src="<?= URL ?>/public/img/logo.png" alt="" class="img-fluid"></a></h1>
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
@@ -181,7 +179,7 @@ $productos = $this->productos;
         <div class="row" data-aos="fade-up">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter=".filter-1"><a href="<?= URL ?>productos/productos/4/Baterias">Baterías</a></li>              
+              <li data-filter=".filter-1"><a href="<?= URL ?>productos/productos/4/Baterias">Baterías</a></li>
               <li data-filter=".filter-2"><a href="<?= URL ?>productos/productos/2/Inversores">Inversores</a></li>
               <li data-filter=".filter-3"><a href="<?= URL ?>productos/productos/3/Microinversores">Microinversores</a></li>
               <li data-filter=".filter-1"><a href="<?= URL ?>productos/productos/1/Paneles-solares">Paneles Solares</a></li>
@@ -191,28 +189,23 @@ $productos = $this->productos;
         </div>
 
         <div class="row justify-content-center animatedParent animateOnce">
-               <?php
-                  for ($i = 0; $i < count($productos); $i++) {
-               ?>
-           <div class="col-lg-3 animated slowest fadeInLeft delay-500"> 
-            <div style="max-width:200px">
-               <img loading="lazy" 
-                    src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
-                    class="img-fluid" 
-                    alt="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
-               
-               <div class="row justify-content-center pt-4">
-                <center>
-                  <p class="text-uppercase fontGeneral"><?= html_entity_decode($productos[$i]['Codigo']) ?></p>
-                  <p><?= html_entity_decode($productos[$i]['Marca']) ?></p>
-                </center>  
-                <a href="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
-                   class="details-link" 
-                   title="<?= html_entity_decode($productos[$i]['Nombre']) ?>"></a>
-                <a href="<?= URL . 'productos/producto/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['Nombre'])) ?>"></a>
-               </div> 
+          <?php
+          for ($i = 0; $i < count($productos); $i++) {
+          ?>
+            <div class="col-lg-3 animated slowest fadeInLeft delay-500">
+              <div style="max-width:200px">
+                <img loading="lazy" src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" class="img-fluid" alt="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
+
+                <div class="row justify-content-center pt-4">
+                  <center>
+                    <p class="text-uppercase fontGeneral"><?= html_entity_decode($productos[$i]['Codigo']) ?></p>
+                    <p><?= html_entity_decode($productos[$i]['Marca']) ?></p>
+                  </center>
+                  <a href="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" class="details-link" title="<?= html_entity_decode($productos[$i]['Nombre']) ?>"></a>
+                  <a href="<?= URL . 'productos/producto/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['Nombre'])) ?>"></a>
+                </div>
+              </div>
             </div>
-          </div>
           <?php
           }
           ?>
@@ -222,52 +215,52 @@ $productos = $this->productos;
       </div>
     </section><!-- End Portfolio Section -->
 
-        <!-- ======= Our Clients Section ======= -->
-        <section id="clients" class="clients">
+    <!-- ======= Our Clients Section ======= -->
+    <section id="clients" class="clients">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-        <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">Nuestras Marcas</span> </h2>
+          <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">Nuestras Marcas</span> </h2>
 
           <p></p>
         </div>
 
-              <div class="owl-carousel clients-carousel">
-                <img src="<?= URL ?>public/img/marcas/cleanenergy.png" alt="clean energy marcas" class="img-fluid">
-                <img src="<?= URL ?>public/img/marcas/apsystems.jpg" alt="clean energy marcas" class="img-fluid">
-                <img src="<?= URL ?>public/img/marcas/jasolar.jpg" alt="clean energy marcas" class="img-fluid">
-                <img src="<?= URL ?>public/img/marcas/solis.jpg" alt="clean energy marcas" class="img-fluid">
-                <img src="<?= URL ?>public/img/marcas/znshinesolar.jpg" alt="clean energy marcas" class="img-fluid">
-                <img src="<?= URL ?>public/img/marcas/nextpvrack.jpg" alt="clean energy marcas" class="img-fluid">  
-                <img src="<?= URL ?>public/img/marcas/fimer.png" alt="clean energy marcas" class="img-fluid">               
-                <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Solar_Energy_BC.png" alt="clean energy marcas" class="img-fluid">      
-                <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Ctrl_Sun.png" alt="clean energy marcas" class="img-fluid">       
-                <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_DAH.png" alt="clean energy marcas" class="img-fluid">
-                <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Enphase.png" alt="clean energy marcas" class="img-fluid">
-                <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Fangpusun.png" alt="clean energy marcas" class="img-fluid">
-                <img loading="lazy" src="<?= URL ?>public/img//marcas/Marcas_Distribuidas_Por_Solar_Center_Fronius.png" alt="clean energy marcas" class="img-fluid">
-                <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Go_Solar.png" alt="clean energy marcas" class="img-fluid">
-                <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Growatt.png" alt="clean energy marcas" class="img-fluid">    
-                <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Hoymiles.png" alt="clean energy marcas" class="img-fluid">
-                <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Jntech.png" alt="clean energy marcas" class="img-fluid">       
-                <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Marzo_2019_GCL.png" alt="clean energy marcas" class="img-fluid">       
-                <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_NEP.png" alt="clean energy marcas" class="img-fluid">    
-                <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Part_Master.png" alt="clean energy marcas" class="img-fluid">          
-                <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_QXPV.png" alt="clean energy marcas" class="img-fluid">
-                <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Samlex.png" alt="clean energy marcas" class="img-fluid">  
-                <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Seraphim.png" alt="clean energy marcas" class="img-fluid">         
-                <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_SHURflo.png" alt="clean energy marcas" class="img-fluid">       
-                <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Solis.png" alt="clean energy marcas" class="img-fluid">         
-                <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_SRNE.png" alt="clean energy marcas" class="img-fluid">          
-                <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Unirac.png" alt="clean energy marcas" class="img-fluid">     
-                <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Yassion.png" alt="clean energy marcas" class="img-fluid">    
-                <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_ZJ_Beny.png" alt="clean energy marcas" class="img-fluid">
-              </div>   
-            </div>
-            
-          </div>
-
+        <div class="owl-carousel clients-carousel">
+          <img src="<?= URL ?>public/img/marcas/cleanenergy.png" alt="clean energy marcas" class="img-fluid">
+          <img src="<?= URL ?>public/img/marcas/apsystems.jpg" alt="clean energy marcas" class="img-fluid">
+          <img src="<?= URL ?>public/img/marcas/jasolar.jpg" alt="clean energy marcas" class="img-fluid">
+          <img src="<?= URL ?>public/img/marcas/solis.jpg" alt="clean energy marcas" class="img-fluid">
+          <img src="<?= URL ?>public/img/marcas/znshinesolar.jpg" alt="clean energy marcas" class="img-fluid">
+          <img src="<?= URL ?>public/img/marcas/nextpvrack.jpg" alt="clean energy marcas" class="img-fluid">
+          <img src="<?= URL ?>public/img/marcas/fimer.png" alt="clean energy marcas" class="img-fluid">
+          <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Solar_Energy_BC.png" alt="clean energy marcas" class="img-fluid">
+          <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Ctrl_Sun.png" alt="clean energy marcas" class="img-fluid">
+          <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_DAH.png" alt="clean energy marcas" class="img-fluid">
+          <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Enphase.png" alt="clean energy marcas" class="img-fluid">
+          <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Fangpusun.png" alt="clean energy marcas" class="img-fluid">
+          <img loading="lazy" src="<?= URL ?>public/img//marcas/Marcas_Distribuidas_Por_Solar_Center_Fronius.png" alt="clean energy marcas" class="img-fluid">
+          <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Go_Solar.png" alt="clean energy marcas" class="img-fluid">
+          <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Growatt.png" alt="clean energy marcas" class="img-fluid">
+          <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Hoymiles.png" alt="clean energy marcas" class="img-fluid">
+          <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Jntech.png" alt="clean energy marcas" class="img-fluid">
+          <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Marzo_2019_GCL.png" alt="clean energy marcas" class="img-fluid">
+          <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_NEP.png" alt="clean energy marcas" class="img-fluid">
+          <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Part_Master.png" alt="clean energy marcas" class="img-fluid">
+          <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_QXPV.png" alt="clean energy marcas" class="img-fluid">
+          <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Samlex.png" alt="clean energy marcas" class="img-fluid">
+          <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Seraphim.png" alt="clean energy marcas" class="img-fluid">
+          <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_SHURflo.png" alt="clean energy marcas" class="img-fluid">
+          <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Solis.png" alt="clean energy marcas" class="img-fluid">
+          <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_SRNE.png" alt="clean energy marcas" class="img-fluid">
+          <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Unirac.png" alt="clean energy marcas" class="img-fluid">
+          <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_Yassion.png" alt="clean energy marcas" class="img-fluid">
+          <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_ZJ_Beny.png" alt="clean energy marcas" class="img-fluid">
         </div>
+      </div>
+
+      </div>
+
+      </div>
 
       </div>
     </section><!-- End Our Clients Section -->
@@ -293,7 +286,7 @@ $productos = $this->productos;
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-          <h4>Categorías</h4>
+            <h4>Categorías</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>inicio">Inicio</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="<?= URL ?>nosotros">Nosotros</a></li>
@@ -337,6 +330,9 @@ $productos = $this->productos;
               <a href="https://www.instagram.com/cleanenergymx/" class="instagram"><i class="bx bxl-instagram"></i></a>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
