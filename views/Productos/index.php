@@ -175,7 +175,6 @@ $productos = $this->productos;
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
       <div class="container">
-
         <div class="row" data-aos="fade-up">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
@@ -195,12 +194,9 @@ $productos = $this->productos;
             <div class="col-lg-3 animated slowest fadeInLeft delay-500">
               <div style="max-width:200px">
                 <img loading="lazy" src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" class="img-fluid" alt="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
-
                 <div class="row justify-content-center pt-4">
-                  <center>
-                    <p class="text-uppercase fontGeneral"><?= html_entity_decode($productos[$i]['Codigo']) ?></p>
-                    <p><?= html_entity_decode($productos[$i]['Marca']) ?></p>
-                  </center>
+                  <p class="text-center text-uppercase fontGeneral"><?= html_entity_decode($productos[$i]['Codigo']) ?></p>
+                  <p class="text-center"><?= html_entity_decode($productos[$i]['Marca']) ?></p>
                   <a href="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" class="details-link" title="<?= html_entity_decode($productos[$i]['Nombre']) ?>"></a>
                   <a href="<?= URL . 'productos/producto/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['Nombre'])) ?>"></a>
                 </div>
@@ -209,9 +205,7 @@ $productos = $this->productos;
           <?php
           }
           ?>
-
         </div>
-
       </div>
     </section><!-- End Portfolio Section -->
 
@@ -221,7 +215,6 @@ $productos = $this->productos;
 
         <div class="section-title" data-aos="fade-up">
           <h2 class="text-center font-weight-normal"><span style="border-bottom: 5px solid #f47825 !important;">Nuestras Marcas</span> </h2>
-
           <p></p>
         </div>
 
@@ -257,19 +250,12 @@ $productos = $this->productos;
           <img loading="lazy" src="<?= URL ?>public/img/marcas/Marcas_Distribuidas_Por_Solar_Center_ZJ_Beny.png" alt="clean energy marcas" class="img-fluid">
         </div>
       </div>
-
-      </div>
-
-      </div>
-
-      </div>
     </section><!-- End Our Clients Section -->
 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
-
     <div class="footer-top">
       <div class="container">
         <div class="row">
