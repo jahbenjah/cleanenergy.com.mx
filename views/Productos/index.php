@@ -197,8 +197,8 @@ $productos = $this->productos;
                 <div class="row justify-content-center pt-4">
                   <p class="text-center text-uppercase fontGeneral"><?= html_entity_decode($productos[$i]['Codigo']) ?></p>
                   <p class="text-center"><?= html_entity_decode($productos[$i]['Marca']) ?></p>
-                  <a href="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" class="details-link" title="<?= html_entity_decode($productos[$i]['Nombre']) ?>"></a>
-                  <a href="<?= URL . 'productos/producto/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['Nombre'])) ?>"></a>
+                  <a href="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" class="details-link" title="<?= html_entity_decode($productos[$i]['Nombre']) ?>"><?= html_entity_decode($productos[$i]['Nombre']) ?></a>
+                  <a href="<?= URL . 'productos/producto/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['Nombre'])) ?>"><?= html_entity_decode($productos[$i]['Nombre']) ?></a>
                 </div>
               </div>
             </div>
