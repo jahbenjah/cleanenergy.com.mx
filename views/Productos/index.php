@@ -194,26 +194,25 @@ $productos = $this->productos;
                <?php
                   for ($i = 0; $i < count($productos); $i++) {
                ?>
-           <div class="col-lg-3 animated slowest fadeInLeft delay-500">
-             
+           <div class="col-lg-3 animated slowest fadeInLeft delay-500"> 
             <div style="max-width:200px">
-
-               <img loading="lazy"
-               src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
-               class="img-fluid" alt="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
+               <img loading="lazy" 
+                    src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
+                    class="img-fluid" 
+                    alt="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
+               
                <div class="row justify-content-center pt-4">
                 <center>
-                  <p class="text-uppercase fontGeneral">
-                <?= html_entity_decode($productos[$i]['Codigo']) ?></p>
-                <p><?= html_entity_decode($productos[$i]['Marca']) ?></p>
+                  <p class="text-uppercase fontGeneral"><?= html_entity_decode($productos[$i]['Codigo']) ?></p>
+                  <p><?= html_entity_decode($productos[$i]['Marca']) ?></p>
                 </center>  
                 <a href="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" 
-                class="details-link" 
-                title="<?= html_entity_decode($productos[$i]['Nombre']) ?>"></a>
-                <a href="<?= URL . 'productos/producto/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['Nombre'])) ?>">
+                   class="details-link" 
+                   title="<?= html_entity_decode($productos[$i]['Nombre']) ?>"></a>
+                <a href="<?= URL . 'productos/producto/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['Nombre'])) ?>"></a>
                </div> 
-              </div>
             </div>
+          </div>
           <?php
           }
           ?>
