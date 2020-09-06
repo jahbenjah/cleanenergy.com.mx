@@ -194,7 +194,7 @@ $productos = $this->productos;
             <div class="col-lg-3 animated slowest fadeInLeft delay-500">
               <div style="max-width:200px">
 
-
+                <div class="product-cuadro img-rounded zoom">
                   <center>
                     <a href="<?= URL . 'productos/producto/' . $productos[$i]['id'] . '/' . str_replace(" ", '-', html_entity_decode($productos[$i]['Nombre'])) ?>">
                       <img loading="lazy" src="<?= URL ?>public/imagenespdfs/<?= html_entity_decode($productos[$i]['Imagen']) ?>" class="img-fluid" alt="<?= html_entity_decode($productos[$i]['Nombre']) ?>">
