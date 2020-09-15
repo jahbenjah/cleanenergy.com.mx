@@ -200,7 +200,13 @@ $productDetails = $this->productDetails[0];
               <li><strong>Categoría</strong>: <?= html_entity_decode($productDetails['NombreCategoria']) ?></li>
               <li><strong>Cód. Fab.</strong>: <?= html_entity_decode($productDetails['CodFab']) ?></li>
               <li><strong>Código</strong>: <?= html_entity_decode($productDetails['Codigo']) ?></li>
+              <?php
+              if($productDetails['NombreCategoria'] == 'Baterias') {
+              ?>
               <li><strong>Precio</strong>: <?= html_entity_decode($productDetails['Precio']) ?></li>
+              <?php
+              }
+              ?>
               <li><strong></strong>
               <a 
               href="<?= URL ?>public/imagenespdfs/<?= $productDetails['Ficha'] ?>" 
