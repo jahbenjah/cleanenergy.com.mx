@@ -213,7 +213,7 @@ $productDetails = $this->productDetails[0];
             </li>
             </ul>
             <?php
-          if(strcmp($productDetails['NombreCategoria'], 'Baterias') == 1) {
+          if($productDetails['NombreCategoria'] == 'Baterias') {
           ?>
             <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
               <input type="hidden" name="cmd" value="_s-xclick">
