@@ -11,7 +11,7 @@
   <meta 
     content="Somos El Centro de Distribución Solar más completo de México. Nuestro compromiso con el medio ambiente. Reduce tu gasto de electricidad en un 95%."
     name="description">
-  <meta content="" name="keywords">
+  <meta name="keywords" content="panales solares, panales, solares, energia solar, energia, solar, inversores, microinversores, sistemas de montaje, solar, rosarito, solar panels, electricidad, energia limpia, clean energy, solar luminaires, controladores, productos, tecnico, servicio tecnico, baterias, distribuidor solarm, cfe, paneles, calentadores, inversores controladores, plantas solares">
   <meta property="og:title" content="Clean Energy Rosarito" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://cleanenergy.com.mx/" />
